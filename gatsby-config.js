@@ -1,3 +1,10 @@
+
+
+module.exports = {
+    pathPrefix: "/reponame"
+}
+
+
 module.exports = {
   siteMetadata: {
     title: "Gatsby Starter - Forty by HTML5 UP",
