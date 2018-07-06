@@ -5,8 +5,8 @@
       "path---my-second-post-b46c54ec1807bf885a7d.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-0f1eeea8e28cca93204c.js",
-      "component---src-pages-index-js-0f1eeea8e28cca93204c.js.map"
+      "component---src-pages-index-js-a8c3edd7851f79f55564.js",
+      "component---src-pages-index-js-a8c3edd7851f79f55564.js.map"
     ],
     "path---generic": [
       "path---generic-a0e39f21c11f6a62c5ab.js",
@@ -29,8 +29,8 @@
       "component---src-templates-blog-post-js-0c5eaf6937c8400617f6.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-1278cd2d9a3107fcb387.js",
-      "component---src-layouts-index-js-1278cd2d9a3107fcb387.js.map"
+      "component---src-layouts-index-js-4b425e4369296b4f15fa.js",
+      "component---src-layouts-index-js-4b425e4369296b4f15fa.js.map"
     ],
     "path---hi-folks": [
       "path---hi-folks-df9a8853d35b21eb4e0b.js",
@@ -61,8 +61,10 @@
       "commons-8e386a7af1dd759be118.js.map"
     ],
     "app": [
-      "app-ae9a966255ce61a23411.js",
-      "app-ae9a966255ce61a23411.js.map"
+      "app-a0ac175eb4d3adeb0b5d.js",
+      "build-js-styles.css",
+      "app-a0ac175eb4d3adeb0b5d.js.map",
+      "build-js-styles.css.map"
     ]
   }
 }
