@@ -15,12 +15,12 @@ Run `gatsby develop` in the terminal to start.
 ## Onboarding
 
 1. Download and Install Node.js from nodejs.org, then enter your favorite bash command-line:
-2. <npm install --global gatsby-cli>
-3. <git clone https://github.com/nanzer/dhv.git>
-4. <cd dhv/>
-5. <gatsby build>
-6. <gatsby serve>
-7. Open your browser and goto localhost:<portnumber shown in the bash>
+2. `npm install --global gatsby-cli`
+3. `git clone https://github.com/nanzer/dhv.git`
+4. `cd dhv/`
+5. `gatsby build`
+6. `gatsby serve`
+7. Open your browser and goto `localhost:9000`
 8. Admire your instance of the beautiful site we totally made ourselves.
 9. Get to work
 
