@@ -1,7 +1,13 @@
 import React from 'react'
+import '../assets/css/twinkle.css'
+
 
 const Footer = (props) => (
     <footer id="footer">
+    
+
+        <div class="stars"> </div>
+        <div class="twinkling"> </div>
         <div className="inner">
             <ul className="icons">
                 <li><a href="#" className="icon alt fa-twitter"><span className="label">Twitter</span></a></li>

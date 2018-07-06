@@ -21,7 +21,6 @@ class HomeIndex extends React.Component {
                     <title>{siteTitle}</title>
                     <meta name="description" content={siteDescription} />
                 </Helmet>
-
                 <Banner />
 
                 <div id="main">

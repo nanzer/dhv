@@ -1,7 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-
 const Header = (props) => (
     <header id="header" className="alt">
         <Link to="/" className="logo"><strong>Delta</strong>Hacks</Link>
