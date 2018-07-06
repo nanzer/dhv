@@ -1,17 +1,10 @@
-
-
-module.exports = {
-  pathPrefix: `/nanzer`,
-}
-
-
 module.exports = {
   siteMetadata: {
     title: "Gatsby Starter - Forty by HTML5 UP",
     author: "Hunter Chang",
     description: "A Gatsby.js Starter based on Forty by HTML5 UP"
   },
-  pathPrefix: '/',
+  pathPrefix: '/dhv',
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
