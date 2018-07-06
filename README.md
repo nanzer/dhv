@@ -28,9 +28,9 @@ Run `gatsby develop` in the terminal to start.
 
 If you want to work on frontend, the stuff you're looking for is probbably in the src folder.
 
-Because this is React, you'll find your HTML templates inside the .js files, for exaple, the landing page is in <pages/index.js>.  Navigate through src and familiarise yourself with the modular design of the site.
+Because this is React, you'll find your HTML templates inside the .js files, for exaple, the landing page is in `pages/index.js`.  Navigate through src and familiarise yourself with the modular design of the site.
 
-All CSS is done using SASS.  This means you must do all CSS editing useing the <scss> folder.  Inside this folder you will find scss files contained in folders corresponding to their respective .js files.
+All CSS is done using SASS.  This means you must do all CSS editing useing the `scss` folder.  Inside this folder you will find scss files contained in folders corresponding to their respective .js files.
 
 ## Thanks
 
