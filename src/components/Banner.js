@@ -1,14 +1,15 @@
 import React from 'react'
+import * as FontAwesome from 'react-icons/lib/fa'
 
 const Banner = (props) => (
     <section id="banner" className="major">
         <div className="inner">
             <header className="major">
-                <h1>Hi, my name is Forty</h1>
+                <h1>DeltaHacks V</h1>
             </header>
             <div className="content">
-                <p>A responsive site template designed by HTML5 UP<br />
-                and released under the Creative Commons.</p>
+                <p>McMaster University | <FontAwesome.FaCalendar /> Jan 26-27, 2019 <br />
+                </p>
                 <ul className="actions">
                     <li><a href="#one" className="button next scrolly">Get Started</a></li>
                 </ul>
