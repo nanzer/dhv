@@ -1,7 +1,7 @@
 
 
 module.exports = {
-    pathPrefix: "/nanzer"
+  pathPrefix: `/project-name`,
 }
 
 
