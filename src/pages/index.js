@@ -2,10 +2,26 @@ import React from 'react'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import BannerLanding from '../components/BannerLanding'
+import YouTube from 'react-youtube'
 
 import pic08 from '../assets/images/pic08.jpg'
 import pic09 from '../assets/images/pic09.jpg'
 import pic10 from '../assets/images/pic10.jpg'
+
+const videoOptions = {
+    playerVars: { // https://developers.google.com/youtube/player_parameters
+        autoplay: 1,
+        controls: 0,
+        rel: 0,
+        showinfo: 0,
+        modestbranding: 1,  // Hide the Youtube Logo
+        loop: 0,            // Run the video in a loop
+        fs: 0,              // Hide the full screen button
+        cc_load_policy: 0, // Hide closed captions
+        iv_load_policy: 3,  // Hide the Video Annotations
+        autohide: 0
+    }
+};
 
 const Landing = (props) => (
     <div>
@@ -17,12 +33,33 @@ const Landing = (props) => (
         <BannerLanding />
 
         <div id="main">
+            <div className="video-background">
+                <div className="video-foreground">
+                    <YouTube
+                        videoId="QC10NjclAaw"
+                        opts={videoOptions}
+                        className="video-iframe"
+                        onReady={function(e) {
+                            e.target.mute();
+                          }}
+                        onEnd={null}
+                    />
+                </div>
+            </div>
+            {/* <section id="one"> */}
             <section id="one">
                 <div className="inner">
-                    <header className="major">
+                    <YouTube
+                        videoId="QC10NjclAaw"
+                        opts={videoOptions}
+                        className="video-iframe"
+                        onReady={null}
+                        onEnd={null}
+                    />
+                    {/* <header className="major">
                         <h2>Sed amet aliquam</h2>
                     </header>
-                    <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
+                    <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p> */}
                 </div>
             </section>
             <section id="two" className="spotlights">
