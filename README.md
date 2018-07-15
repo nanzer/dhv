@@ -5,12 +5,6 @@ Gatsby starter based on the Forty site template, designed by [HTML5 UP](https://
 
 http://gatsby-forty.surge.sh/
 
-## Installation
-
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-`gatsby new gatsby-starter-forty https://github.com/ChangoMan/gatsby-starter-forty`
-
-Run `gatsby develop` in the terminal to start.
 
 ## Onboarding
 
@@ -18,9 +12,8 @@ Run `gatsby develop` in the terminal to start.
 2. `npm install --global gatsby-cli`
 3. `git clone https://github.com/nanzer/dhv.git`
 4. `cd dhv/`
-5. `gatsby build`
-6. `gatsby serve`
-7. Open your browser and goto `localhost:9000`
+5. `gatsby develop`
+7. Open your browser and goto `localhost:8000`
 8. Admire your instance of the beautiful site we totally made ourselves.
 9. Get to work
 

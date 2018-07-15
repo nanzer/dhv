@@ -28,7 +28,7 @@ const Contact = (props) => (
                     <div className="contact-method">
                         <span className="icon alt fa-envelope"></span>
                         <h3>Email</h3>
-                        <a href="#">hello@deltahacks.net</a>
+                        <a href="#">hello @ deltahacks.com</a>
                     </div>
                 </section>
                 <section>
@@ -42,7 +42,7 @@ const Contact = (props) => (
                     <div className="contact-method">
                         <span className="icon alt fa-home"></span>
                         <h3>Address</h3>
-                        <span> 1280 Main St. <br />
+                        <span>McMaster University, 1280 Main St. W<br />
                         Hamilton, ON <br />
                         Canada</span>
                     </div>
