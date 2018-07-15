@@ -12,7 +12,6 @@ const Menu = (props) => (
             </ul>
             <ul className="actions vertical">
                 <li><a href="https://my.deltahacks.com" className="button special fit">Dashboard</a></li>
-                <li><a href="#Footer" className="button fit">Contact Us</a></li>
             </ul>
         </div>
         <a className="close" onClick={props.onToggleMenu} href="javascript:;">Close</a>

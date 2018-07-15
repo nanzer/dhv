@@ -8,8 +8,7 @@ const Banner = (props) => (
                 <h1>DeltaHacks V</h1>
             </header>
             <div className="content">
-                <p><h3><FontAwesome.FaCalendar /> Jan 26-27, 2019   /   McMaster University<br />
-                Hacking for change</h3></p>
+                <p><h3><FontAwesome.FaCalendar /> Jan 26-27, 2019   /   McMaster University</h3></p>
                 <ul className="actions">
                     <li><a href="#one" className="button next scrolly">Get Started</a></li>
                 </ul>
