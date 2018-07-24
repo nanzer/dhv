@@ -17,7 +17,7 @@ const BGvideoOptions = {
         rel: 0,
         showinfo: 0,
         modestbranding: 1,  // Hide the Youtube Logo
-        loop: 1,            // Run the video in a loop
+        loop: 1,            // Run the video in a loop - DOESN'T WORK - used onEnd function
         fs: 0,              // Hide the full screen button
         cc_load_policy: 0, // Hide closed captions
         iv_load_policy: 3,  // Hide the Video Annotations
@@ -33,8 +33,8 @@ const FGvideoOptions = {
         rel: 0,
         showinfo: 0,
         modestbranding: 1,  // Hide the Youtube Logo
-        loop: 1,            // Run the video in a loop
-        fs: 0,              // Hide the full screen button
+        loop: 0,            // Run the video in a loop
+        fs: 1,              // Show the full screen button
         cc_load_policy: 0, // Hide closed captions
         iv_load_policy: 3,  // Hide the Video Annotations
         autohide: 1,
@@ -55,7 +55,7 @@ const Landing = (props) => (
             <div className="video-background">
                 <div className="video-foreground">
                     <YouTube
-                        videoId="QC10NjclAaw"
+                        videoId="3SizoIuIedc"
                         opts={BGvideoOptions}
                         className="video-iframe"
                         onReady={function(e) {
@@ -71,7 +71,7 @@ const Landing = (props) => (
             <section id="one">
                 <div className="inner">
                     <YouTube
-                        videoId="QC10NjclAaw"
+                        videoId="3SizoIuIedc"
                         opts={FGvideoOptions}
                         className="video-iframe"
                         onReady={null}
