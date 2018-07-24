@@ -3,14 +3,14 @@ import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
 import pic03 from '../assets/images/pic03.jpg'
-import pic08 from '../assets/images/pic08.jpg'
+import pic08 from '../assets/images/hackers.jpg'
 import pic09 from '../assets/images/pic09.jpg'
 import pic10 from '../assets/images/pic10.jpg'
 
-const Elements = (props) => (
+const Sponsors = (props) => (
     <div>
         <Helmet>
-            <title>Elements - Forty by HTML5 UP</title>
+            <title>Sponsors - DeltaHacks V</title>
             <meta name="description" content="Elements Page" />
         </Helmet>
 
@@ -19,7 +19,7 @@ const Elements = (props) => (
             <section id="one">
                 <div className="inner">
                     <header className="major">
-                        <h1>Elements</h1>
+                        <h1>Our Sponsors</h1>
                     </header>
 
                     <h2 id="content">Sample Content</h2>
@@ -407,4 +407,4 @@ const Elements = (props) => (
     </div>
 )
 
-export default Elements
+export default Sponsors

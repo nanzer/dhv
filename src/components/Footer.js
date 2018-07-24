@@ -11,7 +11,7 @@ const Footer = (props) => (
             </ul>
             <ul className="copyright">
                 <li>&copy; DeltaHacks<br />
-                Design: <a href="http://abhayraj.net/">Abhayraj Jain</a> | <a href="http://danrooks.ca/">Daniel Rooks</a> | <a href="https://html5up.net">HTML5 UP</a></li>
+                Design: <a href="http://abhayraj.net/">Abhayraj Jain</a> | <a href="http://danrooks.ca/">Daniel Rooks</a></li>
             </ul>
         </div>
     </footer>

@@ -4,9 +4,9 @@ import Helmet from 'react-helmet'
 import BannerLanding from '../components/BannerLanding'
 import YouTube from 'react-youtube'
 
-import pic08 from '../assets/images/pic08.jpg'
-import pic09 from '../assets/images/pic09.jpg'
-import pic10 from '../assets/images/pic10.jpg'
+import hackers from '../assets/images/hackers.jpg'
+import workshop from '../assets/images/workshop.jpg'
+import sponsors from '../assets/images/sponsors.jpg'
 
 const BGvideoOptions = {
     height: '500',
@@ -52,6 +52,7 @@ const Landing = (props) => (
         <BannerLanding />
 
         <div id="main">
+            {/* Code for background video below this*/}
             <div className="video-background">
                 <div className="video-foreground">
                     <YouTube
@@ -67,8 +68,11 @@ const Landing = (props) => (
                     />
                 </div>
             </div>
+            {/* Code for background video ends here */}
+
+
             {/* <section id="one"> */}
-            <section id="one">
+            <section id="recap">
                 <div className="inner">
                     <YouTube
                         videoId="3SizoIuIedc"
@@ -80,58 +84,69 @@ const Landing = (props) => (
                     {/* <header className="major">
                         <h2>Sed amet aliquam</h2>
                     </header>
-                    <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p> */}
+                    <p>Nullam et orci eu.</p> */}
                 </div>
             </section>
-            <section id="two" className="spotlights">
+        
+
+            <section id="who" className="spotlights">
                 <section>
-                    <Link to="/generic" className="image">
-                        <img src={pic08} alt="" />
+                    <Link to="#" className="image">
+                        <img src={hackers} alt="" />
                     </Link>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Orci maecenas</h3>
+                                <h3>What's DeltaHacks?</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                            <p>DeltaHacks is McMaster’s annual student hackathon for change. We want to encourage students in all fields of study to come together to build real world applications that create positive change. The difference between DeltaHacks and other hackathons is that we embrace elements of design thinking to make “hacks” that solve real world problems. <br /><br />
+
+                            The ultimate goal behind this hackathon is to include, not only the engineering and computer science students, but all talented individuals from all backgrounds to collaborate, create, and bring ideas to life. We want you to shoot for the stars.
+                            </p>
                             <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
+                                <li><Link to="#workshops" className="button down scrolly">Keep going!</Link></li>
                             </ul>
                         </div>
                     </div>
                 </section>
-                <section>
-                    <Link to="/generic" className="image">
-                        <img src={pic09} alt="" />
+
+
+                <section id="workshops">
+                    <Link to="#" className="image">
+                        <img src={workshop} alt="" />
                     </Link>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Rhoncus magna</h3>
+                                <h3>Workshops!</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                            <p>An integral part of the hackathon experience is you - the hacker! We want to make sure you have plenty of opportunities to learn that one skill you always wanted to. What better place than surrounded by the best coders around? We partner with industry professionals to host workshops that teach you exactly what you need to get that project working.</p>
                             <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
+                                <li><Link to="#sponsors" className="button next scrolly">Any other cool stuff?</Link></li>
                             </ul>
                         </div>
                     </div>
                 </section>
-                <section>
-                    <Link to="/generic" className="image">
-                        <img src={pic10} alt="" />
+
+
+                <section id="sponsors">
+                    <Link to="#" className="image">
+                        <img src={sponsors} alt="" />
                     </Link>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Sed nunc ligula</h3>
+                                <h3>Sponsors!</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                            <p>Our sponsors help us food on the table - for you! Without them, there would be no DeltaHacks. They're also a great source of information about their industry, and a good starting place for your next internship or job. Check them out!</p>
                             <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
+                                <li><Link to="/sponsors" className="button disabled">Our Sponsors</Link></li>
                             </ul>
                         </div>
                     </div>
                 </section>
+
+
             </section>
         </div>
 

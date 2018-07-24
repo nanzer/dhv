@@ -3,7 +3,25 @@ import React from 'react'
 const Contact = (props) => (
     <section id="contact">
         <div className="inner">
-            <section>
+            <section className="split">
+                <section>
+                    <div className="contact-method">
+                        <span className="icon alt fa-info"></span>
+                        <h3>Email</h3>
+                        <a href="mailto:hello@deltahacks.com">hello@deltahacks.com</a>
+                    </div>
+                </section> 
+                <section>
+                    <div className="contact-method">
+                        <span className="icon alt fa-question"></span>
+                        <h3>Get Involved</h3>
+                        <span>Want to be a mentor or pose challenges to the hackers? <a href="mailto:relations@deltahacks.com">relations@deltahacks.com</a></span>
+                    </div>
+                </section>
+            </section>
+
+            {/* Below is the code for the contact form. Don't know how to implement it. Maybe revisit. */}
+            {/* <section>
                 <form method="post" action="#">
                     <div className="field half first">
                         <label htmlFor="name">Name</label>
@@ -22,20 +40,15 @@ const Contact = (props) => (
                         <li><input type="reset" value="Clear" /></li>
                     </ul>
                 </form>
-            </section>
+            </section> */}
+
             <section className="split">
+                
                 <section>
                     <div className="contact-method">
-                        <span className="icon alt fa-envelope"></span>
-                        <h3>Email</h3>
-                        <a href="mailto:hello@deltahacks.com">hello@deltahacks.com</a>
-                    </div>
-                </section>
-                <section>
-                    <div className="contact-method">
-                        <span className="icon alt fa-facebook"></span>
-                        <h3>Facebook</h3>
-                        <span><a href="https://facebook.com/thedeltahacks">/TheDeltaHacks</a></span>
+                        <span className="icon alt fa-bitcoin"></span>
+                        <h3>Interested in sponsoring us?</h3>
+                        <span><a href="mailto:sponsorship@deltahacks.com">sponsorship@deltahacks.com</a></span>
                     </div>
                 </section>
                 <section>

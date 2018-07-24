@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 
 import pic11 from '../assets/images/pic11.jpg'
 
-const Generic = (props) => (
+const Team = (props) => (
     <div>
         <Helmet>
             <title>Team Members</title>
@@ -28,4 +28,4 @@ const Generic = (props) => (
     </div>
 )
 
-export default Generic
+export default Team

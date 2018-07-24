@@ -11,7 +11,7 @@ const Menu = (props) => (
                 <li><Link onClick={props.onToggleMenu} to="/team">Our Team</Link></li>
             </ul>
             <ul className="actions vertical">
-                <li><a href="https://my.deltahacks.com" className="button special fit">Dashboard</a></li>
+                <li><a href="https://my.deltahacks.com" className="button special fit disabled">Dashboard</a></li>
                 <li><a href="" className="button fit disabled">Apply</a></li>
             </ul>
         </div>
