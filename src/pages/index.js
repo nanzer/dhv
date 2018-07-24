@@ -8,18 +8,37 @@ import pic08 from '../assets/images/pic08.jpg'
 import pic09 from '../assets/images/pic09.jpg'
 import pic10 from '../assets/images/pic10.jpg'
 
-const videoOptions = {
+const BGvideoOptions = {
+    height: '500',
+    width: '100%',
     playerVars: { // https://developers.google.com/youtube/player_parameters
-        autoplay: 1,
+        autoplay:1,
         controls: 0,
         rel: 0,
         showinfo: 0,
         modestbranding: 1,  // Hide the Youtube Logo
-        loop: 0,            // Run the video in a loop
+        loop: 1,            // Run the video in a loop
         fs: 0,              // Hide the full screen button
         cc_load_policy: 0, // Hide closed captions
         iv_load_policy: 3,  // Hide the Video Annotations
-        autohide: 0
+        autohide: 0,
+        enablejsapi: 0
+    }
+};
+const FGvideoOptions = {
+    height: '500',
+    width: '100%',
+    playerVars: { // https://developers.google.com/youtube/player_parameters
+        controls: 1,
+        rel: 0,
+        showinfo: 0,
+        modestbranding: 1,  // Hide the Youtube Logo
+        loop: 1,            // Run the video in a loop
+        fs: 0,              // Hide the full screen button
+        cc_load_policy: 0, // Hide closed captions
+        iv_load_policy: 3,  // Hide the Video Annotations
+        autohide: 1,
+        enablejsapi: 0
     }
 };
 
@@ -37,12 +56,14 @@ const Landing = (props) => (
                 <div className="video-foreground">
                     <YouTube
                         videoId="QC10NjclAaw"
-                        opts={videoOptions}
+                        opts={BGvideoOptions}
                         className="video-iframe"
                         onReady={function(e) {
                             e.target.mute();
                           }}
-                        onEnd={null}
+                        onEnd={function(e) {
+                            e.target.playVideo();
+                        }}
                     />
                 </div>
             </div>
@@ -51,7 +72,7 @@ const Landing = (props) => (
                 <div className="inner">
                     <YouTube
                         videoId="QC10NjclAaw"
-                        opts={videoOptions}
+                        opts={FGvideoOptions}
                         className="video-iframe"
                         onReady={null}
                         onEnd={null}

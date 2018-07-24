@@ -28,20 +28,20 @@ const Contact = (props) => (
                     <div className="contact-method">
                         <span className="icon alt fa-envelope"></span>
                         <h3>Email</h3>
-                        <a href="#">hello @ deltahacks.com</a>
+                        <a href="mailto:hello@deltahacks.com">hello@deltahacks.com</a>
                     </div>
                 </section>
                 <section>
                     <div className="contact-method">
-                        <span className="icon alt fa-phone"></span>
-                        <h3>Phone</h3>
-                        <span>Is there a DH phone?</span>
+                        <span className="icon alt fa-facebook"></span>
+                        <h3>Facebook</h3>
+                        <span><a href="https://facebook.com/thedeltahacks">/TheDeltaHacks</a></span>
                     </div>
                 </section>
                 <section>
                     <div className="contact-method">
                         <span className="icon alt fa-home"></span>
-                        <h3>Address</h3>
+                        <h3>Where We Live</h3>
                         <span>McMaster University, 1280 Main St. W<br />
                         Hamilton, ON <br />
                         Canada</span>

@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Forty by HTML5 UP",
-    author: "Hunter Chang",
-    description: "A Gatsby.js Starter based on Forty by HTML5 UP"
+    title: "DeltaHacks V",
+    author: "Abhayraj Jain, Daniel Rooks",
+    description: "The homepage for DeltaHacks V"
   },
   pathPrefix: '/dhv',
   plugins: [
