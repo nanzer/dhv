@@ -1,5 +1,4 @@
 -Fix smooth scrolling
--Remove padding around video
 -Starry kinda animation, maybe some rockets and shit idk
 -Scroll-rotate animation, maybe a moon around a planet rotating as we scroll
 
