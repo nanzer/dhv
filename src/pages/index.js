@@ -9,6 +9,7 @@ import hackers from '../assets/images/hackers.jpg'
 import workshop from '../assets/images/workshop.jpg'
 import sponsors from '../assets/images/sponsors.jpg'
 
+///////////////////// I'm not sure where to put this, but this can be pointed to certain pages for analytics ///////////////////////////////////////////
 // initReactGA = (event) => {
 //     event.preventDefault();
 //     if (this.filteredConfigs().length === 0) {
