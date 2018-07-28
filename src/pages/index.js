@@ -11,7 +11,7 @@ import sponsors from '../assets/images/sponsors.jpg'
 
 // Google Analytics Code
 ReactGA.initialize('UA-105802545-1');
-ReactGA.pageview(window.location.pathname + window.location.search);
+ReactGA.pageview(this.props.location.pathname);
 
 const BGvideoOptions = {
     height: '500',
