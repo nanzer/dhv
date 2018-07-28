@@ -3,15 +3,11 @@ import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import BannerLanding from '../components/BannerLanding'
 import YouTube from 'react-youtube'
-import ReactGA from 'react-ga'
 
 import hackers from '../assets/images/hackers.jpg'
 import workshop from '../assets/images/workshop.jpg'
 import sponsors from '../assets/images/sponsors.jpg'
 
-// Google Analytics Code
-ReactGA.initialize('UA-105802545-1');
-ReactGA.pageview('/'); //Change this for every page
 
 const BGvideoOptions = {
     height: '500',
