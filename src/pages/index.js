@@ -3,10 +3,22 @@ import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import BannerLanding from '../components/BannerLanding'
 import YouTube from 'react-youtube'
+import ReactGA from 'react-ga';
 
 import hackers from '../assets/images/hackers.jpg'
 import workshop from '../assets/images/workshop.jpg'
 import sponsors from '../assets/images/sponsors.jpg'
+
+// initReactGA = (event) => {
+//     event.preventDefault();
+//     if (this.filteredConfigs().length === 0) {
+//         return;
+//     }
+//     ReactGA.initialize('UA-105802545-1');
+//     // Send initial test view
+//     ReactGA.pageview('index.js');
+//     this.setState({ reactGaInitialised: true });
+// };
 
 const BGvideoOptions = {
     height: '500',
@@ -138,7 +150,7 @@ const Landing = (props) => (
                             <header className="major">
                                 <h3>Sponsors!</h3>
                             </header>
-                            <p>Our sponsors help us food on the table - for you! Without them, there would be no DeltaHacks. They're also a great source of information about their industry, and a good starting place for your next internship or job.</p>
+                            <p>Our sponsors help us put food on the table - for you! Without them, there would be no DeltaHacks. They're also a great source of information about their industry, and a good starting place for your next internship or job.</p>
                             {/* <ul className="actions">
                                 <li><Link to="/sponsors" className="button disabled">Our Sponsors</Link></li>
                             </ul> */}
