@@ -3,23 +3,11 @@ import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import BannerLanding from '../components/BannerLanding'
 import YouTube from 'react-youtube'
-import ReactGA from 'react-ga';
 
 import hackers from '../assets/images/hackers.jpg'
 import workshop from '../assets/images/workshop.jpg'
 import sponsors from '../assets/images/sponsors.jpg'
 
-/////////////////// I'm not sure where to put this, but this can be pointed to certain pages for analytics ///////////////////////////////////////////
-// initReactGA = (event) => {
-//     event.preventDefault();
-//     if (this.filteredConfigs().length === 0) {
-//         return;
-//     }
-//     ReactGA.initialize('UA-105802545-1');
-//     // Send initial test view
-//     ReactGA.pageview('index.js');
-//     this.setState({ reactGaInitialised: true });
-// };
 
 const BGvideoOptions = {
     height: '500',
