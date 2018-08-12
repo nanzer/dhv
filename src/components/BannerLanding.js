@@ -18,7 +18,25 @@ const BannerLanding = (props) => (
                     <li><a href="https://www.instagram.com/deltahacks/" className="icon alt fa-instagram"><span className="label">Instagram</span></a></li>
                     <li><a href="https://www.linkedin.com/company/deltahacks/" className="icon alt fa-linkedin"><span className="label">LinkedIn</span></a></li>
                 </ul>
+                <br />
             </div>
+            <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+                <input type="hidden" name="bot-field" />
+                <div className="row uniform">
+                    <div className="6u 12u(xsmall)">
+                        <input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+                    </div>
+                    <div className="6u 12u(xsmall)">
+                        <input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+                    </div>
+                    <div className="12u">
+                        <ul className="actions">
+                            <li><input type="submit" value="Join Mailing List" className="special" /></li>
+                            <li><input type="reset" value="Reset" /></li>
+                        </ul>
+                    </div>
+                </div>
+            </form>
         </div>
     </section>
 )

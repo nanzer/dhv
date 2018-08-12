@@ -147,7 +147,6 @@ const Landing = (props) => (
                     </div>
                 </section>
 
-
             </section>
         </div>
 
