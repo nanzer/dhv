@@ -24,10 +24,10 @@ const BannerLanding = (props) => (
                 <input type="hidden" name="bot-field" />
                 <div className="row uniform">
                     <div className="6u 12u(xsmall)">
-                        <input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+                        <label><input type="text" name="name" placeholder="Name"/></label>   
                     </div>
                     <div className="6u 12u(xsmall)">
-                        <input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+                        <label><input type="email" name="email" id="email" placeholder="Email" /></label>
                     </div>
                     <div className="12u">
                         <ul className="actions">
