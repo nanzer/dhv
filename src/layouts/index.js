@@ -41,6 +41,8 @@ class Template extends React.Component {
 
         return (
             <div className={`body ${this.state.loading} ${this.state.isMenuVisible ? 'is-menu-visible' : ''}`}>
+                <script src="https://www.googletagmanager.com/gtag/js?id=UA-105802545-1" />
+                <script dangerouslySetInnerHTML={{__html: `function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","UA-105802545-1");`}} />
                 <Helmet>
                     <link rel="stylesheet" href={withPrefix('skel.css')} />
                 </Helmet>
