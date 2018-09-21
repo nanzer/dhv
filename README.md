@@ -1,9 +1,6 @@
-# gatsby-starter-forty
-Gatsby starter based on the Forty site template, designed by [HTML5 UP](https://html5up.net/forty). Check out https://codebushi.com/gatsby-starters/ for more Gatsby starters and templates.
-
 ## Preview
 
-http://gatsby-forty.surge.sh/
+Commits can be viewed at deltahacksbuild.netlify.com
 
 
 ## Onboarding
