@@ -3,6 +3,12 @@ import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import BannerLanding from '../components/BannerLanding'
 import YouTube from 'react-youtube'
+import {
+    Accordion,
+    AccordionItem,
+    AccordionItemTitle,
+    AccordionItemBody,
+} from 'react-accessible-accordion';
 
 import hackers from '../assets/images/hackers.jpg'
 import workshop from '../assets/images/workshop.jpg'
@@ -150,6 +156,24 @@ const Landing = (props) => (
             </section>
         </div>
 
+        <Accordion>
+        <AccordionItem>
+            <AccordionItemTitle>
+                <h3>Simple title</h3>
+            </AccordionItemTitle>
+            <AccordionItemBody>
+                <p>Body content</p>
+            </AccordionItemBody>
+        </AccordionItem>
+        <AccordionItem>
+            <AccordionItemTitle>
+                <h3>Complex title</h3>
+            </AccordionItemTitle>
+            <AccordionItemBody>
+                <p>Body content</p>
+            </AccordionItemBody>
+        </AccordionItem>
+        </Accordion>
     </div>
 )
 
