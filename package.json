@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "Hunter Chang",
   "dependencies": {
+    "anchorate": "^1.2.3",
     "gatsby": "^1.9.279",
     "gatsby-image": "^1.0.55",
     "gatsby-link": "^1.6.46",

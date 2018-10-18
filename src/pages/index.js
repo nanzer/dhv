@@ -2,13 +2,8 @@ import React from 'react'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import BannerLanding from '../components/BannerLanding'
+import FAQ from '../components/FAQ'
 import YouTube from 'react-youtube'
-import {
-    Accordion,
-    AccordionItem,
-    AccordionItemTitle,
-    AccordionItemBody,
-} from 'react-accessible-accordion';
 
 import hackers from '../assets/images/hackers.jpg'
 import workshop from '../assets/images/workshop.jpg'
@@ -137,7 +132,7 @@ const Landing = (props) => (
 
 
                 <section id="sponsors">
-                    <Link to="#" className="image">
+                    <Link to="#sponsors" className="image">
                         <img src={sponsors} alt="" />
                     </Link>
                     <div className="content">
@@ -156,24 +151,7 @@ const Landing = (props) => (
             </section>
         </div>
 
-        <Accordion>
-        <AccordionItem>
-            <AccordionItemTitle>
-                <h3>Simple title</h3>
-            </AccordionItemTitle>
-            <AccordionItemBody>
-                <p>Body content</p>
-            </AccordionItemBody>
-        </AccordionItem>
-        <AccordionItem>
-            <AccordionItemTitle>
-                <h3>Complex title</h3>
-            </AccordionItemTitle>
-            <AccordionItemBody>
-                <p>Body content</p>
-            </AccordionItemBody>
-        </AccordionItem>
-        </Accordion>
+        <FAQ />
     </div>
 )
 
