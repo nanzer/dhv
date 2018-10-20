@@ -1,0 +1,47 @@
+div.grid {
+    text-align: center;
+    margin-left:0;
+    margin-right:0;
+    line-height: 0;
+}
+
+img{
+    width:10em;
+    transition: .3s ease-out;
+}
+
+.each:hover img{
+    filter:brightness(20%);
+}
+
+.each:hover p{
+    opacity: 1;
+}
+
+div.each {
+    display: inline-block;
+    position: relative;
+}
+
+
+div.each :not(img){
+    position: absolute;
+    top: 70%;
+    z-index: 1;
+    text-align: left; 
+    margin-left: 10%;
+    width: 100%;
+    opacity: 0;
+    transition: .6s ease-out;
+}
+
+
+p.name{
+  
+
+}
+
+p.bio{
+    font-size: 0.7em;
+    margin-top: 10%;
+}
