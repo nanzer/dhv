@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
-import '../assets/css/team.css'
+import '../assets/scss/layout/_team.scss'
 import YouTube from 'react-youtube'
 
 import test from '../assets/images/test.png'

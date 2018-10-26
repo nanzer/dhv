@@ -10,9 +10,8 @@ const Mentor = (props) => (
             <title>Be A Mentor - DeltaHacks V</title>
             <meta name="description" content="Sign up to be a mentor here!" />
         </Helmet>
-
-        <div id="main" className="alt">
-
+        
+        <div id="main" className="gradient">
             <section id="why" className="spotlights">
                 <section>
                     <Link to="#" className="image">
@@ -44,19 +43,19 @@ const Mentor = (props) => (
                         <input type="hidden" name="bot-field" />
                         <div className="row uniform">
 
-                            <div className="6u 12u(xsmall)">
+                            <div className="6u 12u(small)">
                                 <label>Name *<input type="text" name="name" placeholder="Name"/></label>   
                             </div>
 
-                            <div className="6u 12u(xsmall)">
+                            <div className="6u 12u(small)">
                                 <label>Email Address *<input type="email" name="email" id="email" placeholder="Email" /></label>
                             </div>
 
-                            <div className="6u 12u(xsmall)">
+                            <div className="6u 12u(small)">
                                 <label>Phone Number<input type="tel" name="phone" id="phone" placeholder="416-777-7777" /></label>
                             </div>
 
-                            <div className="6u">
+                            <div className="6u 12u(small)">
                                 <label>Type of Mentor *
                                 <div className="select-wrapper">
                                     <select name="type" id="type">
@@ -67,15 +66,15 @@ const Mentor = (props) => (
                                 </label>
                             </div>
 
-                            <div className="6u 12u(xsmall)">
-                                <label>Area of Expertise * (comma separated)<input type="text" name="expertise" id="expertise" placeholder="Blockchain" /></label>
+                            <div className="6u 12u(small)">
+                                <label>Expertise *<input type="text" name="expertise" id="expertise" placeholder="Blockchain, VR, C++" /></label>
                             </div>
 
-                            <div className="6u 12u(xsmall)">
+                            <div className="6u 12u(small)">
                                 <label>Organization *<input type="text" name="organization" id="organization" placeholder="McMaster University" /></label>
                             </div>
 
-                            <div className="12u">
+                            <div className="6u 12u(small)">
                                 <label>Dietary Restrictions *
                                 <div className="select-wrapper">
                                     <select name="diet" id="diet">
@@ -94,9 +93,23 @@ const Mentor = (props) => (
                                 </label>
                             </div>
 
+                            <div className="6u 12u(small)">
+                                <label>T-Shirt Size *
+                                <div className="select-wrapper">
+                                    <select name="tshirt" id="tshirt">
+                                        <option value="">Select a size</option>
+                                        <option value="1">S</option>
+                                        <option value="2">M</option>
+                                        <option value="3">L</option>
+                                        <option value="4">XL</option>
+                                    </select>
+                                </div>
+                                </label>
+                            </div>
+
                             <div className="12u">
                             <div className="12u 12u">
-                                <label>Why do you want to be a mentor? (300 char)<textarea name="why" id="why" placeholder="I really enjoy helping people..." rows="4"></textarea></label>
+                                <label>Why do you want to be a mentor? * (300 char)<textarea name="why" id="why" placeholder="I really enjoy helping people..." rows="4"></textarea></label>
                             </div>
 
                             <ul className="actions">
