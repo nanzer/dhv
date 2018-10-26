@@ -7,15 +7,11 @@ import mentor from '../assets/images/mentor.jpg'
 const Mentor = (props) => (
     <div>
         <Helmet>
-            <title>Be A Mentor</title>
+            <title>Be A Mentor - DeltaHacks V</title>
             <meta name="description" content="Sign up to be a mentor here!" />
         </Helmet>
 
         <div id="main" className="alt">
-
-            <section id="intro" className="">
-                <h1>Want to be a mentor?</h1>
-            </section>
 
             <section id="why" className="spotlights">
                 <section>
@@ -104,7 +100,7 @@ const Mentor = (props) => (
                             </div>
 
                             <ul className="actions">
-                                <li><input type="submit" value="Sign up" /></li>
+                                <li><input type="submit" value="Sign up" className="special" /></li>
                                 <li><input type="reset" value="Reset" /></li>
                             </ul>
 
