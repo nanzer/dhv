@@ -2,31 +2,28 @@ import React from 'react'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
-import mentor from '../assets/images/mentor.jpg'
+import volunteer from '../assets/images/volunteer.jpg'
 
-const Mentor = (props) => (
+const Volunteer = (props) => (
     <div>
         <Helmet>
-            <title>Be A Mentor - DeltaHacks V</title>
-            <meta name="description" content="Sign up to be a mentor here!" />
+            <title>Volunteer - DeltaHacks V</title>
+            <meta name="description" content="Sign up to be a volunteer here!" />
         </Helmet>
         
-        <div id="main" className="gradient">
+        <div id="main" className="gradient2">
             <section id="why" className="spotlights">
                 <section>
                     <Link to="#" className="image">
-                        <img src={mentor} alt="" />
+                        <img src={volunteer} alt="" />
                     </Link>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Want to be a mentor?</h3>
+                                <h3>Help us by volunteering!</h3>
                             </header>
-                            <p>Mentors are an irreplaceable part of the hackathon ecosystem. It's a great way to give back to the community.
-
-                                <br /><br />As a Technical Mentor, you'll assist hackers with using new technologies, helping them learn what you already excel at!
-
-                                <br /><br />At DeltaHacks, we Hack for Change. As a Challenger Mentor, you'll be able to provide a problem to hackers and guide them while they look for a solution! The possibilities are endless.
+                            <p>
+                                Volunteers are the people that keep DeltaHacks running on the weekend of the event.
                             </p>
                             <ul className="actions">
                                 <li><Link to="#signup" className="button down scrolly">Count me in!</Link></li>
@@ -39,16 +36,16 @@ const Mentor = (props) => (
             <section id="signup">
                 <section>
                     <iframe width="0" height="0" name="hidden-form"></iframe>  
-                    <form id="mentor-signup-form" method="post" target='hidden-form' action="https://script.google.com/a/mcmaster.ca/macros/s/AKfycbzzqgracu41ephczSIgCrJrXR_gTx2d57B-914Sy3Jk7ae_-Po/exec">
+                    <form id="mentor-signup-form" method="post" target='hidden-form' action="https://script.google.com/macros/s/AKfycbyA4Vl3vhjYBRstmeW5-HhEHBiK8Oyyq6N1P-E3Ps0F0VBYgZU/exec">
                         <input type="hidden" name="bot-field" />
                         <div className="row uniform">
 
                             <div className="6u 12u(small)">
-                                <label>Name *<input type="text" name="name" placeholder="Name"/></label>   
+                                <label>Name<input type="text" name="name" placeholder="Name"/></label>   
                             </div>
 
                             <div className="6u 12u(small)">
-                                <label>Email Address *<input type="email" name="email" id="email" placeholder="Email" /></label>
+                                <label>Email Address<input type="email" name="email" id="email" placeholder="Email" /></label>
                             </div>
 
                             <div className="6u 12u(small)">
@@ -56,26 +53,11 @@ const Mentor = (props) => (
                             </div>
 
                             <div className="6u 12u(small)">
-                                <label>Type of Mentor *
-                                <div className="select-wrapper">
-                                    <select name="type" id="type">
-                                        <option value="0">Technical Mentor</option>
-                                        <option value="1">Challenger Mentor</option>
-                                    </select>
-                                </div>
-                                </label>
+                                <label>Faculty/Major<input type="text" name="faculty" id="faculty" placeholder="Software Engineering" /></label>
                             </div>
 
                             <div className="6u 12u(small)">
-                                <label>Expertise *<input type="text" name="expertise" id="expertise" placeholder="Blockchain, VR, C++" /></label>
-                            </div>
-
-                            <div className="6u 12u(small)">
-                                <label>Organization *<input type="text" name="organization" id="organization" placeholder="McMaster University" /></label>
-                            </div>
-
-                            <div className="6u 12u(small)">
-                                <label>Dietary Restrictions *
+                                <label>Dietary Restrictions
                                 <div className="select-wrapper">
                                     <select name="diet" id="diet">
                                         <option value="0">None</option>
@@ -87,14 +69,13 @@ const Mentor = (props) => (
                                         <option value="6">No Beef</option>
                                         <option value="7">Lactose Intolerant</option>
                                         <option value="8">Food/Nut Allergy</option>
-
                                     </select>
                                 </div>
                                 </label>
                             </div>
 
                             <div className="6u 12u(small)">
-                                <label>T-Shirt Size *
+                                <label>T-Shirt Size
                                 <div className="select-wrapper">
                                     <select name="tshirt" id="tshirt">
                                         <option value="">Select a size</option>
@@ -107,9 +88,13 @@ const Mentor = (props) => (
                                 </label>
                             </div>
 
+                            <div className="12u 12u(small)">
+                                <label>I'm not available to volunteer between ...<input type="text" name="busy" id="busy" placeholder="1PM to 4PM on Saturday" /></label>
+                            </div>
+
                             <div className="12u">
                             <div className="12u 12u">
-                                <label>Why do you want to be a mentor? * (300 char)<textarea name="why" id="why" placeholder="I really enjoy helping people..." rows="4"></textarea></label>
+                                <label>What prompted you to volunteer? (300 char)<textarea name="why" id="why" placeholder="I really enjoy helping people..." rows="4"></textarea></label>
                             </div>
 
                             <div className="12u 12u(small)">
@@ -132,4 +117,4 @@ const Mentor = (props) => (
     </div>
 )
 
-export default Mentor
+export default Volunteer
