@@ -76,6 +76,14 @@ const BannerLanding = (props) => (
             </AccordionItem>
             <AccordionItem>
                 <AccordionItemTitle>
+                    <p>+ What's the max team size?</p>
+                </AccordionItemTitle>
+                <AccordionItemBody>
+                    <p>The maximum number of people per team is 4 - but you can definitely form a team with fewer members than that.</p>
+                </AccordionItemBody>
+            </AccordionItem>
+            <AccordionItem>
+                <AccordionItemTitle>
                     <p>+ What should I bring?</p>
                 </AccordionItemTitle>
                 <AccordionItemBody>
