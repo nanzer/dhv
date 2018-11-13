@@ -7,6 +7,8 @@ import mentor from '../assets/images/mentor.jpg'
 class Mentor extends React.Component {
     handleSubmit(event){
         alert("Form submitted. Thank you for your interest in DeltaHacks!");
+        document.getElementById('mentor-signup-form').submit();
+        document.getElementById('mentor-signup-form').reset();
     }
 
     render() {
