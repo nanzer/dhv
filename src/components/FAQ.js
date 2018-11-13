@@ -20,6 +20,14 @@ const BannerLanding = (props) => (
             </AccordionItem>
             <AccordionItem>
                 <AccordionItemTitle>
+                    <p>+ When are acceptances/rejections going out?</p>
+                </AccordionItemTitle>
+                <AccordionItemBody>
+                    <p>We'll be sending out acceptances on a rolling basis. For the most up to date result, check your dash board at <a href="https://my.deltahacks.com">my.deltahacks.com</a>! If you know someone who's been accepted, but you haven't received word back from us yet, don't worry - we aren't releasing all acceptances at the same time.</p>
+                </AccordionItemBody>
+            </AccordionItem>
+            <AccordionItem>
+                <AccordionItemTitle>
                     <p>+ What is <b>Delta</b>Hacks?</p>
                 </AccordionItemTitle>
                 <AccordionItemBody>
@@ -40,6 +48,14 @@ const BannerLanding = (props) => (
                 </AccordionItemTitle>
                 <AccordionItemBody>
                     <p>All university students! (And high school students over 18.) If you're someone who is willing to learn and wants to take a shot at changing the world, no matter what your field is, you definitely belong here.</p>
+                </AccordionItemBody>
+            </AccordionItem>
+            <AccordionItem>
+                <AccordionItemTitle>
+                    <p>+ I have no programming experience. Can I still attend?</p>
+                </AccordionItemTitle>
+                <AccordionItemBody>
+                    <p>Yes! You will bring a much-needed fresh point of view and ideas that could make your project meaningful.</p>
                 </AccordionItemBody>
             </AccordionItem>
             <AccordionItem>
@@ -96,6 +112,23 @@ const BannerLanding = (props) => (
                 </AccordionItemTitle>
                 <AccordionItemBody>
                     <p>By default, all intellectual property created at <b>Delta</b>Hacks V belongs to the student team, and the team agrees that any member of the team has the right to continue to develop the ideas and software either individually or as a group. Corporate Challengers may require a different disposition of intellectual property, but only if they have prior approval in writing from <b>Delta</b>Hacks V for the agreement to which they are asking students to agree. Where there are commercial possibilities for any project, it is recommended that the parties involved agree in writing on the sharing of the financial returns.</p>
+                </AccordionItemBody>
+            </AccordionItem>
+            <AccordionItem>
+                <AccordionItemTitle>
+                    <p>+ Why do you collect demographic information on your application?</p>
+                </AccordionItemTitle>
+                <AccordionItemBody>
+                    <p>Demographic information has no bearing on your application. All applications are judged solely on merit. The information collected is purely for statistical purposes, and will be used by the DeltaHacks team to improve the hackathon in future years.</p>
+                    {/* DeltaHacks team and MLH when we're approved */}
+                </AccordionItemBody>
+            </AccordionItem>
+            <AccordionItem>
+                <AccordionItemTitle>
+                    <p>+ Why do you market DeltaHacks as changing the world?</p>
+                </AccordionItemTitle>
+                <AccordionItemBody>
+                    <p>DeltaHacks itself is not changing the world. Our goal is to encourage thinking about meaningful issues and problem solving that will enable <i>you</i> to change the world.</p>
                 </AccordionItemBody>
             </AccordionItem>
             <AccordionItem>
