@@ -50,11 +50,11 @@ class Mentor extends React.Component {
                         <div className="row uniform">
 
                             <div className="6u 12u(small)">
-                                <label>Name *<input type="text" name="name" placeholder="Name"/></label>   
+                                <label>Name *<input type="text" name="name" placeholder="Name" required /></label>   
                             </div>
 
                             <div className="6u 12u(small)">
-                                <label>Email Address *<input type="email" name="email" id="email" placeholder="Email" /></label>
+                                <label>Email Address *<input type="email" name="email" id="email" placeholder="Email" required /></label>
                             </div>
 
                             <div className="6u 12u(small)">
@@ -115,7 +115,7 @@ class Mentor extends React.Component {
 
                             <div className="12u">
                             <div className="12u 12u">
-                                <label>Why do you want to be a mentor? * (300 char)<textarea name="why" id="why" placeholder="I really enjoy helping people..." rows="4"></textarea></label>
+                                <label>Why do you want to be a mentor? * (300 char)<textarea name="why" id="why" placeholder="I really enjoy helping people..." rows="4" required ></textarea></label>
                             </div>
 
                             <div className="12u 12u(small)">
