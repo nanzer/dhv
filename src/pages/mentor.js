@@ -4,7 +4,13 @@ import Helmet from 'react-helmet'
 
 import mentor from '../assets/images/mentor.jpg'
 
-const Mentor = (props) => (
+class Mentor extends React.Component {
+    handleSubmit(event){
+        alert("Form submitted. Thank you for your interest in DeltaHacks!");
+    }
+
+    render() {
+        return (
     <div>
         <Helmet>
             <title>Be A Mentor - DeltaHacks V</title>
@@ -39,7 +45,7 @@ const Mentor = (props) => (
             <section id="signup">
                 <section>
                     <iframe width="0" height="0" name="hidden-form"></iframe>  
-                    <form id="mentor-signup-form" method="post" target='hidden-form' action="https://script.google.com/a/mcmaster.ca/macros/s/AKfycbzzqgracu41ephczSIgCrJrXR_gTx2d57B-914Sy3Jk7ae_-Po/exec">
+                    <form id="mentor-signup-form" onSubmit={this.handleSubmit} method="post" target='hidden-form' action="https://script.google.com/a/mcmaster.ca/macros/s/AKfycbzzqgracu41ephczSIgCrJrXR_gTx2d57B-914Sy3Jk7ae_-Po/exec">
                         <input type="hidden" name="bot-field" />
                         <div className="row uniform">
 
@@ -113,7 +119,7 @@ const Mentor = (props) => (
                             </div>
 
                             <div className="12u 12u(small)">
-                                <input type="checkbox" id="code" name="code" checked />
+                                <input type="checkbox" id="code" name="code" required />
                                 <label htmlFor="code">I agree to abide by the MLH Code of Conduct and the MLH Privacy Policy.</label>
                             </div>
 
@@ -131,5 +137,7 @@ const Mentor = (props) => (
 
     </div>
 )
+}
+}
 
 export default Mentor
