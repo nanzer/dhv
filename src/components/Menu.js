@@ -10,6 +10,10 @@ const Menu = (props) => (
                 <li><Link onClick={props.onToggleMenu} to="/#faq">FAQs</Link></li>
                 <li><Link onClick={props.onToggleMenu} to="/mentor">Be A Mentor</Link></li>
                 <li><Link onClick={props.onToggleMenu} to="/team">Our Team</Link></li>
+                <li><Link onClick={props.onToggleMenu} to="/sponsors">Sponsors</Link></li>
+                <li><Link onClick={props.onToggleMenu} to="/sponsors-template">SponsorsT</Link></li>
+
+
             </ul>
             <ul className="actions vertical">
                 <li><a href="https://my.deltahacks.com" className="button special fit">Apply</a></li>
