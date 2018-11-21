@@ -6,7 +6,16 @@ import YouTube from 'react-youtube'
 import '../assets/scss/layout/_sponsor.scss'
 
 //images
-import Microsoft from '../assets/images/Microsoft_logo.svg'
+import Microsoft from '../assets/images/sponsors/Microsoft_logo.svg'
+import TD from '../assets/images/sponsors/TD_logo.svg'
+import RBC from '../assets/images/sponsors/RBC_logo.svg'
+import CIBC from '../assets/images/sponsors/CIBC_logo.svg'
+import MLH from '../assets/images/sponsors/MLH_logo.svg'
+import MacEng from '../assets/images/sponsors/mac_eng_logo.svg'
+import MES from '../assets/images/sponsors/mes_logo.png'
+import IF from  '../assets/images/sponsors/if_logo.png'
+import CSE from '../assets/images/sponsors/cse_logo.svg'
+import Rogers from '../assets/images/sponsors/rogers_logo.png'
 
 
 
@@ -77,30 +86,59 @@ const Sponsors = (props) => (
                         <h3>2018-2019</h3>
                     </header>
 
+            <h4>Platinum</h4>
             <div className="box">
                 <div className="boxcontent">
-                    <img className="logos" src={Microsoft} alt="" />
-                    <img className="logos" src={Microsoft} alt="" />
-                    <img className="logos" src={Microsoft} alt="" />
+                    <img className="logos microsoft" src={Microsoft} alt="" />
                 </div>
             </div>   
-            <div className="box">
-                <div className="boxcontent">
-                    <img className="logos" src={Microsoft} alt="" />
-                    <img className="logos" src={Microsoft} alt="" />
-                    <img className="logos" src={Microsoft} alt="" />
-                </div>
-            </div>     
-            <div className="box">
-                <div className="boxcontent">
-                    <img className="logos" src={Microsoft} alt="" />
-                    <img className="logos" src={Microsoft} alt="" />
-                    <img className="logos" src={Microsoft} alt="" />
-                    <img className="logos" src={Microsoft} alt="" />
-                </div>
-            </div>       
-            
 
+            <h4>Gold +</h4>
+            <div className="box">
+                <div className="boxcontent">
+                    <img className="logos IF" src={IF} alt="" />
+                </div>
+            </div>    
+
+            <h4>Gold</h4>
+            <div className="box">
+                <div className="boxcontent">
+                    <img className="logos td" src={TD} alt="" />
+                </div>
+            </div>  
+
+            <h4>Silver</h4>
+            <div className="box">
+                <div className="boxcontent">
+                    <img className="logos rbc" src={RBC} alt="" />
+                    <img className="logos cibc" src={CIBC} alt="" />
+
+                </div>
+            </div>
+
+            <h4>Copper</h4>
+            <div className="box">
+                <div className="boxcontent">
+                    <img className="logos rogers" src={Rogers} alt="" />
+                </div>
+            </div>      
+
+            <h4>Base</h4>
+            <div className="box">
+                <div className="boxcontent">
+                    <img className="logos cse" src={CSE} alt="" />
+                </div>
+            </div>   
+
+            <h4>Partners</h4>
+            <div className="box">
+                <div className="boxcontent">
+                    <img className="logos mlh" src={MLH} alt="" />
+                    <img className="logos maceng" src={MacEng} alt="" />
+                    <img className="logos mes" src={MES} alt="" />
+                </div>
+            </div>              
+            
             </div>
             </section>  
         </div>        
