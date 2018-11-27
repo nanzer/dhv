@@ -10,7 +10,7 @@ import Microsoft from '../assets/images/sponsors/Microsoft_logo.svg'
 import TD from '../assets/images/sponsors/TD_logo.svg'
 import RBC from '../assets/images/sponsors/RBC_logo.svg'
 import CIBC from '../assets/images/sponsors/CIBC_logo.svg'
-import MLH from '../assets/images/sponsors/MLH_logo.svg'
+import MLH from '../assets/images/sponsors/mlh_logo.svg'
 import MacEng from '../assets/images/sponsors/mac_eng_logo.svg'
 import MES from '../assets/images/sponsors/mes_logo.png'
 import IF from  '../assets/images/sponsors/if_logo.png'
@@ -33,22 +33,6 @@ const BGvideoOptions = {
         cc_load_policy: 0, // Hide closed captions
         iv_load_policy: 3,  // Hide the Video Annotations
         autohide: 0,
-        enablejsapi: 0
-    }
-};
-const FGvideoOptions = {
-    height: '500',
-    width: '100%',
-    playerVars: { // https://developers.google.com/youtube/player_parameters
-        controls: 1,
-        rel: 0,
-        showinfo: 0,
-        modestbranding: 1,  // Hide the Youtube Logo
-        loop: 0,            // Run the video in a loop
-        fs: 1,              // Show the full screen button
-        cc_load_policy: 0, // Hide closed captions
-        iv_load_policy: 3,  // Hide the Video Annotations
-        autohide: 1,
         enablejsapi: 0
     }
 };
