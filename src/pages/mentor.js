@@ -76,7 +76,7 @@ class Mentor extends React.Component {
                             </tbody>
                         </table>
                     </div>
-                    <p>If you think you could help, please fill the form below!</p>
+                    <p>If you think you could help, please fill the form below! If you have questions, email us at <a href="mailto:relations@deltahacks.com">relations@deltahacks.com</a> and we'd be happy to answer them!</p>
                 </div>
             </section>
 
