@@ -65,7 +65,7 @@ class Mentor extends React.Component {
                                 </tr>
                                 <tr>
                                     <td>Challenger Mentor</td>
-                                    <td>Inspire attendees to come up with innovative ideas. Pitch a project idea to teams during an Idea Generation Session from on January 26th. Answer any questions the team may have about your idea.</td>
+                                    <td>Inspire attendees to come up with innovative ideas. Pitch a project idea to teams during an Idea Generation Session on January 26th from 12PM to 3PM. Answer any questions the team may have about your idea.</td>
                                     <td>12pm - 3pm on Saturday, January 26th. Remain available, either in-person or remotely until noon on January 27th.</td>
                                 </tr>
                                 <tr>
