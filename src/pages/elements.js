@@ -7,10 +7,10 @@ import pic08 from '../assets/images/hackers.jpg'
 import pic09 from '../assets/images/pic09.jpg'
 import pic10 from '../assets/images/pic10.jpg'
 
-const Sponsors = (props) => (
+const Elements = (props) => (
     <div>
         <Helmet>
-            <title>Sponsors - DeltaHacks V</title>
+            <title>Elements</title>
             <meta name="description" content="Elements Page" />
         </Helmet>
 
@@ -19,7 +19,7 @@ const Sponsors = (props) => (
             <section id="one">
                 <div className="inner">
                     <header className="major">
-                        <h1>Our Sponsors</h1>
+                        <h1>ELEMENTS</h1>
                     </header>
 
                     <h2 id="content">Sample Content</h2>
@@ -407,4 +407,4 @@ const Sponsors = (props) => (
     </div>
 )
 
-export default Sponsors
+export default Elements

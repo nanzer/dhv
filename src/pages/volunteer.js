@@ -7,6 +7,7 @@ import volunteer from '../assets/images/volunteer.jpg'
 class Volunteer extends React.Component {
     handleSubmit(event){
         alert("Form submitted. Thank you for your interest in DeltaHacks!");
+        document.getElementById("mentor-signup-form").reset();
     }
 
     render() {
@@ -41,7 +42,6 @@ class Volunteer extends React.Component {
 
                     <section id="signup">
                         <section>
-                            <iframe width="0" height="0" name="hidden-form"></iframe>  
                             <form id="mentor-signup-form" onSubmit={this.handleSubmit} method="post" target='hidden-form' action="https://script.google.com/macros/s/AKfycbyA4Vl3vhjYBRstmeW5-HhEHBiK8Oyyq6N1P-E3Ps0F0VBYgZU/exec">
                                 <input type="hidden" name="bot-field" />
                                 <div className="row uniform">
