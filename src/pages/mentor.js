@@ -7,6 +7,7 @@ import mentor from '../assets/images/mentor.jpg'
 class Mentor extends React.Component {
     handleSubmit(event){
         alert("Form submitted. Thank you for your interest in DeltaHacks!");   
+        // setTimeout(document.getElementById("mentor-signup-form").reset(), 5000);
     }
 
     render() {
@@ -131,7 +132,6 @@ class Mentor extends React.Component {
                                         <option value="No Beef">No Beef</option>
                                         <option value="Lactose Intolerant">Lactose Intolerant</option>
                                         <option value="Food/Nut Allergy">Food/Nut Allergy</option>
-
                                     </select>
                                 </div>
                                 </label>
