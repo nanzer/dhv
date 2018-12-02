@@ -70,29 +70,27 @@ const Sponsors = (props) => (
                         <h3>2018-2019</h3>
                     </header>
 
-            <h4>Platinum</h4>
-            <div className="box">
+            <h4>Powered By:</h4>
+            <div className="box alt">
                 <div className="boxcontent">
                     <img className="logos microsoft" src={Microsoft} alt="" />
                 </div>
             </div>   
 
-            <h4>Gold +</h4>
-            <div className="box">
+            <h4>Supported By:</h4>
+            <div className="box alt">
                 <div className="boxcontent">
                     <img className="logos IF" src={IF} alt="" />
                 </div>
             </div>    
 
-            <h4>Gold</h4>
-            <div className="box">
+            <div className="box alt">
                 <div className="boxcontent">
                     <img className="logos td" src={TD} alt="" />
                 </div>
             </div>  
 
-            <h4>Silver</h4>
-            <div className="box">
+            <div className="box alt">
                 <div className="boxcontent">
                     <img className="logos rbc" src={RBC} alt="" />
                     <img className="logos cibc" src={CIBC} alt="" />
@@ -100,22 +98,20 @@ const Sponsors = (props) => (
                 </div>
             </div>
 
-            <h4>Copper</h4>
-            <div className="box">
+            <div className="box alt">
                 <div className="boxcontent">
                     <img className="logos rogers" src={Rogers} alt="" />
                 </div>
             </div>      
 
-            <h4>Base</h4>
-            <div className="box">
+            <div className="box alt">
                 <div className="boxcontent">
                     <img className="logos cse" src={CSE} alt="" />
                 </div>
-            </div>   
+            </div>
 
             <h4>Partners</h4>
-            <div className="box">
+            <div className="box alt">
                 <div className="boxcontent">
                     <img className="logos mlh" src={MLH} alt="" />
                     <img className="logos maceng" src={MacEng} alt="" />
