@@ -51,8 +51,8 @@ const BGvideoOptions = {
 const Sponsors = (props) => (
     <div>
         <Helmet>
-            <title>Sponsors</title>
-            <meta name="description" content="Generic Page" />
+            <title>Sponsors :: DeltaHacks V</title>
+            <meta name="description" content="Sponsors :: DeltaHacks V" />
         </Helmet>
 
           {/* Code for background video below this*/}
@@ -77,53 +77,56 @@ const Sponsors = (props) => (
         <section id="one">
                 <div className="inner">
                     <header className="major">
-                        <h3>Current Sponsors</h3>
-                        <h3>2018-2019</h3>
+                        <h3>Our Sponsors</h3><br />
                     </header>
 
-            <h4>Powered By:</h4>
+            Powered By:
+            {/* Platinum */}
             <div className="box alt">
                 <div className="boxcontent powered">
-                    <img className="logos microsoft" src={Microsoft} alt="" />
+                    <a href="https://www.microsoft.com" target="_blank"><img className="logos microsoft" src={Microsoft} alt="Microsoft" /></a><br />
                 </div>
             </div>   
 
-            <h4>Supported By:</h4>
+            Supported By:
+            {/* Gold+ */}
             <div className="box alt">
                 <div className="boxcontent sponsored">
-                    <img className="logos IF" src={IF} alt="" />
+                    <a href="https://www.innovationfactory.ca" target="_blank"><img className="logos IF" src={IF} alt="Innovation Factory" /></a>
                 </div>
             </div>    
+
+            <hr />
 
             {/* Gold */}
             <div className="box alt">
                 <div className="boxcontent gold">
-                    <img className="logos td" src={TD} alt=""/>
+                    <a href="https://www.td.com" target="_blank"><img className="logos td" src={TD} alt="TD Canada Trust"/></a>
                 </div>
             </div>  
 
             {/* Silver */}
             <div className="box alt">
                 <div className="boxcontent silver">
-                    <img className="logos cibc" src={CIBC} alt=""/>
-                    <img className="logos rbc" src={RBC} alt=""/>
+                    <a href="https://www.cibc.com" target="_blank"><img className="logos cibc" src={CIBC} alt=""/></a>
+                    <a href="https://www.rbcroyalbank.com" target="_blank"><img className="logos rbc" src={RBC} alt=""/></a>
                 </div>
             </div>
 
             {/* Copper */}
             <div className="box alt">
                 <div className="boxcontent copper"> 
-                    <img className="logos cse" src={CSE} alt=""/>
-                    <img className="logos loyaltyone" src={Loyalty} alt=""/>
-                    <img className="logos synopsys" src={Synopsys} alt=""/>
+                    <a href="https://www.cse-cst.gc.ca/en" target="_blank"><img className="logos cse" src={CSE} alt=""/></a>
+                    <a href="https://www.loyalty.com" target="_blank"><img className="logos loyaltyone" src={Loyalty} alt=""/></a>
+                    <a href="https://www.synopsys.com" target="_blank"><img className="logos synopsys" src={Synopsys} alt=""/></a>
                 </div>
             </div>    
 
             {/* Base */}
             <div className="box alt">
                 <div className="boxcontent base">
-                    <img className="logos fdm" src={FDM} alt=""/>
-                    <img className="logos rogers" src={Rogers} alt=""/>
+                    <a href="https://www.fdmgroup.com" target="_blank"><img className="logos fdm" src={FDM} alt=""/></a>
+                    <a href="https://www.rogers.com" target="_blank"><img className="logos rogers" src={Rogers} alt=""/></a>
                 </div>
             </div>
 
@@ -131,10 +134,10 @@ const Sponsors = (props) => (
             <h4>In-kind:</h4>
             <div className="box alt">
                 <div className="boxcontent inkind">
-                    <img className="logos bitalino" src={BitAlino} alt=""/>
-                    <img className="logos obie" src={ObieAi} alt=""/>
-                    <img className="logos stickermule" src={StickerMule} alt=""/>
-                    <img className="logos wolfram" src={Wolfram} alt=""/>
+                    <a href="https://www.bitalino.com" target="_blank"><img className="logos bitalino" src={BitAlino} alt=""/></a>
+                    <a href="https://www.obie.ai" target="_blank"><img className="logos obie" src={ObieAi} alt=""/></a>
+                    <a href="https://www.stickermule.com" target="_blank"><img className="logos stickermule" src={StickerMule} alt=""/></a>
+                    <a href="https://www.wolfram.com" target="_blank"><img className="logos wolfram" src={Wolfram} alt=""/></a>
                 </div>
             </div>
 
@@ -142,17 +145,17 @@ const Sponsors = (props) => (
             <h4>Food:</h4>
             <div className="box alt">
                 <div className="boxcontent food">
-                    <img className="logos pinks" src={Pinks} alt=""/>
+                    <a href="https://www.facebook.com/pinksburgers/" target="_blank"><img className="logos pinks" src={Pinks} alt=""/></a>
                 </div>
             </div>
 
             <h4>Partners:</h4>
             <div className="box alt">
                 <div className="boxcontent partners">
-                    <img className="logos mlh" src={MLH} alt="" />
-                    <img className="logos maceng" src={MacEng} alt="" />
-                    <img className="logos maclib" src={MacLib} alt="" />
-                    <img className="logos mes" src={MES} alt="" />
+                    <a href="https://mlh.io" target="_blank"><img className="logos mlh" src={MLH} alt="" /></a>
+                    <a href="https://www.eng.mcmaster.ca/" target="_blank"><img className="logos maceng" src={MacEng} alt="" /></a>
+                    <a href="https://library.mcmaster.ca/" target="_blank"><img className="logos maclib" src={MacLib} alt="" /></a>
+                    <a href="http://www.macengsociety.ca/" target="_blank"><img className="logos mes" src={MES} alt="" /></a>
                 </div>
             </div>              
             

@@ -10,6 +10,14 @@ img.logos {
     vertical-align: middle;
 }
 
+img.logos:hover {
+    background-color: rgba(255,255,255,0.05);
+}
+
+a:link {
+    border-bottom: none;
+}
+
 
 //COMPANIES
 
@@ -56,16 +64,16 @@ img.fdm {
 
 //in-kind
 img.bitalino {
-    width:30%;
+    width:20%;
 }
 img.obie {
-    width:20%;
+    width:12%;
 }
 img.stickermule {
-    width:30%;
+    width:25%;
 }
 img.wolfram {
-    width:20%;
+    width:15%;
 }
 
 //food
@@ -75,16 +83,16 @@ img.pinks {
 
 //partners
 img.mlh {
-    width:28%;
+    width:22%;
 }
 img.maceng {
-    width:20%;
+    width:18%;
 }
 img.maclib {
-    width:20%;
+    width:18%;
 }
 img.mes {
-    width:14%;
+    width:12%;
 }
 
 
