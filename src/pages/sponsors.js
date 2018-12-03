@@ -136,7 +136,7 @@ const Sponsors = (props) => (
                 <div className="boxcontent inkind">
                     <a href="https://www.bitalino.com" target="_blank"><img className="logos bitalino" src={BitAlino} alt=""/></a>
                     <a href="https://www.obie.ai" target="_blank"><img className="logos obie" src={ObieAi} alt=""/></a>
-                    <a href="https://www.stickermule.com" target="_blank"><img className="logos stickermule" src={StickerMule} alt=""/></a>
+                    <a href="http://hackp.ac/mlh-stickermule-hackathons" target="_blank"><img className="logos stickermule" src={StickerMule} alt=""/></a>
                     <a href="https://www.wolfram.com" target="_blank"><img className="logos wolfram" src={Wolfram} alt=""/></a>
                 </div>
             </div>
