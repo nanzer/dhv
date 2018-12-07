@@ -8,6 +8,7 @@ img.logos {
     padding-left: 2.5%;
     padding-right: 2.5%;
     vertical-align: middle;
+    transition: 0.2s ease-out;
 }
 
 img.logos:hover {
@@ -17,7 +18,6 @@ img.logos:hover {
 a:link {
     border-bottom: none;
 }
-
 
 //COMPANIES
 
@@ -44,7 +44,7 @@ img.cibc {
 
 //copper
 img.cse {
-    width:10%;
+    width:21%;
 }
 img.loyaltyone {
     width:25%;
@@ -56,7 +56,7 @@ img.synopsys {
 
 //base
 img.rogers {
-    width:20%;
+    width:22%;
 }
 img.fdm {
     width:15%;
@@ -64,7 +64,7 @@ img.fdm {
 
 //in-kind
 img.bitalino {
-    width:20%;
+    width:16%;
 }
 img.obie {
     width:12%;
@@ -73,7 +73,7 @@ img.stickermule {
     width:25%;
 }
 img.wolfram {
-    width:15%;
+    width:20%;
 }
 
 //food
@@ -95,6 +95,4 @@ img.mes {
     width:12%;
 }
 
-
-//Not Determined
 

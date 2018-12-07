@@ -27,9 +27,6 @@ import StickerMule from '../assets/images/sponsors/stickermule_logo.png'
 import Wolfram from '../assets/images/sponsors/wolfram_logo.png'
 
 
-
-
-
 const BGvideoOptions = {
     height: '500',
     width: '100%',
@@ -131,7 +128,7 @@ const Sponsors = (props) => (
             </div>
 
             {/* In Kind */}
-            <h4>In-kind:</h4>
+            In-kind:
             <div className="box alt">
                 <div className="boxcontent inkind">
                     <a href="https://www.bitalino.com" target="_blank"><img className="logos bitalino" src={BitAlino} alt=""/></a>
@@ -142,14 +139,14 @@ const Sponsors = (props) => (
             </div>
 
             {/* Food */}
-            <h4>Food:</h4>
+            Food:
             <div className="box alt">
                 <div className="boxcontent food">
                     <a href="https://www.facebook.com/pinksburgers/" target="_blank"><img className="logos pinks" src={Pinks} alt=""/></a>
                 </div>
             </div>
 
-            <h4>Partners:</h4>
+            Partners:
             <div className="box alt">
                 <div className="boxcontent partners">
                     <a href="https://mlh.io" target="_blank"><img className="logos mlh" src={MLH} alt="" /></a>
