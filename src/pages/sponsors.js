@@ -25,6 +25,7 @@ import BitAlino from '../assets/images/sponsors/bitalino_logo.png'
 import ObieAi from '../assets/images/sponsors/obie_logo.png'
 import StickerMule from '../assets/images/sponsors/stickermule_logo.png'
 import Wolfram from '../assets/images/sponsors/wolfram_logo.png'
+import Hypercare from '../assets/images/sponsors/hypercare_logo.png'
 
 
 const BGvideoOptions = {
@@ -132,6 +133,7 @@ const Sponsors = (props) => (
             <div className="box alt">
                 <div className="boxcontent inkind">
                     <a href="https://www.bitalino.com" target="_blank"><img className="logos bitalino" src={BitAlino} alt=""/></a>
+                    <a href="https://www.hypercare.com" target="_blank"><img className="logos hypercare" src={Hypercare} alt=""/></a>
                     <a href="https://www.obie.ai" target="_blank"><img className="logos obie" src={ObieAi} alt=""/></a>
                     <a href="http://hackp.ac/mlh-stickermule-hackathons" target="_blank"><img className="logos stickermule" src={StickerMule} alt=""/></a>
                     <a href="https://www.wolfram.com" target="_blank"><img className="logos wolfram" src={Wolfram} alt=""/></a>
