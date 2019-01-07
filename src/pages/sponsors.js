@@ -33,6 +33,7 @@ import MSE from '../assets/images/sponsors/mse_logo.jpg'
 import CanCart from '../assets/images/sponsors/canadacartage_logo.png'
 import Forge from '../assets/images/sponsors/forge_logo.png'
 import Sketch from '../assets/images/sponsors/sketch_logo.svg'
+import Maplesoft from '../assets/images/sponsors/maplesoft_logo.png'
 
 const BGvideoOptions = {
     height: '500',
@@ -136,6 +137,7 @@ const Sponsors = (props) => (
                     <a href="https://corporate.arcelormittal.com/" target="_blank"><img className="logos am" src={AM} alt="Arcelor Mittal"/></a>
                     <a href="https://www.sketchapp.com/" target="_blank"><img className="logos sketch" src={Sketch} alt="Sketch"/></a>
                     <a href="https://www.rogers.com" target="_blank"><img className="logos rogers" src={Rogers} alt="Rogers"/></a>
+                    <a href="https://www.maplesoft.com/" target="_blank"><img className="logos maplesoft" src={Maplesoft} alt="Maplesoft"/></a>
                     <a href="https://theforge.mcmaster.ca/" target="_blank"><img className="logos forge" src={Forge} alt="The Forge"/></a>
                 </div>
             </div>
