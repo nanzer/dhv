@@ -34,6 +34,8 @@ import CanCart from '../assets/images/sponsors/canadacartage_logo.png'
 import Forge from '../assets/images/sponsors/forge_logo.png'
 import Sketch from '../assets/images/sponsors/sketch_logo.svg'
 import Maplesoft from '../assets/images/sponsors/maplesoft_logo.png'
+import CoinBerry from '../assets/images/sponsors/coinberry_logo.png'
+import SoftHamil from '../assets/images/sponsors/softwarehamilton_logo.png'
 
 const BGvideoOptions = {
     height: '500',
@@ -134,11 +136,11 @@ const Sponsors = (props) => (
             <div className="box alt">
                 <div className="boxcontent base">
                     <a href="https://www.fdmgroup.com" target="_blank"><img className="logos fdm" src={FDM} alt="FDM Group"/></a>
+                    <a href="https://www.softwarehamilton.com/" target="_blank"><img className="logos softhamil" src={SoftHamil} alt="Software Hamilton"/></a>
                     <a href="https://corporate.arcelormittal.com/" target="_blank"><img className="logos am" src={AM} alt="Arcelor Mittal"/></a>
-                    <a href="https://www.sketchapp.com/" target="_blank"><img className="logos sketch" src={Sketch} alt="Sketch"/></a>
                     <a href="https://www.rogers.com" target="_blank"><img className="logos rogers" src={Rogers} alt="Rogers"/></a>
-                    <a href="https://www.maplesoft.com/" target="_blank"><img className="logos maplesoft" src={Maplesoft} alt="Maplesoft"/></a>
                     <a href="https://theforge.mcmaster.ca/" target="_blank"><img className="logos forge" src={Forge} alt="The Forge"/></a>
+                    <a href="https://coinberry.com/" target="_blank"><img className="logos coinberry" src={CoinBerry} alt="Coinberry"/></a>
                 </div>
             </div>
 
@@ -148,8 +150,10 @@ const Sponsors = (props) => (
                 <div className="boxcontent inkind">
                     <a href="https://www.bitalino.com" target="_blank"><img className="logos bitalino" src={BitAlino} alt="Bit Alino"/></a>
                     <a href="https://www.hypercare.com" target="_blank"><img className="logos hypercare" src={Hypercare} alt="Hypercare"/></a>
+                    <a href="https://www.sketchapp.com/" target="_blank"><img className="logos sketch" src={Sketch} alt="Sketch"/></a>
                     <a href="https://www.stickeryou.com/" target="_blank"><img className="logos stickeryou" src={StickerYou} alt="Sticker You"/></a>
                     <a href="https://balsamiq.com/" target="_blank"><img className="logos balsamiq" src={Balsamiq} alt="Balsamiq"/></a>
+                    <a href="https://www.maplesoft.com/" target="_blank"><img className="logos maplesoft" src={Maplesoft} alt="Maplesoft"/></a>
                     <a href="https://www.obie.ai" target="_blank"><img className="logos obie" src={ObieAi} alt="Obie Ai"/></a>
                     <a href="http://hackp.ac/mlh-stickermule-hackathons" target="_blank"><img className="logos stickermule" src={StickerMule} alt="Sticker Mule"/></a>
                     <a href="https://www.wolfram.com" target="_blank"><img className="logos wolfram" src={Wolfram} alt="Wolfram"/></a>
