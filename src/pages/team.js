@@ -1,10 +1,14 @@
-import React from 'react'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import '../assets/scss/layout/_team.scss'
 import YouTube from 'react-youtube'
 
-import test from '../assets/images/test.png'
+import React, { Component } from "react"
+
+
+import test from '../assets/images/team/test.png'
+
+
 
 const BGvideoOptions = {
     height: '500',
@@ -25,15 +29,17 @@ const BGvideoOptions = {
 };
 
 
+
 const Team = (props) => (
+
     <div>
         <Helmet>
             <title>Team Members</title>
             <meta name="description" content="Generic Page" />
         </Helmet>
 
-                   {/* Code for background video below this*/}
-                   <div className="video-background">
+            {/* Code for background video below this*/}
+            <div className="video-background">
                 <div className="video-foreground">
                     <YouTube
                         videoId="3SizoIuIedc"
@@ -56,12 +62,13 @@ const Team = (props) => (
                     <header className="major">
                         <h1>Our Team</h1>
                     </header>
+
                 <div className="grid">
 
                     <div className="each">
                         <img src={test}/>
                             <p className="name">
-                                Maanav Garg
+                                Abhay
                             </p>
                             <p className="bio">
                                 Co-Director
@@ -78,155 +85,8 @@ const Team = (props) => (
                             </p>
                     </div>
 
-                    <div className="each">
-                        <img src={test}/>
-                            <p className="name">
-                                Maanav Garg
-                            </p>
-                            <p className="bio">
-                                Co-Director
-                            </p>
-                    </div>
+                    
 
-                    <div className="each">
-                        <img src={test}/>
-                            <p className="name">
-                                Maanav Garg
-                            </p>
-                            <p className="bio">
-                                Head of Sponsorship
-                            </p>
-                    </div>
-
-                    <div className="each">
-                        <img src={test}/>
-                            <p className="name">
-                                Maanav Garg
-                            </p>
-                            <p className="bio">
-                                Software Developer
-                            </p>
-                    </div>
-
-                    <div className="each">
-                        <img src={test}/>
-                            <p className="name">
-                                Maanav Garg
-                            </p>
-                            <p className="bio">
-                                Website Developer
-                            </p>
-                    </div>
-
-                    <div className="each">
-                        <img src={test}/>
-                            <p className="name">
-                                Maanav Garg
-                            </p>
-                            <p className="bio">
-                                Software Developer
-                            </p>
-                    </div>
-
-                    <div className="each">
-                        <img src={test}/>
-                            <p className="name">
-                                Maanav Garg
-                            </p>
-                            <p className="bio">
-                                Website Developer
-                            </p>
-                    </div>
-
-                    <div className="each">
-                        <img src={test}/>
-                            <p className="name">
-                                Maanav Garg
-                            </p>
-                            <p className="bio">
-                                Software Developer
-                            </p>
-                    </div>
-
-                    <div className="each">
-                        <img src={test}/>
-                            <p className="name">
-                                Maanav Garg
-                            </p>
-                            <p className="bio">
-                                Website Developer
-                            </p>
-                    </div>
-
-                    <div className="each">
-                        <img src={test}/>
-                            <p className="name">
-                                Maanav Garg
-                            </p>
-                            <p className="bio">
-                                Software Developer
-                            </p>
-                    </div>
-
-                    <div className="each">
-                        <img src={test}/>
-                            <p className="name">
-                                Maanav Garg
-                            </p>
-                            <p className="bio">
-                                Website Developer
-                            </p>
-                    </div>
-
-                    <div className="each">
-                        <img src={test}/>
-                            <p className="name">
-                                Maanav Garg
-                            </p>
-                            <p className="bio">
-                                Software Developer
-                            </p>
-                    </div>
-
-                    <div className="each">
-                        <img src={test}/>
-                            <p className="name">
-                                Maanav Garg
-                            </p>
-                            <p className="bio">
-                                Website Developer
-                            </p>
-                    </div>
-
-                    <div className="each">
-                        <img src={test}/>
-                            <p className="name">
-                                Maanav Garg
-                            </p>
-                            <p className="bio">
-                                Software Developer
-                            </p>
-                    </div>
-
-                    <div className="each">
-                        <img src={test}/>
-                            <p className="name">
-                                Maanav Garg
-                            </p>
-                            <p className="bio">
-                                Website Developer
-                            </p>
-                    </div>
-
-                    <div className="each">
-                        <img src={test}/>
-                            <p className="name">
-                                Maanav Garg
-                            </p>
-                            <p className="bio">
-                                Website Developer
-                            </p>
-                    </div>
 
                 </div>   
                 </div>

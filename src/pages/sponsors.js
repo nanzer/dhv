@@ -56,8 +56,11 @@ const BGvideoOptions = {
     }
 };
 
+
+
 const Sponsors = (props) => (
     <div>
+
         <Helmet>
             <title>Sponsors :: DeltaHacks V</title>
             <meta name="description" content="Sponsors :: DeltaHacks V" />

@@ -11,6 +11,9 @@ const Menu = (props) => (
                 <li><Link onClick={props.onToggleMenu} to="/team">Our Team</Link></li>
                 <li><Link onClick={props.onToggleMenu} to="/sponsors">Sponsors</Link></li>
                 <li><Link onClick={props.onToggleMenu} to="/apply">myDeltaHacks</Link></li>
+                <li><Link onClick={props.onToggleMenu} to="/live">Live Page</Link></li>
+                <li><Link onClick={props.onToggleMenu} to="/elements">Elements</Link></li>
+
             </ul>
             <ul className="actions vertical">
                 <li><a href="/mentor" className="button special fit">Be a Mentor</a></li>
