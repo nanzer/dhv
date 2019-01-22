@@ -5,7 +5,7 @@ import Helmet from 'react-helmet'
 import mentor from '../assets/images/mentor.jpg'
 //import mentors from '../assets/images/mentors'
 
-class Mentor extends React.Component {
+class Mentors extends React.Component {
     handleSubmit(event){
         alert("Form submitted. Thank you for your interest in DeltaHacks!");   
         // setTimeout(document.getElementById("mentor-signup-form").reset(), 5000);
@@ -15,11 +15,11 @@ class Mentor extends React.Component {
         return (
     <div>
         <Helmet>
-            <title>Be A Mentor - DeltaHacks V</title>
+            <title>Mentors - DeltaHacks V</title>
             <meta name="description" content="Sign up to be a mentor here!" />
         </Helmet>
         
-        <div id="main" className="gradient">
+        <div id="main" >
 
             {/* <section id="why" className="spotlights">
                 <section>
@@ -46,7 +46,7 @@ class Mentor extends React.Component {
             </section> */}
 
             <section id="description">
-                <div className="inner">
+                <div>
                     <h1>Mentors</h1>
                     <div>
                         <pre><code>
@@ -59,11 +59,22 @@ class Mentor extends React.Component {
                         </code></pre>
                     </div>
                 </div>
+
+                <h3>Box</h3>
+                <div className="box">
+                    <p><span className="image left"><img src={mentor} alt="" /></span>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget tempus vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis.</p>
+                    <p><span className="image right"><img src={mentor} alt="" /></span>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget tempus vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis.</p>
+
+                    <p>Felis sagittis eget tempus primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Magna sed etiam ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus lorem ipsum.</p>
+                </div>
+
             </section>
+
+
         </div>
     </div>
 )
 }
 }
 
-export default Mentor
+export default Mentors
