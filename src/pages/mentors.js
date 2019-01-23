@@ -98,7 +98,7 @@ class Mentors extends React.Component {
                     <p><span className="image left"><img src={Chinmay} alt="" /></span><h2><br/>Chinmay Patel</h2><h3>Blockchain, Software Development, Creating Developer tools for Blockchain ecosystems</h3></p>
                     <p><span className="image left"><img src={def} alt="" /></span><h2><br/>Pedrum Mohammadi-Shemirani</h2><h3>R, SQL, machine learning, statistics, data science</h3></p>
                     <p><span className="image left"><img src={Jason} alt="" /></span><h2><br/>Jason Fok</h2><h3>iOS, Rails, Machine Learning</h3></p>
-                    <p><span className="image left"><img src={Rajat} alt="" /></span><h2><br/>Rajat Arora</h2><h3>Java, Node.js(ES6/7), angular 6, vue.js, MongoDB, MySQL, Python, sikitlearn, Aws, terraform, ci/cd, ansible</h3></p>
+                    <p><span className="image left"><img src={Rajat} alt="" /></span><h2><br/>Rajat Arora</h2><h3>Java, Node.js(ES6/7), angular 6, vue.js, MongoDB, MySQL, Python, sikitlearn, Aws, terraform, ci/cd</h3></p>
                     <p><span className="image left"><img src={Simon0} alt="" /></span><h2><br/>Simon Fan</h2><h3>Machine Learning, Cloud hosting/compute platforms, Python, C++, Backend, Databases</h3></p>
                     <p><span className="image left"><img src={Mustafa} alt="" /></span><h2><br/>Mustafa Ismail</h2><h3>VR, C</h3></p>
                     <p><span className="image left"><img src={Sujan} alt="" /></span><h2><br/>Sujan Kandeepan</h2><h3>Java, Python, C#, JavaScript, .NET, Full-Stack Web Dev, Android, Databases</h3></p>
