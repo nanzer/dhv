@@ -80,43 +80,43 @@ class Mentors extends React.Component {
             <section id="description">
                 <div className="box">
                     <h1>Mentors</h1>
-                    <p><span className="image left"><img src={Chamu} alt="" /></span><h2><br/>Chamu Rajasekera</h2><h3>AR/VR,CG,NodeJS,React,Full Stack Web,C/C++,Python,Raspberry Pi,Arduino</h3></p>
-                    <p><span className="image left"><img src={Natalie} alt="" /></span><h2><br/>Natalie Chin</h2><h3>Blockchain - Ethereum/State Channels</h3></p>
-                    <p><span className="image left"><img src={Zichen} alt="" /></span><h2><br/>Zichen Jiang</h2><h3>Database, full stack</h3></p>
-                    <p><span className="image left"><img src={Umme} alt="" /></span><h2><br/>Umme Salma</h2><h3>Python, Full-stack, C#, C, Java, Blockchain, Cryptography</h3></p>
-                    <p><span className="image left"><img src={Ocean} alt="" /></span><h2><br/>Ocean Cheung</h2><h3>iOS, Programming</h3></p>
-                    <p><span className="image left"><img src={def} alt="" /></span><h2><br/>Jaison Loodu</h2><h3>Back-End Development, Java, Databases</h3></p>
-                    <p><span className="image left"><img src={Nelson} alt="" /></span><h2><br/>Nelson Su</h2><h3>C++, C, Java, Web Dev, Software Testing (Manual & Automated)</h3></p>
-                    <p><span className="image left"><img src={Danilo} alt="" /></span><h2><br/>Danilo Joksimovic</h2><h3>Web development, infrastructure, VR</h3></p>
-                    <p><span className="image left"><img src={Thomas} alt="" /></span><h2><br/>Thomas Dykstra</h2><h3>Python, UNIX, Assembly, Java, C++</h3></p>
-                    <p><span className="image left"><img src={Hassan} alt="" /></span><h2><br/>Hassan Jasim</h2><h3>C, C++, Java, Python, html, Django, react native, Visual Basic, Bash, NASM</h3></p>
-                    <p><span className="image left"><img src={Kevin} alt="" /></span><h2><br/>Kevin Pei</h2><h3>Full Stack FE & BE, DevOps, Reason/OCaml</h3></p>
-                    <p><span className="image left"><img src={Hamid} alt="" /></span><h2><br/>Hamid Yuksel</h2><h3>iOS (Swift), Angular, HTML/CSS, Java, JS, UX design</h3></p>
-                    <p><span className="image left"><img src={def} alt="" /></span><h2><br/>Fangyu Wu</h2><h3>C++, NodeJS, SQL, Microsoft Auzre Cloud</h3></p>
-                    <p><span className="image left"><img src={Avin} alt="" /></span><h2><br/>Avin Regmi</h2><h3>AI</h3></p>
-                    <p><span className="image left"><img src={Shehryar} alt="" /></span><h2><br/>Shehryar Assad</h2><h3>C, Java</h3></p>
-                    <p><span className="image left"><img src={Chinmay} alt="" /></span><h2><br/>Chinmay Patel</h2><h3>Blockchain, Software Development, Creating Developer tools for Blockchain ecosystems</h3></p>
-                    <p><span className="image left"><img src={def} alt="" /></span><h2><br/>Pedrum Mohammadi-Shemirani</h2><h3>R, SQL, machine learning, statistics, data science</h3></p>
-                    <p><span className="image left"><img src={Jason} alt="" /></span><h2><br/>Jason Fok</h2><h3>iOS, Rails, Machine Learning</h3></p>
-                    <p><span className="image left"><img src={Rajat} alt="" /></span><h2><br/>Rajat Arora</h2><h3>Java, Node.js(ES6/7), angular 6, vue.js, MongoDB, MySQL, Python, sikitlearn, Aws, terraform, ci/cd</h3></p>
-                    <p><span className="image left"><img src={Simon0} alt="" /></span><h2><br/>Simon Fan</h2><h3>Machine Learning, Cloud hosting/compute platforms, Python, C++, Backend, Databases</h3></p>
-                    <p><span className="image left"><img src={Mustafa} alt="" /></span><h2><br/>Mustafa Ismail</h2><h3>VR, C</h3></p>
-                    <p><span className="image left"><img src={Sujan} alt="" /></span><h2><br/>Sujan Kandeepan</h2><h3>Java, Python, C#, JavaScript, .NET, Full-Stack Web Dev, Android, Databases</h3></p>
-                    <p><span className="image left"><img src={Prasann} alt="" /></span><h2><br/>Prasann Pandya</h2><h3>Deep Learning, Machine Learning,  Python</h3></p>
-                    <p><span className="image left"><img src={Ishmeet} alt="" /></span><h2><br/>Ishmeet Singh</h2><h3>Python, C, C++, Html, CSS, Javascript</h3></p>
-                    <p><span className="image left"><img src={Jawadur} alt="" /></span><h2><br/>Jawadur Rashid</h2><h3>Android</h3></p>
-                    <p><span className="image left"><img src={def} alt="" /></span><h2><br/>Rajeeban Raveendran</h2><h3>C++</h3></p>
-                    <p><span className="image left"><img src={Raymond} alt="" /></span><h2><br/>Raymond chen</h2><h3>Node js and Python</h3></p>
-                    <p><span className="image left"><img src={Matthew} alt="" /></span><h2><br/>Matthew Black</h2><h3>Blockchain</h3></p>
-                    <p><span className="image left"><img src={Robert} alt="" /></span><h2><br/>Robert Skaljin</h2><h3>Chatbots, AI, Mobile</h3></p>
-                    <p><span className="image left"><img src={Ezzeldin} alt="" /></span><h2><br/>Ezzeldin Tahoun</h2><h3>Cyber Security, Blockchain, Data Science, IoT </h3></p>
-                    <p><span className="image left"><img src={Tancred} alt="" /></span><h2><br/>Tancred Yip</h2><h3>Iot, Project Managment, Idea Generation</h3></p>
-                    <p><span className="image left"><img src={Simon1} alt="" /></span><h2><br/>Simon Gyorkos</h2><h3>Java, Python, Django, PHP, Laravel, Vue.js, Angular</h3></p>
-                    <p><span className="image left"><img src={def} alt="" /></span><h2><br/>Mikhail Adrenkov</h2><h3>Android, C++, FPGAs, Go, Java, OpenGL, Python</h3></p>
-                    <p><span className="image left"><img src={Yiguo} alt="" /></span><h2><br/>Yiguo Sun</h2><h3>Programming in C++, QML, Java, Python; Algorithms Design</h3></p>
-                    <p><span className="image left"><img src={Zheng} alt="" /></span><h2><br/>Zheng Zheng</h2><h3>Databases, C++, C, Hadoop, Data Mining</h3></p>
-                    <p><span className="image left"><img src={Damien} alt="" /></span><h2><br/>Damien Tran</h2><h3>C, C++, Neural Networks, TLS/SSL, Web Development, Machine Learning</h3></p>
-                    {/* <p><span className="image left"><img src={mentor} alt="" /></span><h2><br/></h2><h3></h3></p> */}
+                    <p><span className="image left"><img src={Chamu} alt="" /></span><h3><br/>Chamu Rajasekera</h3><code>AR/VR,CG,NodeJS,React,Full Stack Web,C/C++,Python,Raspberry Pi,Arduino</code></p>
+                    <p><span className="image left"><img src={Natalie} alt="" /></span><h3><br/>Natalie Chin</h3><code>Blockchain - Ethereum/State Channels</code></p>
+                    <p><span className="image left"><img src={Zichen} alt="" /></span><h3><br/>Zichen Jiang</h3><code>Database, full stack</code></p>
+                    <p><span className="image left"><img src={Umme} alt="" /></span><h3><br/>Umme Salma</h3><code>Python, Full-stack, C#, C, Java, Blockchain, Cryptography</code></p>
+                    <p><span className="image left"><img src={Ocean} alt="" /></span><h3><br/>Ocean Cheung</h3><code>iOS, Programming</code></p>
+                    <p><span className="image left"><img src={def} alt="" /></span><h3><br/>Jaison Loodu</h3><code>Back-End Development, Java, Databases</code></p>
+                    <p><span className="image left"><img src={Nelson} alt="" /></span><h3><br/>Nelson Su</h3><code>C++, C, Java, Web Dev, Software Testing (Manual & Automated)</code></p>
+                    <p><span className="image left"><img src={Danilo} alt="" /></span><h3><br/>Danilo Joksimovic</h3><code>Web development, infrastructure, VR</code></p>
+                    <p><span className="image left"><img src={Thomas} alt="" /></span><h3><br/>Thomas Dykstra</h3><code>Python, UNIX, Assembly, Java, C++</code></p>
+                    <p><span className="image left"><img src={Hassan} alt="" /></span><h3><br/>Hassan Jasim</h3><code>C, C++, Java, Python, html, Django, react native, Visual Basic, Bash, NASM</code></p>
+                    <p><span className="image left"><img src={Kevin} alt="" /></span><h3><br/>Kevin Pei</h3><code>Full Stack FE & BE, DevOps, Reason/OCaml</code></p>
+                    <p><span className="image left"><img src={Hamid} alt="" /></span><h3><br/>Hamid Yuksel</h3><code>iOS (Swift), Angular, HTML/CSS, Java, JS, UX design</code></p>
+                    <p><span className="image left"><img src={def} alt="" /></span><h3><br/>Fangyu Wu</h3><code>C++, NodeJS, SQL, Microsoft Auzre Cloud</code></p>
+                    <p><span className="image left"><img src={Avin} alt="" /></span><h3><br/>Avin Regmi</h3><code>AI</code></p>
+                    <p><span className="image left"><img src={Shehryar} alt="" /></span><h3><br/>Shehryar Assad</h3><code>C, Java</code></p>
+                    <p><span className="image left"><img src={Chinmay} alt="" /></span><h3><br/>Chinmay Patel</h3><code>Blockchain, Software Development, Creating Developer tools for Blockchain ecosystems</code></p>
+                    <p><span className="image left"><img src={def} alt="" /></span><h3><br/>Pedrum Mohammadi-Shemirani</h3><code>R, SQL, machine learning, statistics, data science</code></p>
+                    <p><span className="image left"><img src={Jason} alt="" /></span><h3><br/>Jason Fok</h3><code>iOS, Rails, Machine Learning</code></p>
+                    <p><span className="image left"><img src={Rajat} alt="" /></span><h3><br/>Rajat Arora</h3><code>Java, Node.js(ES6/7), angular 6, vue.js, MongoDB, MySQL, Python, sikitlearn, Aws, terraform, ci/cd</code></p>
+                    <p><span className="image left"><img src={Simon0} alt="" /></span><h3><br/>Simon Fan</h3><code>Machine Learning, Cloud hosting/compute platforms, Python, C++, Backend, Databases</code></p>
+                    <p><span className="image left"><img src={Mustafa} alt="" /></span><h3><br/>Mustafa Ismail</h3><code>VR, C</code></p>
+                    <p><span className="image left"><img src={Sujan} alt="" /></span><h3><br/>Sujan Kandeepan</h3><code>Java, Python, C#, JavaScript, .NET, Full-Stack Web Dev, Android, Databases</code></p>
+                    <p><span className="image left"><img src={Prasann} alt="" /></span><h3><br/>Prasann Pandya</h3><code>Deep Learning, Machine Learning,  Python</code></p>
+                    <p><span className="image left"><img src={Ishmeet} alt="" /></span><h3><br/>Ishmeet Singh</h3><code>Python, C, C++, Html, CSS, Javascript</code></p>
+                    <p><span className="image left"><img src={Jawadur} alt="" /></span><h3><br/>Jawadur Rashid</h3><code>Android</code></p>
+                    <p><span className="image left"><img src={def} alt="" /></span><h3><br/>Rajeeban Raveendran</h3><code>C++</code></p>
+                    <p><span className="image left"><img src={Raymond} alt="" /></span><h3><br/>Raymond chen</h3><code>Node js and Python</code></p>
+                    <p><span className="image left"><img src={Matthew} alt="" /></span><h3><br/>Matthew Black</h3><code>Blockchain</code></p>
+                    <p><span className="image left"><img src={Robert} alt="" /></span><h3><br/>Robert Skaljin</h3><code>Chatbots, AI, Mobile</code></p>
+                    <p><span className="image left"><img src={Ezzeldin} alt="" /></span><h3><br/>Ezzeldin Tahoun</h3><code>Cyber Security, Blockchain, Data Science, IoT </code></p>
+                    <p><span className="image left"><img src={Tancred} alt="" /></span><h3><br/>Tancred Yip</h3><code>Iot, Project Managment, Idea Generation</code></p>
+                    <p><span className="image left"><img src={Simon1} alt="" /></span><h3><br/>Simon Gyorkos</h3><code>Java, Python, Django, PHP, Laravel, Vue.js, Angular</code></p>
+                    <p><span className="image left"><img src={def} alt="" /></span><h3><br/>Mikhail Adrenkov</h3><code>Android, C++, FPGAs, Go, Java, OpenGL, Python</code></p>
+                    <p><span className="image left"><img src={Yiguo} alt="" /></span><h3><br/>Yiguo Sun</h3><code>Programming in C++, QML, Java, Python; Algorithms Design</code></p>
+                    <p><span className="image left"><img src={Zheng} alt="" /></span><h3><br/>Zheng Zheng</h3><code>Databases, C++, C, Hadoop, Data Mining</code></p>
+                    <p><span className="image left"><img src={Damien} alt="" /></span><h3><br/>Damien Tran</h3><code>C, C++, Neural Networks, TLS/SSL, Web Development, Machine Learning<br/></code></p>
+                    {/* <p><span className="image left"><img src={mentor} alt="" /></span><h3><br/></h3><code></code></p> */}
                 </div>
             </section>
 
