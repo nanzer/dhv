@@ -46,28 +46,25 @@ class Mentors extends React.Component {
             </section> */}
 
             <section id="description">
-                <div>
-                    <h1>Mentors</h1>
-                    <div>
-                        <pre><code>
-                            <div><h3>Bilbo Baggins</h3></div>
-                            <div>Farming</div>
-                        </code></pre>
-                        <pre><code>
-                            <div><h3>Dick Cheney</h3></div>
-                            <div>Oil</div>
-                        </code></pre>
-                    </div>
-                </div>
-
-                <h3>Box</h3>
                 <div className="box">
-                    <p><span className="image left"><img src={mentor} alt="" /></span>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget tempus vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis.</p>
-                    <p><span className="image right"><img src={mentor} alt="" /></span>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget tempus vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis.</p>
-
-                    <p>Felis sagittis eget tempus primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Magna sed etiam ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus lorem ipsum.</p>
+                    <h1>Mentors</h1>
+                    <p><span className="image left"><img src={mentor} alt="" /></span><h2><br/>Chamu Rajasekera</h2><h3>AR/VR,CG,NodeJS,React,Full Stack Web,C/C++,Python,Raspberry Pi,Arduino</h3></p>
+                    <p><span className="image right"><img src={mentor} alt="" /></span><h2><br/>Natalie Chin</h2><h3>Blockchain - Ethereum/State Channels</h3></p>
+                    <p><span className="image left"><img src={mentor} alt="" /></span><h2><br/>Zichen Jiang</h2><h3>Database, full stack</h3></p>
+                    <p><span className="image right"><img src={mentor} alt="" /></span><h2><br/>Umme Salma</h2><h3>Python, Full-stack, C#, C, Java, Blockchain, Cryptography</h3></p>
+                    <p><span className="image left"><img src={mentor} alt="" /></span><h2><br/>Ocean Cheung</h2><h3>iOS, Programming</h3></p>
+                    <p><span className="image right"><img src={mentor} alt="" /></span><h2><br/>Jaison Loodu</h2><h3>Back-End Development, Java, Databases</h3></p>
+                    <p><span className="image left"><img src={mentor} alt="" /></span><h2><br/>Nelson Su</h2><h3>C++, C, Java, Web Dev, Software Testing (Manual & Automated)</h3></p>
+                    <p><span className="image right"><img src={mentor} alt="" /></span><h2><br/>Danilo Joksimovic</h2><h3>Web development, infrastructure, VR</h3></p>
+                    <p><span className="image left"><img src={mentor} alt="" /></span><h2><br/>Thomas Dykstra</h2><h3>Python, UNIX, Assembly, Java, C++</h3></p>
+                    <p><span className="image right"><img src={mentor} alt="" /></span><h2><br/>Hassan Jasim</h2><h3>C, C++, Java, Python, html, Django, react native, Visual Basic, Bash, NASM</h3></p>
+                    <p><span className="image left"><img src={mentor} alt="" /></span><h2><br/>Kevin Pei</h2><h3>Full Stack FE & BE, DevOps, Reason/OCaml</h3></p>
+                    <p><span className="image right"><img src={mentor} alt="" /></span><h2><br/>Hamid Yuksel</h2><h3>iOS (Swift), Angular, HTML/CSS, Java, JS, UX design</h3></p>
+                    <p><span className="image left"><img src={mentor} alt="" /></span><h2><br/>Fangyu Wu</h2><h3>C++, NodeJS, SQL, Microsoft Auzre Cloud</h3></p>
+                    <p><span className="image right"><img src={mentor} alt="" /></span><h2><br/>Avin Regmi</h2><h3>AI</h3></p>
+                    {/* <p><span className="image left"><img src={mentor} alt="" /></span><h2><br/></h2><h3></h3></p>
+                    <p><span className="image right"><img src={mentor} alt="" /></span><h2><br/></h2><h3></h3></p> */}
                 </div>
-
             </section>
 
 
