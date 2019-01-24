@@ -35,6 +35,11 @@ import Simon1 from '../assets/images/mentors/Simon Gyorkos.jpg'
 import Yiguo from '../assets/images/mentors/Yiguo Sun.jpg'
 import Zheng from '../assets/images/mentors/Zheng Zheng.jpg'
 import Damien from '../assets/images/mentors/Damien Tran.jpg'
+import Tim from '../assets/images/mentors/Tim Mitra.jpg'
+import Jillian from '../assets/images/mentors/Jillian Rivard.jpg'
+import LJA from '../assets/images/mentors/LJA Bolongaita.jpg'
+import Raj from '../assets/images/mentors/Raj Kumar.jpg'
+
 //import mentors from '../assets/images/mentors'
 
 class Mentors extends React.Component {
@@ -116,6 +121,10 @@ class Mentors extends React.Component {
                     <p><span className="image left"><img src={Yiguo} alt="" /></span><h3><br/>Yiguo Sun</h3><code>Programming in C++, QML, Java, Python; Algorithms Design</code></p>
                     <p><span className="image left"><img src={Zheng} alt="" /></span><h3><br/>Zheng Zheng</h3><code>Databases, C++, C, Hadoop, Data Mining</code></p>
                     <p><span className="image left"><img src={Damien} alt="" /></span><h3><br/>Damien Tran</h3><code>C, C++, Neural Networks, TLS/SSL, Web Development, Machine Learning<br/></code></p>
+                    <p><span className="image left"><img src={Tim} alt="" /></span><h3><br/>Tim Mitra</h3><code>iOS</code></p>
+                    <p><span className="image left"><img src={Jillian} alt="" /></span><h3><br/>Jillian Rivard</h3><code>Chatbot Design (DialogFlow, IBM Watson)</code></p>
+                    <p><span className="image left"><img src={LJA} alt="" /></span><h3><br/>LJA Bolongaita</h3><code>Product design, UI/UX</code></p>
+                    <p><span className="image left"><img src={Raj} alt="" /></span><h3><br/>Raj Kumar</h3><code>Java</code></p>
                     {/* <p><span className="image left"><img src={mentor} alt="" /></span><h3><br/></h3><code></code></p> */}
                 </div>
             </section>
