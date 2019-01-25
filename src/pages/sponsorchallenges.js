@@ -188,4 +188,4 @@ const SponsorChallenges = (props) => (
     </div>
 )
 
-export default Challenges
+export default SponsorChallenges
