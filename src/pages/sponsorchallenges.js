@@ -58,7 +58,7 @@ const SponsorChallenges = (props) => (
         </Helmet>
 
 
-        <div id="main">
+        <div id="main" className="gradient3">
             <Accordion>
                 <h1>&#9651; Sponsor Challenges</h1>
                 <div className="box">
