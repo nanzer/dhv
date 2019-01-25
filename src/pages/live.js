@@ -3,6 +3,7 @@ import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 import YouTube from 'react-youtube';
 import Clock from './clock.js';
+import $ from 'jquery';
 import '../assets/scss/layout/_live.scss'
 
 
