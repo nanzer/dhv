@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "DeltaHacks V",
-    author: "Abhayraj Jain, Daniel Rooks",
+    author: "Abhayraj Jain, Daniel Rooks, Maanav Garg",
     description: "The homepage for DeltaHacks V"
   },
   pathPrefix: '/dhv',

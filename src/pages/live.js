@@ -105,7 +105,7 @@ class Test extends Component {
                         <p>Thode 1st Floor ~ 9:30am - 11:00am</p>
                         <div className="timer">
                         <a href="#" className="button special small timer">
-                        <Clock deadline='January, 26, 2019, 9:30'/></a>
+                        <Clock deadline='January, 26, 2019, 09:30'/></a>
                         </div>
                         </div>
                         </div>
@@ -117,7 +117,7 @@ class Test extends Component {
                         <p>JHE 376 ~ 11:00am - 12:00pm</p>
                         <div className="timer">
                         <a href="#" className="button special small timer">
-                        <Clock deadline='January, 21, 2019, 18:19'/></a>
+                        <Clock deadline='January, 26, 2019, 11:00'/></a>
                         </div>
                         </div>
                         </div>
@@ -126,11 +126,11 @@ class Test extends Component {
 
                         <div className="box">
                         <div className="boxtitles">
-                        <h4>Registration and Breakfast</h4>
+                        <h4>Hacking Begins</h4>
                         <p>Thode 1st Floor</p>
                         <div className="timer">
                         <a href="#" className="button special small timer">
-                        <Clock deadline='January, 26, 2019, 11:30'/></a>
+                        <Clock deadline='January, 26, 2019, 12:00'/></a>
                         </div>
                         </div>
                         </div>
@@ -156,21 +156,21 @@ class Test extends Component {
                                     <dl>
                                     <dd>
                                     <p1>
-                                        Questions? Find us on the slack group.<br />
-                                        Look for the Deltahacks logo next to the name!<br />
-                                        Slack group: deltahacks5.slack.com<br />
-                                        Looking for team members? Slack #find-a-team<br />
-                                        Announcements. Slack #announcements<br />
-                                        Slack group: deltahacks5.slack.com
+                                        Questions? Find us on <a href="/slack">Slack</a>.<br />
+                                        Message on the #help channel or ask @Obie!<br />
                                     </p1>
                                     </dd>
                                     </dl>
 
 
                                 <h4>Mentor</h4>
-                                    <p>Check out some of our mentor profiles</p>
+                                    <p>Check out some of our <a href="/mentors">mentors' profiles</a>!</p>
                                 <h4>Links</h4>
-                                <h4>Wifi</h4>       
+                                <h4>WiFi</h4>
+                                    <p>
+                                        SSID: <code>DeltaHacks</code><br></br>
+                                        Password: <code>deltahacks2019</code>
+                                    </p>       
                             </div> 
 
                         </div>
