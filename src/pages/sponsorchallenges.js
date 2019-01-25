@@ -122,43 +122,64 @@ const SponsorChallenges = (props) => (
                         <p>+ RBC - Made From Scratch</p>
                     </AccordionItemTitle>
                     <AccordionItemBody>
-                        <p></p>    
+                        <p>We are looking at the following areas for judging: Forget APIs and prepackaged products -- the core parts of the winning project here will be entirely built from scratch. Libraries and frameworks are allowed, but the part of the project that makes it awesome should be written or built by you. Essentially, students are welcome, even encouraged to use open source libraries, tools, frameworks but they cannot be the core or ‘special sauce’ of their solution.</p>    
                     </AccordionItemBody>
                     <AccordionItemBody>
-                        <p>For more information, contact Ezzeldin Tahoun on Slack or by email: tahoune@mcmaster.ca </p>
-                    </AccordionItemBody>
-                </AccordionItem>
-                <AccordionItem>
-                    <AccordionItemTitle>
-                        <p>+ Wifi Security Hack - EzSec</p>
-                    </AccordionItemTitle>
-                    <AccordionItemBody>
-                        <p></p>    
-                    </AccordionItemBody>
-                    <AccordionItemBody>
-                        <p>For more information, contact Ezzeldin Tahoun on Slack or by email: tahoune@mcmaster.ca </p>
+                        <p>For example, you can’t use the IMDB API for movie recommendations.  You can however, use Google geolocation API’s to help use maps to connect people’s phones to a bank’s branch, etc., floodzones, etc. – since you’re layering your own logic/analytics on top of some base info.  We do not want anyone reinventing the wheel, rather building an monster truck using one ;)</p>
                     </AccordionItemBody>
                 </AccordionItem>
                 <AccordionItem>
                     <AccordionItemTitle>
-                        <p>+ Wifi Security Hack - EzSec</p>
+                        <p>+ The Forge Outstanding Technology Award</p>
                     </AccordionItemTitle>
                     <AccordionItemBody>
-                        <p></p>    
-                    </AccordionItemBody>
-                    <AccordionItemBody>
-                        <p>For more information, contact Ezzeldin Tahoun on Slack or by email: tahoune@mcmaster.ca </p>
+                        <p>Awarded to two teams with the most commercial potential.</p>    
                     </AccordionItemBody>
                 </AccordionItem>
                 <AccordionItem>
                     <AccordionItemTitle>
-                        <p>+ Wifi Security Hack - EzSec</p>
+                        <p>+ CIBC - Bridge Between Mobile and Retail Banking</p>
                     </AccordionItemTitle>
                     <AccordionItemBody>
                         <p></p>    
                     </AccordionItemBody>
+                </AccordionItem>
+                <AccordionItem>
+                    <AccordionItemTitle>
+                        <p>+ HyperCare - Automation Challenge</p>
+                    </AccordionItemTitle>
                     <AccordionItemBody>
-                        <p>For more information, contact Ezzeldin Tahoun on Slack or by email: tahoune@mcmaster.ca </p>
+                        <p>Build an application that helps automate the paperwork in healthcare, either for patients, clinicians or organizations.</p>    
+                    </AccordionItemBody>
+                </AccordionItem>
+                <AccordionItem>
+                    <AccordionItemTitle>
+                        <p>+ TD - Case Challenge</p>
+                    </AccordionItemTitle>
+                    <AccordionItemBody>
+                        <b>Problem Statement:</b>
+                        <p>Canadians Lack Strong Confidence in Achieving their Financial Goals</p>    
+                        <ul>
+                            <li>79% of Canadians do not have a strong sense of confidence in their ability to achieve their financial goals</li>
+                            <li>Only 18% strongly agree that they are knowledgeable about financial matters; and</li>
+                            <li>Only one in five strongly agree that they’re successful in sticking with their financial strategies.</li>
+                        </ul>
+                        * Stats Based off study done by the Financial Planning Standards Council (Nov '15)
+                    </AccordionItemBody>
+                    <AccordionItemBody>
+                        <b>Challenge Question:</b>
+                        <p>How can Artificial Intelligence enable people to have confidence in their future?</p>
+                    </AccordionItemBody>
+                    <AccordionItemBody>
+                        <b>Judging:</b>
+                        During your presentation you will be judged on the following criteria, it is up to you to address them all!
+                        <ul>
+                            <li>Innovation – How unique is your solution?</li>
+                            <li>Impact – How much is your idea expected to improve customer confidence?</li>
+                            <li>Feasibility – How realistic is the solution for TD?</li>
+                            <li>Use of Data & Technology, AI</li>
+                            <li>Alignment with Case Challenge – Does your solution address the case challenge and problem statement?</li>
+                        </ul>
                     </AccordionItemBody>
                 </AccordionItem>
             </Accordion>
