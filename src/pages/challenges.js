@@ -176,7 +176,7 @@ const Challenges = (props) => (
                         <p>For more information, contact Katie Jessup on Slack or by email: kjessup@mission-services.com</p>
                     </AccordionItemBody>
                 </AccordionItem>
-                <AccordionItem>
+                {/* <AccordionItem>
                     <AccordionItemTitle>
                         <p>+ Wifi Security Hack - EzSec</p>
                     </AccordionItemTitle>
@@ -186,7 +186,7 @@ const Challenges = (props) => (
                     <AccordionItemBody>
                         <p>For more information, contact Ezzeldin Tahoun on Slack or by email: tahoune@mcmaster.ca </p>
                     </AccordionItemBody>
-                </AccordionItem>
+                </AccordionItem> */}
             </Accordion>
         </div>
 
