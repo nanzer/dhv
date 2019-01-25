@@ -65,7 +65,7 @@ const Challenges = (props) => (
                         <h3>What are the Triangle Challenges?</h3>
                         <p>DeltaHacks is a hackathon for social change, and completing one of the Triangle Challenges is a great way to make sure your hack makes a difference.</p>
                         <h3>What's in it for me?</h3>
-                        <p>Apart from the satisfaction of your hack being used in real life, all hacks entered will also become part of the prize pool for the Triangle Challenges. For details on the prizes available, check out the event <a href="/devpost">DevPost</a>!<br />
+                        <p>Apart from the satisfaction of your hack being used in real life, all hacks entered will also become part of the prize pool for the Triangle Challenges. The top 3 hacks in the prize pool will be awarded prizes! For details on the prizes available, check out the event <u><a href="/devpost">DevPost</a></u>!<br />
                         </p>
                 </div>
                 <AccordionItem>
@@ -73,7 +73,8 @@ const Challenges = (props) => (
                         <p>+ Donation Shop Webpage - Food4Kids</p>
                     </AccordionItemTitle>
                     <AccordionItemBody>
-                        <p>Food4Kids is looking for a webpage that will offer donors the ability to purchase specific items that will go into bags for the children to receive.  Ideally this will be one page that acts as a grocery store for donors to pick and choose their items.</p>
+                        <p>Food4Kids is looking for a webpage that will offer donors the ability to purchase specific items that will go into bags for the children to receive.  Ideally this will be one page that acts as a grocery store for donors to pick and choose their items. <br /><br />
+                        <code><a href="https://drive.google.com/file/d/1GQzZtKRNTsirJO_f0LV2wV1rkrYKHYP-/view?usp=sharing">More Information</a></code></p>
                     </AccordionItemBody>
                     <AccordionItemBody>
                         <p>For more information, contact Tom Flood on Slack or by email: tom@food4kids.ca </p>
