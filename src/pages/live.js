@@ -5,7 +5,8 @@ import YouTube from 'react-youtube';
 import Clock from './clock.js';
 import '../assets/scss/layout/_live.scss'
 
-import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
+
+// import {TwitterTimelineEmbed} from 'react-twitter-embed';
 
 
 const BGvideoOptions = {
@@ -30,16 +31,7 @@ const BGvideoOptions = {
 
 class Test extends Component {
 
-     constructor(props) {
-          super(props);
-          this.state = { deadline: 'May, 4, 2019, 11:30' }
-     }
 
-    //  if(deadline = 0){
-    //     (<Clock/>).replaceWith("<h2>New heading</h2>");
-    //  }
-
-    
      render() {
           return (
             <div>
@@ -66,7 +58,6 @@ class Test extends Component {
                 </div>
                 {/* Code for background video ends here */}
                     
-
 
         <div id="main" className="alt">
             <section id="one">
@@ -146,8 +137,8 @@ class Test extends Component {
 
                         <div className="6u 12u$(small)">
 
-                            <div className="box">
-                                {/* <h4 className="boxtitles">Twitter</h4> */}
+                            {/* <div className="box">
+                                <h4 className="boxtitles">Twitter</h4>
                                     <TwitterTimelineEmbed
                                     sourceType="profile"
                                     screenName="DeltaHacks"
@@ -156,7 +147,7 @@ class Test extends Component {
                                     transparent= "true"
                                     borderColor= "#FFFFFF"
                                     />
-                            </div> 
+                            </div>  */}
 
                             <div className="box">
                                 <h3 className="boxtitles">Important Links</h3>

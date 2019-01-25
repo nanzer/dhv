@@ -20,11 +20,6 @@ class Clock extends Component {
           return num < 10 ? '0' + num : num;
      }
 
-     replace(deadline) {
-        if(deadline == deadline) {
-        $(<Clock/>).replaceWith("<h2>New heading</h2>");
-        }
-    }
 
      getTimeUntil(deadline) {
           const time = Date.parse(deadline) - Date.parse(new Date());
