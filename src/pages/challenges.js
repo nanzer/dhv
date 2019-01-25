@@ -53,8 +53,8 @@ const Challenges = (props) => (
                     
 
         <Helmet>
-            <title>Triangle Challenges :: DeltaHacks 5</title>
-            <meta name="description" content="The DeltaHacks Triangle Challenges" />
+            <title>Challenges :: DeltaHacks 5</title>
+            <meta name="description" content="The DeltaHacks Triangle and Sponsor Challenges" />
         </Helmet>
 
 
@@ -74,7 +74,7 @@ const Challenges = (props) => (
                     </AccordionItemTitle>
                     <AccordionItemBody>
                         <p>Food4Kids is looking for a webpage that will offer donors the ability to purchase specific items that will go into bags for the children to receive.  Ideally this will be one page that acts as a grocery store for donors to pick and choose their items. <br /><br />
-                        <code><a href="https://drive.google.com/file/d/1GQzZtKRNTsirJO_f0LV2wV1rkrYKHYP-/view?usp=sharing">More Information</a></code></p>
+                        <code><a href="https://drive.google.com/file/d/1GQzZtKRNTsirJO_f0LV2wV1rkrYKHYP-/view?usp=sharing">Specifications</a></code></p>
                     </AccordionItemBody>
                     <AccordionItemBody>
                         <p>For more information, contact Tom Flood on Slack or by email: tom@food4kids.ca </p>
@@ -97,6 +97,7 @@ const Challenges = (props) => (
                     </AccordionItemTitle>
                     <AccordionItemBody>
                         <p>Dr. Maria E. Calvo B. MD. would like you to develop an application that makes it easy for physicians to communicate with and log data on their patients useing intrathecal pumps.</p>    
+                        <p><code><a href="https://drive.google.com/file/d/1Y37UloYOfHXbH5q82mNcfkXU_AqaUvU0/view?usp=sharing">Specifications</a></code></p>
                     </AccordionItemBody>
                     <AccordionItemBody>
                         <p>For more information, contact Maria Calvo on Slack or by email: marucalvo822@yahoo.com</p>
@@ -108,6 +109,7 @@ const Challenges = (props) => (
                     </AccordionItemTitle>
                     <AccordionItemBody>
                         <p>Other than a few technologies that have seeped into the industry, the shortage of finding, hiring, and screening skilled labor is still very much a problem and a huge opportunity to explore.  As a seasoned individual within the construction domain, Royston would like to challenge teams to find a way to connect employers and talent within the constuction indursty.</p>    
+                        <p><code><a href="https://drive.google.com/file/d/1YfEOQRlbESs10vDwbeDBzr-Eeg5Y84F6/view?usp=sharing">Specifications</a></code></p>
                     </AccordionItemBody>
                     <AccordionItemBody>
                         <p>For more information, contact Royston Rebello on Slack or by email: roystonarebello@gmail.com</p>
@@ -119,6 +121,7 @@ const Challenges = (props) => (
                     </AccordionItemTitle>
                     <AccordionItemBody>
                         <p>Om is offering an additional $100 prize for the team who wins this challenge.  20-30% of all men and 10-15% of all women in North America are affected by Sleep Apnea, a condition wherin a person stops breathing during sleep.  This can cause discomfort and disrupt sleep paterns.  Om and Shriksha have built a functional prototype and collected data on healthy volunteers, but they want your help to develop a an application to detect changes in sleep patterns, useage of MLH hardware is accepted and encouraged.</p>    
+                        <p><code><a href="https://drive.google.com/file/d/10IP319tSRL21ujhGYyZHcyUqSoGx0MyH/view?usp=sharing">Specifications</a></code></p>
                     </AccordionItemBody>
                     <AccordionItemBody>
                         <p>For more information, contact Om Bhatt on Slack or by email: om.bhatt@medportal.ca</p>
@@ -130,6 +133,7 @@ const Challenges = (props) => (
                     </AccordionItemTitle>
                     <AccordionItemBody>
                         <p>Dr. Curnew's Cardiology Clinic wants you to develop an app that simply makes it easy, convenient, and fun for people in your community to connect and plan physical activities together.</p>    
+                        <p><code><a href="https://drive.google.com/file/d/1UMInygFA2XizX53Df2yNvFyx7PdU9nYC/view?usp=sharing">Specifications</a></code></p>
                     </AccordionItemBody>
                     <AccordionItemBody>
                         <p>For more information, contact Maggie Hou on Slack or by email: houy14@mcmaster.ca</p>
@@ -152,6 +156,7 @@ const Challenges = (props) => (
                     </AccordionItemTitle>
                     <AccordionItemBody>
                         <p>We are requesting the development of A GALA (Gibson & Landsdale neighbourhoods) Youth Programs app featuring information about programs provided by Mission Services of Hamilton, CORE (Cathy Wever School), Pinkly Lewis Recreation Centre, 541 Eatery and Exchange, and Barton Library. These programs provide a mix of after-school activities, learning opportunities, food programs, mentoring and more to kids from low-income homes.</p>
+                        <p><code><a href="https://drive.google.com/file/d/1hfGbSy2IavPaqzvczyKkWuJqdlps6HYr/view?usp=sharing">Specifications</a></code></p>
                     </AccordionItemBody>
                     <AccordionItemBody>
                         The idea is to have an app that provides an interactive space with the following features:
@@ -169,50 +174,6 @@ const Challenges = (props) => (
                     </AccordionItemBody>
                     <AccordionItemBody>
                         <p>For more information, contact Katie Jessup on Slack or by email: kjessup@mission-services.com</p>
-                    </AccordionItemBody>
-                </AccordionItem>
-                <AccordionItem>
-                    <AccordionItemTitle>
-                        <p>+ Wifi Security Hack - EzSec</p>
-                    </AccordionItemTitle>
-                    <AccordionItemBody>
-                        <p></p>    
-                    </AccordionItemBody>
-                    <AccordionItemBody>
-                        <p>For more information, contact Ezzeldin Tahoun on Slack or by email: tahoune@mcmaster.ca </p>
-                    </AccordionItemBody>
-                </AccordionItem>
-                <AccordionItem>
-                    <AccordionItemTitle>
-                        <p>+ Wifi Security Hack - EzSec</p>
-                    </AccordionItemTitle>
-                    <AccordionItemBody>
-                        <p></p>    
-                    </AccordionItemBody>
-                    <AccordionItemBody>
-                        <p>For more information, contact Ezzeldin Tahoun on Slack or by email: tahoune@mcmaster.ca </p>
-                    </AccordionItemBody>
-                </AccordionItem>
-                <AccordionItem>
-                    <AccordionItemTitle>
-                        <p>+ Wifi Security Hack - EzSec</p>
-                    </AccordionItemTitle>
-                    <AccordionItemBody>
-                        <p></p>    
-                    </AccordionItemBody>
-                    <AccordionItemBody>
-                        <p>For more information, contact Ezzeldin Tahoun on Slack or by email: tahoune@mcmaster.ca </p>
-                    </AccordionItemBody>
-                </AccordionItem>
-                <AccordionItem>
-                    <AccordionItemTitle>
-                        <p>+ Wifi Security Hack - EzSec</p>
-                    </AccordionItemTitle>
-                    <AccordionItemBody>
-                        <p></p>    
-                    </AccordionItemBody>
-                    <AccordionItemBody>
-                        <p>For more information, contact Ezzeldin Tahoun on Slack or by email: tahoune@mcmaster.ca </p>
                     </AccordionItemBody>
                 </AccordionItem>
                 <AccordionItem>
