@@ -172,7 +172,7 @@ const SponsorChallenges = (props) => (
                     </AccordionItemBody>
                     <AccordionItemBody>
                         <b>Judging:</b>
-                        During your presentation you will be judged on the following criteria, it is up to you to address them all!
+                        <p>During your presentation you will be judged on the following criteria, it is up to you to address them all!</p>
                         <ul>
                             <li>Innovation – How unique is your solution?</li>
                             <li>Impact – How much is your idea expected to improve customer confidence?</li>
