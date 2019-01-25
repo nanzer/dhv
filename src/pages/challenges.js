@@ -32,6 +32,7 @@ const Challenges = (props) => (
     <div>
 
         {/* Code for background video below this*/}
+        {/*
         <div className="video-background">
                 <div className="video-foreground">
                     <YouTube
@@ -47,7 +48,9 @@ const Challenges = (props) => (
                     />
                 </div>
             </div>
+        */ }
             {/* Code for background video ends here */}
+                    
 
         <Helmet>
             <title>Triangle Challenges :: DeltaHacks 5</title>
