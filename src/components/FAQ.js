@@ -6,7 +6,8 @@ import {
     AccordionItemBody,
 } from 'react-accessible-accordion';
 
-const BannerLanding = (props) => (
+
+const FAQ = (props) => (
     <section id="faq">
             <Accordion>
             <h1>FAQs</h1>
@@ -151,4 +152,4 @@ const BannerLanding = (props) => (
     </section>
 )
 
-export default BannerLanding
+export default FAQ
