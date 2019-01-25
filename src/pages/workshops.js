@@ -2,6 +2,13 @@ import React from 'react'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
+import {
+    Accordion,
+    AccordionItem,
+    AccordionItemTitle,
+    AccordionItemBody,
+} from 'react-accessible-accordion';
+
 import mentor from '../assets/images/mentor.jpg'
 
 class Mentor extends React.Component {
@@ -14,163 +21,183 @@ class Mentor extends React.Component {
         return (
     <div>
         <Helmet>
-            <title>Be A Mentor - DeltaHacks V</title>
+            <title>Workshops - DeltaHacks V</title>
             <meta name="description" content="Sign up to be a mentor here!" />
         </Helmet>
-        
+
+               
         <div id="main" className="gradient">
+        <section id="description">
+            <div className="inner">
+                <h2>DeltaHacks V :: Workshops</h2>
+                <div className="table-wrapper">
+                    {/* SATURDAY */}
+                    <h4>SATURDAY : JAN 26, 2019</h4>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>TIME</th>
+                                <th>PRESENTER & TOPIC</th>
+                                <th>VENUE</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1:00 PM - 2:00 PM</td>
+                                <td>Natalie Chin - <i>A Deep Dive on Blockchain: What’s Behind the Cryptocurrency</i></td>
+                                <td>Thode MakerSpace</td>
+                            </tr>
 
-            {/* <section id="why" className="spotlights">
-                <section>
-                    <Link to="#" className="image">
-                        <img src={mentor} alt="" />
-                    </Link>
-                    <div className="content">
-                        <div className="inner">
-                            <header className="major">
-                                <h3>Want to be a mentor?</h3>
-                            </header>
-                            <p>Mentors are an irreplaceable part of the hackathon ecosystem. It's a great way to give back to the community.
+                            <tr>
+                                <td>1:00 PM - 2:30 PM</td>
+                                <td>Darren Tu & Simon Gyorkos - <i>Build and Deploy Your First Website</i></td>
+                                <td>ABB B118</td>
+                            </tr>
 
-                                <br /><br />As a Technical Mentor, you'll assist hackers with using new technologies, helping them learn what you already excel at!
+                            <tr>
+                                <td>2:00 PM - 2:30 PM</td>
+                                <td>Materials Engineering - <i>Introduction to their Challenge</i></td>
+                                <td>Thode MakerSpace</td>
+                            </tr>
 
-                                <br /><br />At DeltaHacks, we Hack for Change. As a Challenger Mentor, you'll be able to provide a problem to hackers and guide them while they look for a solution! The possibilities are endless.
-                            </p>
-                            <ul className="actions">
-                                <li><Link to="#signup" className="button down scrolly">Count me in!</Link></li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
-            </section> */}
+                            <tr>
+                                <td>3:00 PM - 4:00 PM</td>
+                                <td>Innovation Factory - <i>Introduction to their Challenge</i></td>
+                                <td>Thode MakerSpace</td>
+                            </tr>
 
-            <section id="description">
-                <div className="inner">
-                    <h4>How can you help?</h4>
-                    <p>We're looking for mentors to help fill the following roles:</p>
-                    <div className="table-wrapper">
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Role</th>
-                                    <th>Description</th>
-                                    <th>Time Commitment</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Technical Mentor</td>
-                                    <td>Provide guidance for participants using your expertise.</td>
-                                    <td>At least 2 hours anytime between 12:00pm, January 26th and 12:00pm, January 27th.</td>
-                                </tr>
-                                <tr>
-                                    <td>Challenger Mentor</td>
-                                    <td>Inspire attendees to come up with innovative ideas. Pitch a project idea to teams during an Idea Generation Session on January 26th from 12PM to 3PM. Answer any questions the team may have about your idea.</td>
-                                    <td>12pm - 3pm on Saturday, January 26th. Remain available, either in-person or remotely until noon on January 27th.</td>
-                                </tr>
-                                <tr>
-                                    <td>Judge</td>
-                                    <td>Critically analyze and evaluate finished projects at the Project Expo.</td>
-                                    <td>3 hours on Sunday, January 27th.</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <p>If you think you could help, please fill the form below! If you have questions, email us at <a href="mailto:relations@deltahacks.com">relations@deltahacks.com</a> and we'd be happy to answer them!</p>
+                            <tr>
+                                <td>3:30 PM - 4:30 PM</td>
+                                <td>Ocean Cheung - <i>Intro to Android Dev</i></td>
+                                <td>ABB B118</td>
+                            </tr>
+
+                            <tr>
+                                <td>4:00 PM - 5:00 PM</td>
+                                <td>TD - <i>Chatbot with Dialogflow</i></td>
+                                <td>Thode MakerSpace</td>
+                            </tr>
+
+                            <tr>
+                                <td>6:30 PM - 7:30 PM</td>
+                                <td>Prasann Pandya - <i>Deploying Machine Learning Models on the Web</i></td>
+                                <td>Thode MakerSpace</td>
+                            </tr>
+
+                            {/* Need details for below */}
+
+                            {/* <tr>
+                                <td>5:00 PM - 5:30 PM</td>
+                                <td>RBC - <i>???</i></td>
+                                <td>Thode MakerSpace</td>
+                            </tr> */}
+
+                            {/* <tr>
+                                <td>8:00 PM - 9:00 PM</td>
+                                <td>NodeJS + Azure?</td>
+                                <td>ABB B118</td>
+                            </tr> */}
+
+                            {/* <tr>
+                                <td>9:00 PM - 10:00 PM</td>
+                                <td>Amazon Alexa</td>
+                                <td>ABB B118</td>
+                            </tr> */}
+
+                        </tbody>
+                    </table>
                 </div>
-            </section>
+            </div>
+        </section>
+            <Accordion>
+                <h2>Descriptions</h2>
+                <AccordionItem>
+                    <AccordionItemTitle>
+                        <p>+ A Deep Dive on Blockchain: What’s Behind the Cryptocurrency <i>by Natalie Chin</i></p>
+                    </AccordionItemTitle>
+                    <AccordionItemBody>
+                        <p>The current Internet world is full of data breaches from corporations we have entrusted to keep our data safe – like Equifax, Yahoo, Facebook, and more. Blockchain allows us to take back the trust we’ve put in them – taking it into our own hands. In this workshop, we’re going to talk about what blockchain is, what difference it can make in our lives, setting up a development environment, and live-coding examples of cryptocurrency transactions.</p>
+                    </AccordionItemBody>
+                </AccordionItem>
 
-            <section id="signup">
-                <section>
-                    <iframe width="0" height="0" name="hidden-form"></iframe>  
-                    <form id="mentor-signup-form" onSubmit={this.handleSubmit} method="post" target='hidden-form' action="https://script.google.com/a/mcmaster.ca/macros/s/AKfycbzzqgracu41ephczSIgCrJrXR_gTx2d57B-914Sy3Jk7ae_-Po/exec">
-                        <input type="hidden" name="bot-field" />
-                        <div className="row uniform">
+                <AccordionItem>
+                    <AccordionItemTitle>
+                        <p>+ Build and Deploy Your First Website<i> by Darren Tu & Simon Gyorkos</i></p>
+                    </AccordionItemTitle>
+                    <AccordionItemBody>
+                        <p>During this workshop, participants will learn the structure and syntax of basic HTML and CSS. Participants will receive a skeleton of a portfolio website and will update the HTML to include information about themselves and edit the CSS to style and position elements on their page! Then, they’ll deploy their new website.</p>
+                    </AccordionItemBody>
+                </AccordionItem>
 
-                            <div className="6u 12u(small)">
-                                <label>Name *<input type="text" name="name" placeholder="Name" required /></label>   
-                            </div>
+                {/* <AccordionItem>
+                    <AccordionItemTitle>
+                        <p>+ Introduction to Challenge <i> by Materials Engineering</i></p>
+                    </AccordionItemTitle>
+                    <AccordionItemBody>
+                        <p>???</p>
+                    </AccordionItemBody>
+                </AccordionItem> */}
 
-                            <div className="6u 12u(small)">
-                                <label>Email Address *<input type="email" name="email" id="email" placeholder="Email" required /></label>
-                            </div>
+                {/* <AccordionItem>
+                    <AccordionItemTitle>
+                        <p>+ Introduction to Challenge <i> by Innovation Factory</i></p>
+                    </AccordionItemTitle>
+                    <AccordionItemBody>
+                        <p>???</p>
+                    </AccordionItemBody>
+                </AccordionItem> */}
 
-                            <div className="6u 12u(small)">
-                                <label>Phone Number<input type="tel" name="phone" id="phone" placeholder="416-777-7777" /></label>
-                            </div>
+                <AccordionItem>
+                    <AccordionItemTitle>
+                        <p>+ Introduction to Android Development<i> by Ocean Cheung</i></p>
+                    </AccordionItemTitle>
+                    <AccordionItemBody>
+                        <p>Learn how to build android apps for DeltaHacks, or how to polish one up to be used as a portfolio piece.</p>
+                    </AccordionItemBody>
+                </AccordionItem>
 
-                            <div className="6u 12u(small)">
-                                <label>Role *
-                                <div className="select-wrapper">
-                                    <select name="type" id="type">
-                                        <option value="Technical">Technical Mentor</option>
-                                        <option value="Challenger">Challenger Mentor</option>
-                                        <option value="Judge">Judge</option>
-                                    </select>
-                                </div>
-                                </label>
-                            </div>
+                <AccordionItem>
+                    <AccordionItemTitle>
+                        <p>+ Chatbot with Dialogflow<i> by TD</i></p>
+                    </AccordionItemTitle>
+                    <AccordionItemBody>
+                        <p>An introduction to creating chatbots using Dialogflow.  This session provides an overview of creating a couple of simple chatbots using the Dialogflow graphical user interface(no programming required).  We will create a frequently asked questions or knowledge bot, as well as a simple order taking bot.  We will also explore the various integrations options available(Google Assistant, FaceBook Messenger, Telephony), discuss request fulfillment to backend services, and review some of the prebuilt agents that the product Dialogflow offers.</p>
+                    </AccordionItemBody>
+                </AccordionItem>
 
-                            <div className="6u 12u(small)">
-                                <label>Expertise *<input type="text" name="expertise" id="expertise" placeholder="Blockchain, VR, C++" /></label>
-                            </div>
+                {/* <AccordionItem>
+                    <AccordionItemTitle>
+                        <p>+ ???<i> by RBC</i></p>
+                    </AccordionItemTitle>
+                    <AccordionItemBody>
+                        <p>???</p>
+                    </AccordionItemBody>
+                </AccordionItem> */}
 
-                            <div className="6u 12u(small)">
-                                <label>Organization *<input type="text" name="organization" id="organization" placeholder="McMaster University" /></label>
-                            </div>
+                <AccordionItem>
+                    <AccordionItemTitle>
+                        <p>+ Deploying Machine Learning Models on the Web<i> by Prasann Pandya</i></p>
+                    </AccordionItemTitle>
+                    <AccordionItemBody>
+                        <p>Learn how to take a trained machine learning model and deploy it on a web server as an API which can then be used on a mobile app or a website. Attendees will also learn how to use some standard computer vision/NLP models already deployed as an API in their hackathon projects.</p>
+                    </AccordionItemBody>
+                </AccordionItem>
 
-                            <div className="6u 12u(small)">
-                                <label>Dietary Restrictions *
-                                <div className="select-wrapper">
-                                    <select name="diet" id="diet">
-                                        <option value="None">None</option>
-                                        <option value="Vegetarian">Vegetarian</option>
-                                        <option value="Vegan">Vegan</option>
-                                        <option value="Halal">Halal</option>
-                                        <option value="Gluten Free">Gluten Free</option>
-                                        <option value="Kosher">Kosher</option>
-                                        <option value="No Beef">No Beef</option>
-                                        <option value="Lactose Intolerant">Lactose Intolerant</option>
-                                        <option value="Food/Nut Allergy">Food/Nut Allergy</option>
-                                    </select>
-                                </div>
-                                </label>
-                            </div>
+                {/* <AccordionItem>
+                    <AccordionItemTitle>
+                        <p>+ NodeJS<i> by ???</i></p>
+                    </AccordionItemTitle>
+                    <AccordionItemBody>
+                        <p>Be sure to attend this workshop. We will start from the basics. No. Seriously. We are going to start with guiding you on how to download Visual Studio Code and take it from there. The Javascript web development is THE tool you need to get your hack to working! <br /> <br />
 
-                            <div className="6u 12u(small)">
-                                <label>T-Shirt Size *
-                                <div className="select-wrapper">
-                                    <select name="tshirt" id="tshirt">
-                                        <option value="Error">Select a size</option>
-                                        <option value="S">S</option>
-                                        <option value="M">M</option>
-                                        <option value="L">L</option>
-                                        <option value="XL">XL</option>
-                                    </select>
-                                </div>
-                                </label>
-                            </div>
+                        BONUS: we will be guiding each of you so that you can have a final product to take with you at the end of the session! <br /> <br />
 
-                            <div className="12u">
-                            <div className="12u 12u">
-                                <label>Why do you want to be a mentor? * (~300 char)<textarea name="why" id="why" placeholder="I really enjoy helping people..." rows="4" required ></textarea></label>
-                            </div>
+                        P.S. Node.js and Express is sure to give you the foothold you need to land you an interview for your co-ops or future jobs.
+                        </p>
+                    </AccordionItemBody>
+                </AccordionItem> */}
 
-                            <div className="12u 12u(small)">
-                                <input type="checkbox" id="code" name="code" required />
-                                <label htmlFor="code">I agree to abide by the MLH Code of Conduct and the MLH Privacy Policy.</label>
-                            </div>
-
-                            <ul className="actions">
-                                <li><input type="submit" value="Sign up" className="special" /></li>
-                                <li><input type="reset" value="Reset" /></li>
-                            </ul>
-
-                            </div>
-                        </div>
-                    </form>
-                </section>
-            </section>
+            </Accordion>
         </div>
 
     </div>
