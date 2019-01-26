@@ -3,6 +3,8 @@ import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 import YouTube from 'react-youtube';
 import Clock from './clock.js';
+import ClockEnd from './clock-end.js';
+
 import $ from 'jquery';
 import '../assets/scss/layout/_live.scss'
 import {
@@ -69,40 +71,34 @@ class Test extends Component {
             <section id="one">
                 <div className="inner">
 
+                    <div>
+                        <h1 className="size button special fit">
+                            Hacking <Clock deadline='January, 26, 2019, 12:00'/> {/* <ClockEnd deadline='January, 27, 2019, 13:00'/> */}
+                        </h1>
+                    </div>
+                    <br />
+                    
+               
 
-
-                    {/* <div className="row">
-                        <div className="2u">
-                        <a href="#" className="button">Default</a>
-                        </div>
-                        <div className="2u">
-                        <a href="#" className="button">Default</a>
-                        </div>
-                        <div className="2u">
-                        <a href="#" className="button">Default</a>
-                        </div>
-                        <div className="2u">
-                        <a href="#" className="button">Default</a>
-                        </div>
-                        <div className="2u">
-                        <a href="#" className="button">Default</a>
-                        </div>
-                    </div> */}
-
-                    <table>
+                    <table className="margin">
                         <th><a href="/slack" className="button special fit icon fa-slack">Slack</a></th>
                         <th><a href="/schedule" className="button special fit icon fa-calendar">Schedule</a></th>
                         <th><a href="/workshops" className="button special fit icon fa-laptop">Workshops</a></th>
                         <th><a href="/challenges" className="button special fit icon fa-tasks">Challenges</a></th>
                         <th><a href="/mentors" className="button special fit icon fa-users">Mentors</a></th>
-
                     </table>
+
                     <Accordion className="paddingmain">
                         <AccordionItem>
                             <AccordionItemTitle className="paddingtitle">
                             <p className="button special fit icon fa-link">Important Links</p>                            </AccordionItemTitle>
                             <AccordionItemBody className="paddingbody">
                                     <div className="box">
+
+                                    <div className="row boxtitles">
+
+                                        <div className="6u 12u(xsmall)">
+
                                         <h4>Communications</h4>
                                             <p>
                                                 Questions? Find us on <a href="/slack">Slack</a>.<br />
@@ -114,6 +110,10 @@ class Test extends Component {
                                                 Check out some of our <a href="/mentors">mentors' 1rofiles</a>!
                                             </p>
 
+                                        </div>
+                                        
+                                        <div className="6u 12u(xsmall)">
+
                                         <h4>Links</h4>
                                             <p>
                                             Final Submissions due Sunday @ 12pm - <a href="#">Click Here</a>!<br />
@@ -123,12 +123,17 @@ class Test extends Component {
                                             <p>
                                                 SSID: <code>DeltaHacks</code><br></br>
                                                 Password: <code>deltahacks2019</code>
-                                            </p>    
+                                            </p>  
+
+                                        </div> 
+                                        </div>   
                                     </div>  
                             </AccordionItemBody>
                         </AccordionItem>
                     </Accordion>
-            <br />
+            
+
+                   
 
 
                         {/* DAY ONE */}
@@ -138,7 +143,10 @@ class Test extends Component {
                         <p><a href="https://goo.gl/maps/dYT67hzPPX52">Thode Library</a> Lobby <br /> 9:30am - 11:00am</p>
                         <div className="timer">
                         <a href="#" className="button special small timer">
-                        <Clock deadline='January, 26, 2019, 09:30'/></a>
+                        <Clock deadline='January, 26, 2019, 09:30'/>
+                        {/* <ClockEnd deadline='January, 26, 2019, 11:00'/> */}
+                        </a>
+
                         </div>
                         </div>
                         </div>
@@ -149,18 +157,9 @@ class Test extends Component {
                         <p>JHE 376 & 264 <br /> 11:00am - 12:00pm</p>
                         <div className="timer">
                         <a href="#" className="button special small timer">
-                        <Clock deadline='January, 26, 2019, 11:00'/></a>
-                        </div>
-                        </div>
-                        </div>
-
-                        <div className="box">
-                        <div className="boxtitles">
-                        <h4>Hacking Begins</h4>
-                        <p><a href="https://goo.gl/maps/dYT67hzPPX52">Thode Library</a> 1st & 2nd Floor <br /> 12:00pm</p>
-                        <div className="timer">
-                        <a href="#" className="button special small timer">
-                        <Clock deadline='January, 26, 2019, 12:00'/></a>
+                        <Clock deadline='January, 26, 2019, 11:00'/>
+                        {/* <ClockEnd deadline='January, 26, 2019, 12:00'/> */}
+                        </a>
                         </div>
                         </div>
                         </div>
@@ -171,7 +170,9 @@ class Test extends Component {
                         <p><a href="https://goo.gl/maps/dYT67hzPPX52">Thode Library</a> MakerSpace <br /> 12:00pm - 1:30pm</p>
                         <div className="timer">
                         <a href="#" className="button special small timer">
-                        <Clock deadline='January, 26, 2019, 12:00'/></a>
+                        <Clock deadline='January, 26, 2019, 12:00'/>
+                        {/* <ClockEnd deadline='January, 26, 2019, 13:30'/> */}
+                        </a>
                         </div>
                         </div>
                         </div>
@@ -182,7 +183,9 @@ class Test extends Component {
                         <p><a href="https://goo.gl/maps/dYT67hzPPX52">Thode Library</a> 1st Floor <br /> 12:30pm - 2:00pm</p>
                         <div className="timer">
                         <a href="#" className="button special small timer">
-                        <Clock deadline='January, 26, 2019, 12:30'/></a>
+                        <Clock deadline='January, 26, 2019, 12:30'/>
+                        {/* <ClockEnd deadline='January, 26, 2019, 14:00'/> */}
+                        </a>
                         </div>
                         </div>
                         </div>
@@ -193,7 +196,9 @@ class Test extends Component {
                         <p><a href="https://goo.gl/maps/dYT67hzPPX52">Thode Library</a> MakerSpace & ABB B118 <br /> 1:00pm - 7:00pm</p>
                         <div className="timer">
                         <a href="#" className="button special small timer">
-                        <Clock deadline='January, 26, 2019, 13:00'/></a>
+                        <Clock deadline='January, 26, 2019, 13:00'/>
+                        {/* <ClockEnd deadline='January, 26, 2019, 19:00'/> */}
+                        </a>
                         </div>
                         </div>
                         </div>
@@ -204,7 +209,9 @@ class Test extends Component {
                         <p><a href="https://goo.gl/maps/dYT67hzPPX52">Thode Library</a> 1st Floor <br /> 7:00pm - 9:00pm</p>
                         <div className="timer">
                         <a href="#" className="button special small timer">
-                        <Clock deadline='January, 26, 2019, 19:00'/></a>
+                        <Clock deadline='January, 26, 2019, 19:00'/>
+                        {/* <ClockEnd deadline='January, 26, 2019, 21:00'/> */}
+                        </a>
                         </div>
                         </div>
                         </div>
@@ -215,14 +222,16 @@ class Test extends Component {
                         <p><a href="https://goo.gl/maps/dYT67hzPPX52">Thode Library</a> 2nd Floor <br /> 9:00pm - 11:00pm</p>
                         <div className="timer">
                         <a href="#" className="button special small timer">
-                        <Clock deadline='January, 26, 2019, 21:00'/></a>
+                        <Clock deadline='January, 26, 2019, 21:00'/>
+                        {/* <ClockEnd deadline='January, 26, 2019, 23:00'/> */}
+                        </a>
                         </div>
                         </div>
                         </div>
 
                         {/* DAY TWO */}
 
-                        <div className="box">
+                        {/* <div className="box">
                         <div className="boxtitles">
                         <h4>Midnight Snack</h4>
                         <p><a href="https://goo.gl/maps/dYT67hzPPX52">Thode Library</a> Lobby <br /> 12:00am - 1:00am</p>
@@ -290,17 +299,6 @@ class Test extends Component {
 
                         <div className="box">
                         <div className="boxtitles">
-                        <h4>Hacking Ends</h4>
-                        <p><a href="https://goo.gl/maps/dYT67hzPPX52">Thode Library</a> 1st & 2nd Floor <br /> 1:00pm</p>
-                        <div className="timer">
-                        <a href="#" className="button special small timer">
-                        <Clock deadline='January, 27, 2019, 13:00'/></a>
-                        </div>
-                        </div>
-                        </div>
-
-                        <div className="box">
-                        <div className="boxtitles">
                         <h4>Project Expo</h4>
                         <p><a href="https://goo.gl/maps/dYT67hzPPX52">Thode Library</a> 2nd Floor <br /> 1:30pm - 3:30pm</p>
                         <div className="timer">
@@ -330,7 +328,9 @@ class Test extends Component {
                         <Clock deadline='January, 27, 2019, 17:45'/></a>
                         </div>
                         </div>
-                        </div>
+                        </div> */}
+
+                        {/* DAY TWO */}
 
 
 

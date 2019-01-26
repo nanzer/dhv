@@ -95,7 +95,7 @@ class Team extends React.Component {
 
     <div>
         <Helmet>
-            <title>Team Members</title>
+            <title>Team :: DeltaHacks V</title>
             <meta name="description" content="Generic Page" />
         </Helmet>
 
@@ -152,7 +152,6 @@ class Team extends React.Component {
 
                     <br />
                     <p className="button small">Co-Directors</p>
-                    <br />
                 </div>
 
                 <div className="row">

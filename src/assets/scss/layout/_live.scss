@@ -7,8 +7,12 @@ div.timer {
 }
 
 p1 {
-   font-size: 0.75em; 
+   font-size: 1em; 
    line-height: 1.6;
+}
+
+h1.size {
+    font-size: 1.1em;
 }
 
 .paddingmain {
@@ -22,4 +26,8 @@ p1 {
 .paddingbody {
     animation: fadein 0.35s ease-in;
     padding: 0em;
+}
+
+table.margin{
+    margin: 0;
 }

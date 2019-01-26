@@ -37,7 +37,7 @@ class Clock extends Component {
      render() {
           return(
                <p1>
-                    Starts in {this.leading0(this.state.hours)}:{this.leading0(this.state.minutes)}:{this.leading0(this.state.seconds)}
+                    Ends in {this.leading0(this.state.hours)}:{this.leading0(this.state.minutes)}:{this.leading0(this.state.seconds)}
                </p1>
           );
      }

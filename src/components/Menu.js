@@ -8,6 +8,7 @@ const Menu = (props) => (
                 <li><Link onClick={props.onToggleMenu} to="/">Home</Link></li>
                 <li><Link onClick={props.onToggleMenu} to="#contact">Contact Us</Link></li>
                 <li><Link onClick={props.onToggleMenu} to="/#faq">FAQs</Link></li>
+                <li><Link onClick={props.onToggleMenu} to="/team">Our Team</Link></li>
                 <li><Link onClick={props.onToggleMenu} to="/sponsors">Sponsors</Link></li>
                 <li><Link onClick={props.onToggleMenu} to="/mentors">Mentors</Link></li>
                 <li><Link onClick={props.onToggleMenu} to="/trianglechallenges">&#9651; Challenges</Link></li>
@@ -16,7 +17,7 @@ const Menu = (props) => (
 
             </ul>
             <ul className="actions vertical">
-                <li><a href="/live" className="button special fit disabled">Live</a></li>
+                <li><a href="/live" className="button special fit">Live</a></li>
                 <li><a href="/schedule" className="button fit">Schedule</a></li>
 
             </ul>
