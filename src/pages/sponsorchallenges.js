@@ -115,7 +115,7 @@ const SponsorChallenges = (props) => (
                         <p>Target 5:  You are able to produce a histogram of the grain size.</p>
                     </AccordionItemBody>
                     <AccordionItemBody>
-                        <p>On the day of the challenge, you will be provided with over 300 images to practice on.</p>
+                        <p>Materials for the challenge:<code><a href="https://www.dropbox.com/sh/w9ao0zobloqwjvf/AAAcE0Rf_SvSic_KWxFrBCX6a?dl=0">Dropbox Link</a></code></p>
                     </AccordionItemBody>
                 </AccordionItem>
                 <AccordionItem>
@@ -123,10 +123,13 @@ const SponsorChallenges = (props) => (
                         <p>+ RBC - Made From Scratch</p>
                     </AccordionItemTitle>
                     <AccordionItemBody>
-                        <p>We are looking at the following areas for judging: Forget APIs and prepackaged products -- the core parts of the winning project here will be entirely built from scratch. Libraries and frameworks are allowed, but the part of the project that makes it awesome should be written or built by you. Essentially, students are welcome, even encouraged to use open source libraries, tools, frameworks but they cannot be the core or ‘special sauce’ of their solution.</p>    
-                    </AccordionItemBody>
-                    <AccordionItemBody>
-                        <p>For example, you can’t use the IMDB API for movie recommendations.  You can however, use Google geolocation API’s to help use maps to connect people’s phones to a bank’s branch, etc., floodzones, etc. – since you’re layering your own logic/analytics on top of some base info.  We do not want anyone reinventing the wheel, rather building an monster truck using one ;)</p>
+                        <p>Forget prepackaged products, the core parts of the winning project here will be fundamentally built from scratch. Libraries and frameworks are allowed and even encouraged, but the part of the project that makes it awesome should be written or built by you. <br /><br />
+
+                        Open source libraries, tools, and frameworks can surely be puzzle pieces, but they cannot be the core or ‘special sauce’ of the solution.<br /><br />
+                        For example, you can’t use the IMDB API for movie recommendations. You can however, use Google geolocation API’s to help use maps to connect people’s phones to a bank’s branch, floodzones, etc. – since you’re layering your own logic/analytics on top of some base datasets. <br /><br />
+
+                        We do not want anyone reinventing the wheel, rather helping ‘drive’ change using one!
+                        </p>    
                     </AccordionItemBody>
                 </AccordionItem>
                 <AccordionItem>
