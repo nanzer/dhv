@@ -80,7 +80,7 @@ class Mentor extends React.Component {
 
                             <tr>
                                 <td>5:00 PM - 5:30 PM</td>
-                                <td>RBC - <i>Use of Algo’s and Machine Learning</i></td>
+                                <td>RBC - <i>Made from Scratch Software: How to Set-up a Java Spring Boot Server in 5 min</i></td>
                                 <td>Thode MakerSpace</td>
                             </tr>
 
