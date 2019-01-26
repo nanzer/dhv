@@ -85,11 +85,11 @@ class Test extends Component {
                     </div> */}
 
                     <table>
-                        <th><a href="/slack" className="button special fit small">Slack</a></th>
-                        <th><a href="/schedule" className="button special fit small">Schedule</a></th>
-                        <th><a href="/workshops" className="button special fit small">Workshops</a></th>
-                        <th><a href="/challenges" className="button special fit small">Challenges</a></th>
-                        <th><a href="/mentors" className="button special fit small">Mentors</a></th>
+                        <th><a href="/slack" className="button special fit icon fa-slack">Slack</a></th>
+                        <th><a href="/schedule" className="button special fit icon fa-calendar">Schedule</a></th>
+                        <th><a href="/workshops" className="button special fit icon fa-laptop">Workshops</a></th>
+                        <th><a href="/challenges" className="button special fit icon fa-tasks">Challenges</a></th>
+                        <th><a href="/mentors" className="button special fit icon fa-users">Mentors</a></th>
 
                     </table>
 
@@ -151,27 +151,31 @@ class Test extends Component {
                             </div>  */}
 
                             <div className="box">
-                                <h3 className="boxtitles">Important Links</h3>
+                                <h3 className="boxtitles">Important Links</h3><br />
                                 <h4>Communications</h4>
-                                    <dl>
-                                    <dd>
-                                    <p1>
+                                    <p>
                                         Questions? Find us on <a href="/slack">Slack</a>.<br />
-                                        Message on the #help channel or ask @Obie!<br />
-                                    </p1>
-                                    </dd>
-                                    </dl>
+                                        Message on the #help channel or ask @Obie!
 
+
+                                    </p>
 
                                 <h4>Mentor</h4>
-                                    <p>Check out some of our <a href="/mentors">mentors' profiles</a>!</p>
+                                    <p>
+                                        Check out some of our <a href="/mentors">mentors' 1rofiles</a>!
+                                    </p>
+
                                 <h4>Links</h4>
+                                    <p>
+                                    Final Submissions due Sunday @ 12pm - <a href="#">Click Here</a>!<br />
+                                    Rent Hardware @ Thode 1st Floor: <a href="https://hardware.mlh.io">Hardware List</a>
+                                    </p>
                                 <h4>WiFi</h4>
                                     <p>
                                         SSID: <code>DeltaHacks</code><br></br>
                                         Password: <code>deltahacks2019</code>
-                                    </p>       
-                            </div> 
+                                    </p>    
+                            </div>  
 
                         </div>
                     </div>

@@ -50,7 +50,6 @@ import Mebby from '../assets/images/team/Mebby.jpg'
 import Luke from '../assets/images/team/Luke.jpg'
 import Manpreet from '../assets/images/team/Manpreet.jpg'
 import Biya from '../assets/images/team/Biya.jpg'
-
 import Mitchell from '../assets/images/team/Mitchell.jpg'
 
 
