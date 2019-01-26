@@ -98,7 +98,7 @@ class HomeIndex extends React.Component {
                                 <h3>Live</h3>
                                 <p>Live Updates to Events</p>
                             </header>
-                            <Link to="/live" className="link disabled primary"></Link>
+                            <Link to="/live" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${hackers})`}}>
                             <header className="major">
@@ -119,14 +119,14 @@ class HomeIndex extends React.Component {
                                 <h3>Mentors</h3>
                                 <p>Get some help</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/mentors" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${workshop})`}}>
                             <header className="major">
                                 <h3>Workshops</h3>
                                 <p>Learn new skills</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/workshops" className="link primary"></Link>
                         </article>
                     </section>
                     {/* <section id="two">
