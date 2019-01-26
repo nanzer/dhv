@@ -67,7 +67,11 @@ class Test extends Component {
             <div className="inner">
               <div>
                 <h1 className="size button special fit">
-                  Hacking <Clock startsIn="January, 26, 2019, 12:00" />{' '}
+                  Hacking{' '}
+                  <Clock
+                    startsIn="January, 26, 2019, 12:00"
+                    endsIn="January, 27, 2019, 13:00"
+                  />{' '}
                   {/* <ClockEnd startsIn='January, 27, 2019, 13:00'/> */}
                 </h1>
               </div>
@@ -171,7 +175,7 @@ class Test extends Component {
                     <a href="#" className="button special small timer">
                       <Clock
                         startsIn="January, 26, 2019, 09:30"
-                        endsIn="January, 26, 2019, 10:00"
+                        endsIn="January, 26, 2019, 11:00"
                       />
                       {/* <ClockEnd startsIn='January, 26, 2019, 11:00'/> */}
                     </a>
