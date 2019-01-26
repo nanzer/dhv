@@ -87,7 +87,11 @@ const BGvideoOptions = {
 };
 
 
-const Team = (props) => (
+class Team extends React.Component {
+
+    render() {
+        return (
+
 
     <div>
         <Helmet>
@@ -618,5 +622,7 @@ const Team = (props) => (
 
     </div>
 )
+}
+}
 
 export default Team

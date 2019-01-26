@@ -5,7 +5,12 @@ import YouTube from 'react-youtube';
 import Clock from './clock.js';
 import $ from 'jquery';
 import '../assets/scss/layout/_live.scss'
-
+import {
+    Accordion,
+    AccordionItem,
+    AccordionItemTitle,
+    AccordionItemBody,
+} from 'react-accessible-accordion';
 
 // import {TwitterTimelineEmbed} from 'react-twitter-embed';
 
@@ -92,17 +97,45 @@ class Test extends Component {
                         <th><a href="/mentors" className="button special fit icon fa-users">Mentors</a></th>
 
                     </table>
+                    <Accordion className="paddingmain">
+                        <AccordionItem>
+                            <AccordionItemTitle className="paddingtitle">
+                            <p className="button special fit icon fa-link">Important Links</p>                            </AccordionItemTitle>
+                            <AccordionItemBody className="paddingbody">
+                                    <div className="box">
+                                        <h4>Communications</h4>
+                                            <p>
+                                                Questions? Find us on <a href="/slack">Slack</a>.<br />
+                                                Message on the #help channel or ask @Obie!
+                                            </p>
 
-                    
+                                        <h4>Mentor</h4>
+                                            <p>
+                                                Check out some of our <a href="/mentors">mentors' 1rofiles</a>!
+                                            </p>
 
-                    <div className="row">
+                                        <h4>Links</h4>
+                                            <p>
+                                            Final Submissions due Sunday @ 12pm - <a href="#">Click Here</a>!<br />
+                                            Rent Hardware @ Thode 1st Floor: <a href="https://hardware.mlh.io">Hardware List</a>
+                                            </p>
+                                        <h4>WiFi</h4>
+                                            <p>
+                                                SSID: <code>DeltaHacks</code><br></br>
+                                                Password: <code>deltahacks2019</code>
+                                            </p>    
+                                    </div>  
+                            </AccordionItemBody>
+                        </AccordionItem>
+                    </Accordion>
+            <br />
 
-                        <div className="6u 12u$(small)">
 
+                        {/* DAY ONE */}
                         <div className="box">
                         <div className="boxtitles">
                         <h4>Registration and Breakfast</h4>
-                        <p>Thode 1st Floor ~ 9:30am - 11:00am</p>
+                        <p><a href="https://goo.gl/maps/dYT67hzPPX52">Thode Library</a> Lobby <br /> 9:30am - 11:00am</p>
                         <div className="timer">
                         <a href="#" className="button special small timer">
                         <Clock deadline='January, 26, 2019, 09:30'/></a>
@@ -110,11 +143,10 @@ class Test extends Component {
                         </div>
                         </div>
 
-
                         <div className="box">
                         <div className="boxtitles">
                         <h4>Opening Ceremony</h4>
-                        <p>JHE 376 ~ 11:00am - 12:00pm</p>
+                        <p>JHE 376 & 264 <br /> 11:00am - 12:00pm</p>
                         <div className="timer">
                         <a href="#" className="button special small timer">
                         <Clock deadline='January, 26, 2019, 11:00'/></a>
@@ -122,21 +154,185 @@ class Test extends Component {
                         </div>
                         </div>
 
-
-
                         <div className="box">
                         <div className="boxtitles">
                         <h4>Hacking Begins</h4>
-                        <p>Thode 1st Floor</p>
+                        <p><a href="https://goo.gl/maps/dYT67hzPPX52">Thode Library</a> 1st & 2nd Floor <br /> 12:00pm</p>
                         <div className="timer">
                         <a href="#" className="button special small timer">
                         <Clock deadline='January, 26, 2019, 12:00'/></a>
                         </div>
                         </div>
                         </div>
+
+                        <div className="box">
+                        <div className="boxtitles">
+                        <h4>Group Formation + Idea Generation</h4>
+                        <p><a href="https://goo.gl/maps/dYT67hzPPX52">Thode Library</a> MakerSpace <br /> 12:00pm - 1:30pm</p>
+                        <div className="timer">
+                        <a href="#" className="button special small timer">
+                        <Clock deadline='January, 26, 2019, 12:00'/></a>
+                        </div>
+                        </div>
                         </div>
 
-                        <div className="6u 12u$(small)">
+                        <div className="box">
+                        <div className="boxtitles">
+                        <h4> Lunch</h4>
+                        <p><a href="https://goo.gl/maps/dYT67hzPPX52">Thode Library</a> 1st Floor <br /> 12:30pm - 2:00pm</p>
+                        <div className="timer">
+                        <a href="#" className="button special small timer">
+                        <Clock deadline='January, 26, 2019, 12:30'/></a>
+                        </div>
+                        </div>
+                        </div>
+
+                        <div className="box">
+                        <div className="boxtitles">
+                        <h4>Series of Workshops</h4>
+                        <p><a href="https://goo.gl/maps/dYT67hzPPX52">Thode Library</a> MakerSpace & ABB B118 <br /> 1:00pm - 7:00pm</p>
+                        <div className="timer">
+                        <a href="#" className="button special small timer">
+                        <Clock deadline='January, 26, 2019, 13:00'/></a>
+                        </div>
+                        </div>
+                        </div>
+
+                        <div className="box">
+                        <div className="boxtitles">
+                        <h4>Dinner</h4>
+                        <p><a href="https://goo.gl/maps/dYT67hzPPX52">Thode Library</a> 1st Floor <br /> 7:00pm - 9:00pm</p>
+                        <div className="timer">
+                        <a href="#" className="button special small timer">
+                        <Clock deadline='January, 26, 2019, 19:00'/></a>
+                        </div>
+                        </div>
+                        </div>
+
+                        <div className="box">
+                        <div className="boxtitles">
+                        <h4>MLH Activity</h4>
+                        <p><a href="https://goo.gl/maps/dYT67hzPPX52">Thode Library</a> 2nd Floor <br /> 9:00pm - 11:00pm</p>
+                        <div className="timer">
+                        <a href="#" className="button special small timer">
+                        <Clock deadline='January, 26, 2019, 21:00'/></a>
+                        </div>
+                        </div>
+                        </div>
+
+                        {/* DAY TWO */}
+
+                        <div className="box">
+                        <div className="boxtitles">
+                        <h4>Midnight Snack</h4>
+                        <p><a href="https://goo.gl/maps/dYT67hzPPX52">Thode Library</a> Lobby <br /> 12:00am - 1:00am</p>
+                        <div className="timer">
+                        <a href="#" className="button special small timer">
+                        <Clock deadline='January, 27, 2019, 00:00'/></a>
+                        </div>
+                        </div>
+                        </div>
+
+                        <div className="box">
+                        <div className="boxtitles">
+                        <h4>Coffee Pong</h4>
+                        <p><a href="https://goo.gl/maps/dYT67hzPPX52">Thode Library</a> Lobby <br /> 1:00am - 1:30am</p>
+                        <div className="timer">
+                        <a href="#" className="button special small timer">
+                        <Clock deadline='January, 27, 2019, 1:00'/></a>
+                        </div>
+                        </div>
+                        </div>
+
+                        <div className="box">
+                        <div className="boxtitles">
+                        <h4>Breakfast</h4>
+                        <p><a href="https://goo.gl/maps/dYT67hzPPX52">Thode Library</a> Lobby <br /> 8:00am - 10:00am</p>
+                        <div className="timer">
+                        <a href="#" className="button special small timer">
+                        <Clock deadline='January, 27, 2019, 8:00'/></a>
+                        </div>
+                        </div>
+                        </div>
+
+                        <div className="box">
+                        <div className="boxtitles">
+                        <h4>Workshop: How to Demo</h4>
+                        <p><a href="https://goo.gl/maps/dYT67hzPPX52">Thode Library</a> Lobby <br /> 10:00am - 11:00am</p> LOCATION????
+                        <div className="timer">
+                        <a href="#" className="button special small timer">
+                        <Clock deadline='January, 27, 2019, 10:00'/></a>
+                        </div>
+                        </div>
+                        </div>
+
+                        <div className="box">
+                        <div className="boxtitles">
+                        <h4>Lunch</h4>
+                        <p><a href="https://goo.gl/maps/dYT67hzPPX52">Thode Library</a> Lobby <br /> 11:30am - 1:30pm</p>
+                        <div className="timer">
+                        <a href="#" className="button special small timer">
+                        <Clock deadline='January, 27, 2019, 11:30'/></a>
+                        </div>
+                        </div>
+                        </div>
+
+                        <div className="box">
+                        <div className="boxtitles">
+                        <h4>Submissions Due</h4>
+                        <p><a href="">DevPost</a> Lobby <br /> 12:00pm</p>
+                        <div className="timer">
+                        <a href="#" className="button special small timer">
+                        <Clock deadline='January, 27, 2019, 12:00'/></a>
+                        </div>
+                        </div>
+                        </div>
+
+                        <div className="box">
+                        <div className="boxtitles">
+                        <h4>Hacking Ends</h4>
+                        <p><a href="https://goo.gl/maps/dYT67hzPPX52">Thode Library</a> 1st & 2nd Floor <br /> 1:00pm</p>
+                        <div className="timer">
+                        <a href="#" className="button special small timer">
+                        <Clock deadline='January, 27, 2019, 13:00'/></a>
+                        </div>
+                        </div>
+                        </div>
+
+                        <div className="box">
+                        <div className="boxtitles">
+                        <h4>Project Expo</h4>
+                        <p><a href="https://goo.gl/maps/dYT67hzPPX52">Thode Library</a> 2nd Floor <br /> 1:30pm - 3:30pm</p>
+                        <div className="timer">
+                        <a href="#" className="button special small timer">
+                        <Clock deadline='January, 27, 2019, 13:30'/></a>
+                        </div>
+                        </div>
+                        </div>
+
+                        <div className="box">
+                        <div className="boxtitles">
+                        <h4>Closing Ceremony, Project Demos, & Prizes</h4>
+                        <p>JHE 376 & 264 <br /> 3:30am - 5:30pm</p>
+                        <div className="timer">
+                        <a href="#" className="button special small timer">
+                        <Clock deadline='January, 27, 2019, 15:30'/></a>
+                        </div>
+                        </div>
+                        </div>
+
+                        <div className="box">
+                        <div className="boxtitles">
+                        <h4>Busses Depart</h4>
+                        <p>5:45pm</p>
+                        <div className="timer">
+                        <a href="#" className="button special small timer">
+                        <Clock deadline='January, 27, 2019, 17:45'/></a>
+                        </div>
+                        </div>
+                        </div>
+
+
 
                             {/* <div className="box">
                                 <h4 className="boxtitles">Twitter</h4>
@@ -150,35 +346,6 @@ class Test extends Component {
                                     />
                             </div>  */}
 
-                            <div className="box">
-                                <h3 className="boxtitles">Important Links</h3><br />
-                                <h4>Communications</h4>
-                                    <p>
-                                        Questions? Find us on <a href="/slack">Slack</a>.<br />
-                                        Message on the #help channel or ask @Obie!
-
-
-                                    </p>
-
-                                <h4>Mentor</h4>
-                                    <p>
-                                        Check out some of our <a href="/mentors">mentors' 1rofiles</a>!
-                                    </p>
-
-                                <h4>Links</h4>
-                                    <p>
-                                    Final Submissions due Sunday @ 12pm - <a href="#">Click Here</a>!<br />
-                                    Rent Hardware @ Thode 1st Floor: <a href="https://hardware.mlh.io">Hardware List</a>
-                                    </p>
-                                <h4>WiFi</h4>
-                                    <p>
-                                        SSID: <code>DeltaHacks</code><br></br>
-                                        Password: <code>deltahacks2019</code>
-                                    </p>    
-                            </div>  
-
-                        </div>
-                    </div>
 
                 </div>        
             </section>

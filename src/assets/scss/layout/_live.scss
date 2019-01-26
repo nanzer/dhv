@@ -10,3 +10,16 @@ p1 {
    font-size: 0.75em; 
    line-height: 1.6;
 }
+
+.paddingmain {
+    padding: 0em;
+}
+.paddingtitle {
+    padding: 0em;
+    margin-bottom: 2em;
+}
+
+.paddingbody {
+    animation: fadein 0.35s ease-in;
+    padding: 0em;
+}
