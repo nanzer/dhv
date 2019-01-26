@@ -160,9 +160,11 @@ class Test extends Component {
                   </AccordionItemBody>
                 </AccordionItem>
               </Accordion>
+          
+                                
 
               {/* DAY ONE */}
-              <div className="box">
+              <div className="box sizing">
                 <div className="boxtitles">
                   <h4>Registration and Breakfast</h4>
                   <p>
@@ -181,7 +183,7 @@ class Test extends Component {
                 </div>
               </div>
 
-              <div className="box">
+              <div className="box sizing">
                 <div className="boxtitles">
                   <h4>Opening Ceremony</h4>
                   <p>
@@ -199,7 +201,7 @@ class Test extends Component {
                 </div>
               </div>
 
-              <div className="box">
+              <div className="box sizing">
                 <div className="boxtitles">
                   <h4>Group Formation + Idea Generation</h4>
                   <p>
@@ -218,7 +220,7 @@ class Test extends Component {
                 </div>
               </div>
 
-              <div className="box">
+              <div className="box sizing">
                 <div className="boxtitles">
                   <h4> Lunch</h4>
                   <p>
@@ -237,7 +239,7 @@ class Test extends Component {
                 </div>
               </div>
 
-              <div className="box">
+              <div className="box sizing">
                 <div className="boxtitles">
                   <h4>Series of Workshops</h4>
                   <p>
@@ -256,7 +258,7 @@ class Test extends Component {
                 </div>
               </div>
 
-              <div className="box">
+              <div className="box sizing">
                 <div className="boxtitles">
                   <h4>Dinner</h4>
                   <p>
@@ -275,7 +277,7 @@ class Test extends Component {
                 </div>
               </div>
 
-              <div className="box">
+              <div className="box sizing">
                 <div className="boxtitles">
                   <h4>MLH Activity</h4>
                   <p>
@@ -293,10 +295,9 @@ class Test extends Component {
                   </div>
                 </div>
               </div>
-
               {/* DAY TWO */}
 
-              {/* <div className="box">
+              {/* <div className="box sizing">
                         <div className="boxtitles">
                         <h4>Midnight Snack</h4>
                         <p><a href="https://goo.gl/maps/dYT67hzPPX52">Thode Library</a> Lobby <br /> 12:00am - 1:00am</p>
@@ -307,7 +308,7 @@ class Test extends Component {
                         </div>
                         </div>
 
-                        <div className="box">
+                        <div className="box sizing">
                         <div className="boxtitles">
                         <h4>Coffee Pong</h4>
                         <p><a href="https://goo.gl/maps/dYT67hzPPX52">Thode Library</a> Lobby <br /> 1:00am - 1:30am</p>
@@ -318,18 +319,18 @@ class Test extends Component {
                         </div>
                         </div>
 
-                        <div className="box">
+                        <div className="box sizing">
                         <div className="boxtitles">
                         <h4>Breakfast</h4>
-                        <p><a href="https://goo.gl/maps/dYT67hzPPX52">Thode Library</a> Lobby <br /> 8:00am - 10:00am</p>
+                        <p><a href="https://goo.gl/maps/dYT67hzPPX52">Thode Library</a> Lobby <br /> 8:30am - 10:00am</p>
                         <div className="timer">
                         <a href="#" className="button special small timer">
-                        <Clock startsIn='January, 27, 2019, 8:00'/></a>
+                        <Clock startsIn='January, 27, 2019, 8:30'/></a>
                         </div>
                         </div>
                         </div>
 
-                        <div className="box">
+                        <div className="box sizing">
                         <div className="boxtitles">
                         <h4>Workshop: How to Demo</h4>
                         <p><a href="https://goo.gl/maps/dYT67hzPPX52">Thode Library</a> Lobby <br /> 10:00am - 11:00am</p> LOCATION????
@@ -340,7 +341,7 @@ class Test extends Component {
                         </div>
                         </div>
 
-                        <div className="box">
+                        <div className="box sizing">
                         <div className="boxtitles">
                         <h4>Lunch</h4>
                         <p><a href="https://goo.gl/maps/dYT67hzPPX52">Thode Library</a> Lobby <br /> 11:30am - 1:30pm</p>
@@ -351,7 +352,7 @@ class Test extends Component {
                         </div>
                         </div>
 
-                        <div className="box">
+                        <div className="box sizing">
                         <div className="boxtitles">
                         <h4>Submissions Due</h4>
                         <p><a href="">DevPost</a> Lobby <br /> 12:00pm</p>
@@ -362,7 +363,7 @@ class Test extends Component {
                         </div>
                         </div>
 
-                        <div className="box">
+                        <div className="box sizing">
                         <div className="boxtitles">
                         <h4>Project Expo</h4>
                         <p><a href="https://goo.gl/maps/dYT67hzPPX52">Thode Library</a> 2nd Floor <br /> 1:30pm - 3:30pm</p>
@@ -373,7 +374,7 @@ class Test extends Component {
                         </div>
                         </div>
 
-                        <div className="box">
+                        <div className="box sizing">
                         <div className="boxtitles">
                         <h4>Closing Ceremony, Project Demos, & Prizes</h4>
                         <p>JHE 376 & 264 <br /> 3:30am - 5:30pm</p>
@@ -384,7 +385,7 @@ class Test extends Component {
                         </div>
                         </div>
 
-                        <div className="box">
+                        <div className="box sizing">
                         <div className="boxtitles">
                         <h4>Busses Depart</h4>
                         <p>5:45pm</p>

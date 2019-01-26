@@ -104,7 +104,7 @@ class Schedule extends React.Component {
                                 </tr>
 
                                 <tr>
-                                    <td>8:00 AM - 10:00 AM</td>
+                                    <td>8:30 AM - 10:00 AM</td>
                                     <td>Breakfast</td>
                                     <td>Thode Library <i>Lobby</i></td>
                                 </tr>
