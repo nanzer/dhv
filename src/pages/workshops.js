@@ -79,24 +79,24 @@ class Mentor extends React.Component {
                             </tr>
 
                             <tr>
-                                <td>6:30 PM - 7:30 PM</td>
+                                <td>6:00 PM - 7:00 PM</td>
                                 <td>Prasann Pandya - <i>Deploying Machine Learning Models on the Web</i></td>
                                 <td>Thode MakerSpace</td>
                             </tr>
 
                             {/* Need details for below */}
 
-                            {/* <tr>
+                            <tr>
                                 <td>5:00 PM - 5:30 PM</td>
-                                <td>RBC - <i>???</i></td>
+                                <td>RBC - <i>Use of Algo’s and Machine Learning</i></td>
                                 <td>Thode MakerSpace</td>
-                            </tr> */}
+                            </tr>
 
-                            {/* <tr>
-                                <td>8:00 PM - 9:00 PM</td>
+                            <tr>
+                                <td>6:30 PM - 7:30 PM</td>
                                 <td>NodeJS + Azure?</td>
                                 <td>ABB B118</td>
-                            </tr> */}
+                            </tr>
 
                             {/* <tr>
                                 <td>9:00 PM - 10:00 PM</td>
@@ -129,23 +129,25 @@ class Mentor extends React.Component {
                     </AccordionItemBody>
                 </AccordionItem>
 
-                {/* <AccordionItem>
+                <AccordionItem>
                     <AccordionItemTitle>
                         <p>+ Introduction to Challenge <i> by Materials Engineering</i></p>
                     </AccordionItemTitle>
                     <AccordionItemBody>
-                        <p>???</p>
+                        <p>We will be introducing our challenge. <br />
+                        <code><a href="/sponsorchallenges">Sponsor Challenges</a></code></p>
                     </AccordionItemBody>
-                </AccordionItem> */}
+                </AccordionItem>
 
-                {/* <AccordionItem>
+                <AccordionItem>
                     <AccordionItemTitle>
                         <p>+ Introduction to Challenge <i> by Innovation Factory</i></p>
                     </AccordionItemTitle>
                     <AccordionItemBody>
-                        <p>???</p>
+                        <p>We will be introducing our challenge. <br />
+                        <code><a href="/sponsorchallenges">Sponsor Challenges</a></code></p>
                     </AccordionItemBody>
-                </AccordionItem> */}
+                </AccordionItem>
 
                 <AccordionItem>
                     <AccordionItemTitle>
@@ -165,14 +167,15 @@ class Mentor extends React.Component {
                     </AccordionItemBody>
                 </AccordionItem>
 
-                {/* <AccordionItem>
+                <AccordionItem>
                     <AccordionItemTitle>
-                        <p>+ ???<i> by RBC</i></p>
+                        <p>+ Use of Algo’s and Machine Learning<i> by RBC</i></p>
                     </AccordionItemTitle>
                     <AccordionItemBody>
-                        <p>???</p>
+                        <p>Hosted by Marat Khandros, Director of Development, Global Technology Infrastructure <br />
+                        For our workshop we will show how a heavily used production app started as a simple java/springboot server and grew to encompass many points within GTI.  We will set up this base framework which some of the students might use for their projects.</p>
                     </AccordionItemBody>
-                </AccordionItem> */}
+                </AccordionItem>
 
                 <AccordionItem>
                     <AccordionItemTitle>
@@ -183,9 +186,9 @@ class Mentor extends React.Component {
                     </AccordionItemBody>
                 </AccordionItem>
 
-                {/* <AccordionItem>
+                <AccordionItem>
                     <AccordionItemTitle>
-                        <p>+ NodeJS<i> by ???</i></p>
+                        <p>+ NodeJS & Azure<i> by Thomas Dykstra</i></p>
                     </AccordionItemTitle>
                     <AccordionItemBody>
                         <p>Be sure to attend this workshop. We will start from the basics. No. Seriously. We are going to start with guiding you on how to download Visual Studio Code and take it from there. The Javascript web development is THE tool you need to get your hack to working! <br /> <br />
@@ -195,7 +198,7 @@ class Mentor extends React.Component {
                         P.S. Node.js and Express is sure to give you the foothold you need to land you an interview for your co-ops or future jobs.
                         </p>
                     </AccordionItemBody>
-                </AccordionItem> */}
+                </AccordionItem>
 
             </Accordion>
         </div>
