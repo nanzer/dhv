@@ -39,8 +39,17 @@ import Tim from '../assets/images/mentors/Tim Mitra.jpg'
 import Jillian from '../assets/images/mentors/Jillian Rivard.jpg'
 import LJA from '../assets/images/mentors/LJA Bolongaita.jpg'
 import Raj from '../assets/images/mentors/Raj Kumar.jpg'
+import Rachel from '../assets/images/mentors/Rachel Cheng.jpg'
+import Umar from '../assets/images/mentors/Umar Azhar.jpg'
+import Patrick from '../assets/images/mentors/Patrick Duncan.jpg'
+import Yi from '../assets/images/mentors/Yi Feng.jpg'
+import David from '../assets/images/mentors/David Rossouw.jpg'
+import Mike from '../assets/images/mentors/Mike Chatzidakis.jpg'
+import Terry from '../assets/images/mentors/Terry Shen.jpg'
+import Zhenhao from '../assets/images/mentors/Zhenhao Li.jpg'
+import Kamil from '../assets/images/mentors/Kamil Awid.jpg'
 
-//import mentors from '../assets/images/mentors'
+//import mentors from '../assets/images/mentors/'
 
 class Mentors extends React.Component {
     handleSubmit(event){
@@ -125,6 +134,15 @@ class Mentors extends React.Component {
                     <p><span className="image left"><img src={Jillian} alt="" /></span><h3><br/>Jillian Rivard</h3><code>Chatbot Design (DialogFlow, IBM Watson)</code></p>
                     <p><span className="image left"><img src={LJA} alt="" /></span><h3><br/>LJA Bolongaita</h3><code>Product design, UI/UX</code></p>
                     <p><span className="image left"><img src={Raj} alt="" /></span><h3><br/>Raj Kumar</h3><code>Java</code></p>
+                    <p><span className="image left"><img src={Rachel} alt="" /></span><h3><br/>Rachel Cheng</h3><code>UI/UX Design, Product Design</code></p>
+                    <p><span className="image left"><img src={Umar} alt="" /></span><h3><br/>Umar Azhar</h3><code>Software Development</code></p>
+                    <p><span className="image left"><img src={Patrick} alt="" /></span><h3><br/>Patrick Duncan</h3><code>React, Python, JavaScript, Ruby, Appium, Selenium, Docker, Git, CI/CD, TravisCI, Unity, AWS, Firebase, CSS, HTML, ES6</code></p>
+                    <p><span className="image left"><img src={Yi} alt="" /></span><h3><br/>Yi Feng</h3><code>C++</code></p>
+                    <p><span className="image left"><img src={David} alt="" /></span><h3><br/>David Rossouw</h3><code>Data Science</code></p>
+                    <p><span className="image left"><img src={Mike} alt="" /></span><h3><br/>Mike Chatzidakis</h3><code>ML, MSE</code></p>
+                    <p><span className="image left"><img src={Terry} alt="" /></span><h3><br/>Terry Shen</h3><code>Mechanical Design</code></p>
+                    <p><span className="image left"><img src={Zhenhao} alt="" /></span><h3><br/>Zhenhao Li</h3><code>Image Processing, Machine Learning</code></p>
+                    <p><span className="image left"><img src={Kamil} alt="" /></span><h3><br/>Kamil Awid</h3><code>Java, Kotlin, Machine Learning, Cloud</code></p>
                     {/* <p><span className="image left"><img src={mentor} alt="" /></span><h3><br/></h3><code></code></p> */}
                 </div>
             </section>
