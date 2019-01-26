@@ -8,6 +8,7 @@ import {
     AccordionItemBody,
 } from 'react-accessible-accordion';
 import YouTube from 'react-youtube'
+import '../assets/scss/layout/_extra.scss'
 
 
 const BGvideoOptions = {
@@ -58,7 +59,7 @@ const Challenges = (props) => (
         </Helmet>
 
 
-        <div id="main" className="gradient3">
+        <div id="main" className="chalbg">
             <Accordion>
                 <h1>&#9651; Triangle Challenges</h1>
                 <div className="box">
@@ -196,6 +197,9 @@ const Challenges = (props) => (
                     </AccordionItemBody>
                 </AccordionItem> */}
             </Accordion>
+            <br />
+            <br />
+            <br />
         </div>
 
     </div>

@@ -7,6 +7,7 @@ import {
     AccordionItemTitle,
     AccordionItemBody,
 } from 'react-accessible-accordion';
+import '../assets/scss/layout/_extra.scss'
 import YouTube from 'react-youtube'
 
 
@@ -58,7 +59,7 @@ const SponsorChallenges = (props) => (
         </Helmet>
 
 
-        <div id="main" className="gradient3">
+        <div id="main" className="sponbg">
             <Accordion>
                 <h1>Sponsor Challenges</h1>
                 <div className="box">
@@ -176,7 +177,11 @@ const SponsorChallenges = (props) => (
                     </AccordionItemBody>
                 </AccordionItem>
             </Accordion>
+            <br />
+            <br />
+            <br />
         </div>
+       
 
     </div>
 )
