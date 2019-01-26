@@ -3,7 +3,9 @@ import Helmet from 'react-helmet'
 import '../assets/scss/layout/_team.scss'
 import YouTube from 'react-youtube'
 
+
 import React, { Component } from "react"
+
 
 // Headshots 
 
