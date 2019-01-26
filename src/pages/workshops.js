@@ -95,13 +95,13 @@ class Mentor extends React.Component {
 
                             <tr>
                                 <td>6:30 PM - 7:30 PM</td>
-                                <td>Thomas Dykstra - NodeJS + Azure</td>
+                                <td>Thomas Dykstra - <i>NodeJS + Azure</i></td>
                                 <td>ABB B118</td>
                             </tr>
 
                             <tr>
                                 <td>8:30 PM - 9:30 PM</td>
-                                <td>Thomas Dykstra - Amazon Alexa</td>
+                                <td>Thomas Dykstra - <i>Amazon Alexa</i></td>
                                 <td>ABB B118</td>
                             </tr>
 
