@@ -79,6 +79,12 @@ class Mentor extends React.Component {
                             </tr>
 
                             <tr>
+                                <td>5:00 PM - 5:30 PM</td>
+                                <td>RBC - <i>Use of Algo’s and Machine Learning</i></td>
+                                <td>Thode MakerSpace</td>
+                            </tr>
+
+                            <tr>
                                 <td>6:00 PM - 7:00 PM</td>
                                 <td>Prasann Pandya - <i>Deploying Machine Learning Models on the Web</i></td>
                                 <td>Thode MakerSpace</td>
@@ -86,23 +92,18 @@ class Mentor extends React.Component {
 
                             {/* Need details for below */}
 
-                            <tr>
-                                <td>5:00 PM - 5:30 PM</td>
-                                <td>RBC - <i>Use of Algo’s and Machine Learning</i></td>
-                                <td>Thode MakerSpace</td>
-                            </tr>
 
                             <tr>
                                 <td>6:30 PM - 7:30 PM</td>
-                                <td>NodeJS + Azure?</td>
+                                <td>Thomas Dykstra - NodeJS + Azure</td>
                                 <td>ABB B118</td>
                             </tr>
 
-                            {/* <tr>
-                                <td>9:00 PM - 10:00 PM</td>
-                                <td>Amazon Alexa</td>
+                            <tr>
+                                <td>8:30 PM - 9:30 PM</td>
+                                <td>Thomas Dykstra - Amazon Alexa</td>
                                 <td>ABB B118</td>
-                            </tr> */}
+                            </tr>
 
                         </tbody>
                     </table>
@@ -196,6 +197,17 @@ class Mentor extends React.Component {
                         BONUS: we will be guiding each of you so that you can have a final product to take with you at the end of the session! <br /> <br />
 
                         P.S. Node.js and Express is sure to give you the foothold you need to land you an interview for your co-ops or future jobs.
+                        </p>
+                    </AccordionItemBody>
+                </AccordionItem>
+
+
+                <AccordionItem>
+                    <AccordionItemTitle>
+                        <p>+ Hacking with Amazon Alexa<i> by Thomas Dykstra</i></p>
+                    </AccordionItemTitle>
+                    <AccordionItemBody>
+                        <p>During this workshop you’ll learn the basics of how to build skills for Amazon Alexa to run on Alexa devices like the Amazon Tap or Echo. It covers setting up Alexa Skills Kit, developing your first skill, deploying your skill to AWS Lambda, and submitting your skill for publication.
                         </p>
                     </AccordionItemBody>
                 </AccordionItem>
