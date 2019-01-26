@@ -3,8 +3,6 @@ import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import YouTube from 'react-youtube'
 import Clock from './clock.js'
-import ClockEnd from './clock-end.js'
-
 import $ from 'jquery'
 import '../assets/scss/layout/_live.scss'
 import {
@@ -72,7 +70,7 @@ class Test extends Component {
                     startsIn="January, 26, 2019, 12:00"
                     endsIn="January, 27, 2019, 13:00"
                   />{' '}
-                  {/* <ClockEnd startsIn='January, 27, 2019, 13:00'/> */}
+                  
                 </h1>
               </div>
               <br />
@@ -177,7 +175,7 @@ class Test extends Component {
                         startsIn="January, 26, 2019, 09:30"
                         endsIn="January, 26, 2019, 11:00"
                       />
-                      {/* <ClockEnd startsIn='January, 26, 2019, 11:00'/> */}
+                      
                     </a>
                   </div>
                 </div>
@@ -195,7 +193,7 @@ class Test extends Component {
                         startsIn="January, 26, 2019, 11:00"
                         endsIn="January, 26, 2019, 12:00"
                       />
-                      {/* <ClockEnd startsIn='January, 26, 2019, 12:00'/> */}
+                      
                     </a>
                   </div>
                 </div>
@@ -214,7 +212,7 @@ class Test extends Component {
                         startsIn="January, 26, 2019, 12:00"
                         endsIn="January, 26, 2019, 13:30"
                       />
-                      {/* <ClockEnd startsIn='January, 26, 2019, 13:30'/> */}
+                      
                     </a>
                   </div>
                 </div>
@@ -233,7 +231,7 @@ class Test extends Component {
                         startsIn="January, 26, 2019, 12:30"
                         endsIn="January, 26, 2019, 14:00"
                       />
-                      {/* <ClockEnd startsIn='January, 26, 2019, 14:00'/> */}
+                      
                     </a>
                   </div>
                 </div>
@@ -252,7 +250,7 @@ class Test extends Component {
                         startsIn="January, 26, 2019, 13:00"
                         endsIn="January, 26, 2019, 19:00"
                       />
-                      {/* <ClockEnd startsIn='January, 26, 2019, 19:00'/> */}
+                      
                     </a>
                   </div>
                 </div>
@@ -271,7 +269,7 @@ class Test extends Component {
                         startsIn="January, 26, 2019, 19:00"
                         endsIn="January, 26, 2019, 21:00"
                       />
-                      {/* <ClockEnd startsIn='January, 26, 2019, 21:00'/> */}
+                      
                     </a>
                   </div>
                 </div>
@@ -290,7 +288,7 @@ class Test extends Component {
                         startsIn="January, 26, 2019, 21:00"
                         endsIn="January, 26, 2019, 23:00"
                       />
-                      {/* <ClockEnd startsIn='January, 26, 2019, 23:00'/> */}
+                      
                     </a>
                   </div>
                 </div>

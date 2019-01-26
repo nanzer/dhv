@@ -63,13 +63,9 @@ class Clock extends Component {
         }}
       >
         {this.state.switch
-          ? `Ends in ${this.leading0(this.state.hours)}:
-        ${this.leading0(this.state.minutes)}:${this.leading0(
-              this.state.seconds
+          ? `Ends in ${this.leading0(this.state.hours)}:${this.leading0(this.state.minutes)}:${this.leading0(this.state.seconds
             )}`
-          : `Starts in ${this.leading0(this.state.hours)}:
-        ${this.leading0(this.state.minutes)}:${this.leading0(
-              this.state.seconds
+          : `Starts in ${this.leading0(this.state.hours)}:${this.leading0(this.state.minutes)}:${this.leading0(this.state.seconds
             )}`}
       </p1>
     )
