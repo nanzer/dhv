@@ -144,9 +144,14 @@ class Mentors extends React.Component {
                     <p><span className="image left"><img src={Zhenhao} alt="" /></span><h3><br/>Zhenhao Li</h3><code>Image Processing, Machine Learning</code></p>
                     <p><span className="image left"><img src={Kamil} alt="" /></span><h3><br/>Kamil Awid</h3><code>Java, Kotlin, Machine Learning, Cloud</code></p>
                     {/* <p><span className="image left"><img src={mentor} alt="" /></span><h3><br/></h3><code></code></p> */}
+                    <br />
+                    <br />
                 </div>
+         
+
             </section>
 
+           
 
         </div>
     </div>

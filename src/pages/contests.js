@@ -60,7 +60,14 @@ class Mentors extends React.Component {
             <meta name="description" content="Sign up to be a mentor here!" />
         </Helmet>
         
-        <div id="main" className="gradient3">
+        <div id="main" className="alt gradient3">
+            <section id="one">
+                <div className="inner">
+                
+                <header className="major">
+                        <h2>DeltaHacks V :: DEL-LITTY-HACKS CHALLENGES</h2>
+                </header>
+        <div>
 
             {/* <section id="why" className="spotlights">
                 <section>
@@ -87,8 +94,7 @@ class Mentors extends React.Component {
             </section> */}
 
             <section id="description">
-                <div className="box">
-                <h2>DeltaHacks V :: DEL-LITTY-HACKS CHALLENGES</h2>
+                <div>
                         <p> Hey hackers! We know you love hacking, but we also know sitting on your asses for hours at a time debugging can be mind-numbing. So we’ve come up with some challenges to get you up and about, discovering the campus and hopefully meeting more people! 
                        </p>
                       <p> We’ll have you guys taking pictures of things around McMaster (don’t worry, we won’t make you walk out in the cold too much!) and either sending them to us through Snapchat or posting them on your Instagram with a hashtag.
@@ -100,24 +106,18 @@ class Mentors extends React.Component {
 
                    <p><b>DEADLINE:</b> The deadline for posting will be Sunday Jan 27th at 12pm. </p>
 
-                       <h2>RULES:</h2>
+                       <h3>RULES:</h3>
                         <ol>
                             <li>Must be following us on Instagram (or Snapchat if that’s where you’ll be taking your photos)</li>
                             <li>All photos must be either
                                 <ul> 
-                                <li>Posted on your Instagram story, with @deltahacks tagged </li>
-                                        <ul>
-                                        <li>Make sure your profile is public! </li>
-                                        <img src={Insta}/>
-                                        </ul>
+                                <li>Posted on your Instagram story, with @deltahacks tagged & make sure your profile is public! </li>
+                                 <img src={Insta}/>
                                         <p> OR </p>
-                                <li>Posted on your Snapchat story, with @deltahacks tagged</li>
-                                <ul>
-                                <li>
-                                Make sure you add us!
+                                <li>Posted on your Snapchat story, with @deltahacks tagged & make sure you add us!
                                 </li>
                                 <img src={Snap}/>
-                                </ul>
+                                
                                 </ul> 
 
                             </li>
@@ -128,7 +128,7 @@ class Mentors extends React.Component {
 
                         </ol>
                 
-                        <h1>Scavenger Hunt</h1>
+                        <h2>Scavenger Hunt</h2>
                         <p><b> Remember to tag @deltahacks in every post!</b></p>
                         <ol>
                             <li>Take a picture with your nametag and post it on your story.
@@ -137,8 +137,10 @@ class Mentors extends React.Component {
 </li>
                             <li>Attend a workshop, take a picture and story it!</li>
                             <li>Take a picture of you doing the cup stacking competition and story it!</li>
-                            <li>Take a picture with one of the organizers (white DH shirt, black DH jacket) and story it with their name!</li>
-                                <ul> <li> Tell them how well they’re doing and give them some feedback about the event!</li></ul>
+                            <li>Take a picture with one of the organizers (white DH shirt, black DH jacket) and story it with their name!                     <br />
+
+                                Tell them how well they’re doing and give them some feedback about the event!
+                            </li>
                             <li>Take a picture with the DeltaHacks 5 banner and post it!</li>   
                             <li>Take a picture of you and your team hacking away and POST!</li> 
                             <li>Take a selfie in the DH5 shirt and post it on your story!</li>
@@ -150,6 +152,9 @@ class Mentors extends React.Component {
             </section>
 
 
+        </div>
+        </div>
+        </section>
         </div>
     </div>
 )
