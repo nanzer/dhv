@@ -91,28 +91,28 @@ class HomeIndex extends React.Component {
                                 <h3>Schedule</h3>
                                 <p>The event schedule</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/schedule" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${code})`}}>
                             <header className="major">
                                 <h3>Live</h3>
                                 <p>Live Updates to Events</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/live" className="link disabled primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${hackers})`}}>
                             <header className="major">
                                 <h3>&#9651; Challenges</h3>
                                 <p>Hack for Change</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/trianglechallenges" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${sponsors})`}}>
                             <header className="major">
                                 <h3>Sponsor Challenges</h3>
                                 <p>Problems from the industry</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/sponsorchallenges" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${mentor})`}}>
                             <header className="major">
