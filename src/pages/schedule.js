@@ -93,7 +93,7 @@ class Schedule extends React.Component {
                                 <tr>
                                     <td>10:00 PM - 11:00 PM</td>
                                     <td>Smash Bros Tournament</td>
-                                    <td>Thode Library <i>2nd Floor</i></td>
+                                    <td>Thode Library <i>1st Floor Gaming Area</i></td>
                                 </tr>
                             </tbody>
                         </table>
