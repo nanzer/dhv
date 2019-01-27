@@ -6,46 +6,6 @@ import Insta from '../assets/images/contests/instagram.jpg'
 import Snap from '../assets/images/contests/snapchat.jpg'
 
 
-import mentor from '../assets/images/mentor.jpg'
-import def from '../assets/images/mentors/default.png'
-import Chamu from '../assets/images/mentors/Chamu Rajasekera.jpg'
-import Natalie from '../assets/images/mentors/Natalie Chin.jpg'
-import Zichen from '../assets/images/mentors/Zichen Jiang.jpg'
-import Umme from '../assets/images/mentors/Umme Salma.jpg'
-import Ocean from '../assets/images/mentors/Ocean Cheung.jpg'
-import Nelson from '../assets/images/mentors/Nelson Su.jpg'
-import Danilo from '../assets/images/mentors/Danilo Joksimovic.jpg'
-import Thomas from '../assets/images/mentors/Thomas Dykstra.jpg'
-import Hassan from '../assets/images/mentors/Hassan Jasim.jpg'
-import Kevin from '../assets/images/mentors/Kevin Pei.jpg'
-import Hamid from '../assets/images/mentors/Hamid Yuksel.jpg'
-import Avin from '../assets/images/mentors/Avin Regmi.jpg'
-import Shehryar from '../assets/images/mentors/Shehryar Assad.jpg'
-import Chinmay from '../assets/images/mentors/Chinmay Patel.jpg'
-import Jason from '../assets/images/mentors/Jason Fok.jpg'
-import Rajat from '../assets/images/mentors/Rajat Arora.jpg'
-import Simon0 from '../assets/images/mentors/Simon Fan.jpg'
-import Mustafa from '../assets/images/mentors/Mustafa Ismail.jpg'
-import Sujan from '../assets/images/mentors/Sujan Kandeepan.jpg'
-import Prasann from '../assets/images/mentors/Prasann Pandya.jpg'
-import Ishmeet from '../assets/images/mentors/Ishmeet Singh.jpg'
-import Jawadur from '../assets/images/mentors/Jawadur Rashid.jpg'
-import Raymond from '../assets/images/mentors/Raymond Chen.jpg'
-import Matthew from '../assets/images/mentors/Matthew Black.jpg'
-import Robert from '../assets/images/mentors/Robert Skaljin.jpg'
-import Ezzeldin from '../assets/images/mentors/Ezzeldin Tahoun.jpg'
-import Tancred from '../assets/images/mentors/Tancred Yip.jpg'
-import Simon1 from '../assets/images/mentors/Simon Gyorkos.jpg'
-import Yiguo from '../assets/images/mentors/Yiguo Sun.jpg'
-import Zheng from '../assets/images/mentors/Zheng Zheng.jpg'
-import Damien from '../assets/images/mentors/Damien Tran.jpg'
-import Tim from '../assets/images/mentors/Tim Mitra.jpg'
-import Jillian from '../assets/images/mentors/Jillian Rivard.jpg'
-import LJA from '../assets/images/mentors/LJA Bolongaita.jpg'
-import Raj from '../assets/images/mentors/Raj Kumar.jpg'
-
-//import mentors from '../assets/images/mentors'
-
 class Mentors extends React.Component {
     handleSubmit(event){
         alert("Form submitted. Thank you for your interest in DeltaHacks!");   
@@ -56,7 +16,7 @@ class Mentors extends React.Component {
         return (
     <div>
         <Helmet>
-            <title>Mentors - DeltaHacks V</title>
+            <title>Contests - DeltaHacks V</title>
             <meta name="description" content="Sign up to be a mentor here!" />
         </Helmet>
         
@@ -146,6 +106,16 @@ class Mentors extends React.Component {
                             <li>Take a selfie in the DH5 shirt and post it on your story!</li>
                             <li>Take a selfie of you eating a meal and story it!</li>
                             <li>Snap a picture with one of our sponsors and STORY IT!</li>
+                        </ol>
+
+                        <h2>SMASH Tournament</h2>
+                        <p><b> Remember to tag @deltahacks in every post!</b></p>
+                        <ol>
+                            <li>Sign up through slack #fun</li>
+                            <li>First Floor Gaming Area</li>
+                            <li>TONIGHT 10PM - 11PM</li>
+                            <li>2 people per team</li>
+                            <li>Winning team gets a Google Home Mini</li>
                         </ol>
                     
                 </div>
