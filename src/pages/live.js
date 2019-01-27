@@ -135,9 +135,9 @@ class Test extends Component {
 
                           <h4>Our Locations</h4>
                           <p>
-                          <a href="https://goo.gl/maps/dYT67hzPPX52">Thode Library</a>
-                          <a href="https://goo.gl/maps/aBzKiZqGo2P2">ABB</a>
-                          <a href="https://goo.gl/maps/W49CANH7LKU2">JHE</a>
+                          <a href="https://goo.gl/maps/dYT67hzPPX52">Thode Library</a><br />
+                          <a href="https://goo.gl/maps/aBzKiZqGo2P2">ABB</a><br />
+                          <a href="https://goo.gl/maps/W49CANH7LKU2">JHE</a><br />
                           </p>
                         </div>
 
