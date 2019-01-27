@@ -326,8 +326,8 @@ class Test extends Component {
               </div> */}
               {/* DAY TWO */}
 
-              {/* <div className="box sizing"> */}
-                        {/* <div className="boxtitles">
+              <div className="box sizing">
+                        <div className="boxtitles">
                         <h4>Midnight Snack</h4>
                         <p>
                         <a href="https://goo.gl/maps/dYT67hzPPX52">Thode Library</a> Lobby <br /> 12:00am - 1:00am
@@ -356,7 +356,7 @@ class Test extends Component {
                         </a>
                         </div>
                         </div>
-                        </div> */}
+                        </div>
 
                         <div className="box sizing">
                         <div className="boxtitles">
@@ -379,7 +379,7 @@ class Test extends Component {
                         <div className="box sizing">
                         <div className="boxtitles">
                         <h4>Workshop: How to Demo</h4>
-                        <p><a href="https://goo.gl/maps/dYT67hzPPX52">Thode Library</a> Lobby <br /> 10:00am - 11:00am</p> Thode MakerSpace
+                        <p><a href="https://goo.gl/maps/dYT67hzPPX52">Thode Library</a> Lobby <br /> 10:00am - 11:00am</p>
                         <div className="timer">
                         <a href="#" className="button special small timer">
                         <Clock 
@@ -412,8 +412,8 @@ class Test extends Component {
                         
                         <div className="box sizing">
                         <div className="boxtitles">
-                        <h4>Submissions Due</h4>
-                        <p><a href="/devpost">DevPost</a><br /> 12:00pm</p>
+                        <h4>Project Expo</h4>
+                        <p><a href="https://goo.gl/maps/dYT67hzPPX52">Thode Library</a> 2nd Floor <br /> 1:30pm - 3:30pm</p>
                         <div className="timer">
                         <a href="#" className="button special small timer">
                         <Clock 
@@ -465,8 +465,7 @@ class Test extends Component {
                         (at 5:45 pm)
                         </h4>
                         </div>
-                        </div>
-                        </div>
+                        
 
               {/* DAY TWO */}
 
