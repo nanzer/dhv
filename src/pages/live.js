@@ -379,7 +379,7 @@ class Test extends Component {
                         <div className="box sizing">
                         <div className="boxtitles">
                         <h4>Workshop: How to Demo</h4>
-                        <p><a href="https://goo.gl/maps/dYT67hzPPX52">Thode Library</a> Lobby <br /> 10:00am - 11:00am</p>
+                        <p><a href="https://goo.gl/maps/dYT67hzPPX52">Thode Library</a> MakerSpace <br /> 10:00am - 11:00am</p>
                         <div className="timer">
                         <a href="#" className="button special small timer">
                         <Clock 
